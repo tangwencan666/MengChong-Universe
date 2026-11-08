@@ -1,0 +1,89 @@
+name: MengChong Universe checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci --no-audit --no-fund
+      - run: npm run test:unit
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run build
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.11.4'
+      - run: uv python install 3.13
+      - run: uv sync --frozen --python 3.13
+        working-directory: backend
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+  backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: weibiye
+          POSTGRES_PASSWORD: ci-only-not-a-secret
+          POSTGRES_DB: weibiye_ci
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U weibiye -d weibiye_ci"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+      redis:
+        image: redis:7-alpine
+        ports: ['6379:6379']
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 5s --health-timeout 3s --health-retries 20
+    env:
+      WEIBIYE_DATABASE_URL: postgresql+psycopg://weibiye:ci-only-not-a-secret@127.0.0.1:5432/weibiye_ci
+      WEIBIYE_REDIS_URL: redis://127.0.0.1:6379/0
+      WEIBIYE_ENVIRONMENT: test
+      WEIBIYE_LLM_PROVIDER: mock
+      WEIBIYE_REAL_LLM_ENABLED: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: '0.11.4'
+      - run: uv python install 3.13
+      - run: uv sync --frozen --python 3.13
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run pytest -q
+      - run: uv run alembic upgrade head
+      - run: uv run alembic check
+      - run: uv run python scripts/integration_check.py
+      - name: Validate Compose
+        working-directory: .
+        run: docker compose --env-file .env.example config --quiet
+
+  pet-brawl:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: games/pet-brawl
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node --test engine.test.mjs ai.test.mjs mirror.test.mjs daodun.test.mjs niwa.test.mjs niwa-animation.test.mjs server.test.mjs sound.test.mjs online.test.mjs online-http.test.mjs

@@ -1,0 +1,7 @@
+.p84-catalog-entry { position:fixed; right:24px; bottom:24px; z-index:20; display:grid; gap:3px; max-width:calc(100vw - 48px); padding:12px 18px; border-radius:18px; background:#f4f7eff5; border:1px solid #cddcc8; box-shadow:0 3px 14px #314b3320; }
+.p84-catalog-entry a { color:#3b6446; font-weight:600; }
+.p84-catalog-entry span { font-size:11px; color:#667968; }
+.p84-catalog-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(270px,100%),1fr)); gap:18px; padding-bottom:90px; }
+.p84-pet-symbol { display:grid; place-items:center; width:54px; height:54px; border-radius:20px; font-size:30px; color:#fffdf8; }
+.p84-catalog h2 { margin-top:12px; }
+@media(max-width:600px) { .p84-catalog-entry { right:12px; bottom:12px; } }

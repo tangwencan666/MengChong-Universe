@@ -1,0 +1,27 @@
+{
+  "unchanged": [
+    ".github/workflows/weibiye-ci.yml",
+    "backend/app/agent/__init__.py",
+    "backend/app/agent/graph.py",
+    "backend/app/agent/ports.py",
+    "backend/app/agent/prompts.py",
+    "backend/app/agent/providers.py",
+    "backend/app/agent/sse.py",
+    "backend/app/agent/state.py",
+    "backend/app/modules/wallet/models.py",
+    "backend/app/modules/wallet/service.py",
+    "backend/migrations/versions/0001_initial_schema.py",
+    "compose.local-infra.yaml",
+    "compose.yaml",
+    "frontend/src/data/chat-demo.ts",
+    "frontend/src/features/chat/ChatProvider.tsx",
+    "frontend/src/features/chat/RecentTopicCard.tsx",
+    "frontend/src/features/chat/context.ts",
+    "frontend/src/features/chat/contracts.ts",
+    "frontend/src/features/chat/recent-topics.ts",
+    "frontend/src/features/chat/types.ts",
+    "frontend/src/pages/companion.tsx"
+  ],
+  "removedFiles": [],
+  "existingUncommittedFilesPreserved": true
+}

@@ -1,0 +1,20 @@
+<testsuites id="" name="" tests="8" failures="0" skipped="0" errors="0" time="41.953474">
+<testsuite name="auth.spec.ts" timestamp="2026-11-01T05:49:41.644Z" hostname="" tests="8" failures="0" skipped="0" time="23.05" errors="0">
+<testcase name="desktop registration, login, reload and logout use a real server session" classname="auth.spec.ts" time="3.272">
+</testcase>
+<testcase name="duplicate registration is generic and wrong credentials never create identity" classname="auth.spec.ts" time="2.431">
+</testcase>
+<testcase name="private routes require login and return to the requested page" classname="auth.spec.ts" time="2.028">
+</testcase>
+<testcase name="session management revokes the current session" classname="auth.spec.ts" time="3.079">
+</testcase>
+<testcase name="expired browser cookie produces a real 401 and clears frontend identity" classname="auth.spec.ts" time="2.403">
+</testcase>
+<testcase name="authenticated cookies alone cannot bypass CSRF" classname="auth.spec.ts" time="1.747">
+</testcase>
+<testcase name="switching real accounts clears previous local chats and topic consent" classname="auth.spec.ts" time="4.375">
+</testcase>
+<testcase name="mobile registration and login preserve the responsive chat homepage" classname="auth.spec.ts" time="3.715">
+</testcase>
+</testsuite>
+</testsuites>

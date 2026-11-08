@@ -1,0 +1,74 @@
+{
+  "source": "user-uploaded 1-v0200fg10000db47vl7og65lnctvuo50.mp4",
+  "sourceSha256": "F4A530104CE15453C4375575F3D7EE7D4EB4E73DE5C5E70A47E5AB394EBD3AF0",
+  "sourceDuration": 22.064943,
+  "frameTimes": [
+    2.2,
+    2.4,
+    2.6,
+    2.8,
+    3,
+    3.2,
+    3.4,
+    3.6
+  ],
+  "frameExtraction": "Local FFmpeg still extraction at source 720x1566; no timecode overlay, no source overwrite.",
+  "rendering": "Shared cached 180x280 Canvas frames from character crop x120,y420,w540,h840, edge-connected near-white background keyed once at preload. Original teeth/eyes preserved. Character keyframe loop, not full video animation.",
+  "audio": {
+    "start": 2.2,
+    "end": 4.8,
+    "duration": 2.6,
+    "codec": "PCM16",
+    "rate": 44100,
+    "channels": 2,
+    "processing": "Original video audio, sample-accurate cut; no voice synthesis or voice separation."
+  },
+  "rights": "User-provided local verification only; redistribution and commercial rights unconfirmed.",
+  "files": [
+    {
+      "file": "niwa-laugh_2.200s.png",
+      "bytes": 251759,
+      "sha256": "c50f5cf1ed09a11f1a7725ea69510685da733ce017689e8ec7c0600826f66fc9"
+    },
+    {
+      "file": "niwa-laugh_2.400s.png",
+      "bytes": 251085,
+      "sha256": "0dc2da1452f2667efbf3ef02486fef3b2329f44df2b62f704bcb4951797e01e9"
+    },
+    {
+      "file": "niwa-laugh_2.600s.png",
+      "bytes": 253552,
+      "sha256": "be61e608101e8a7a18d859c135a0605095eeedfed7e1bb3a5e0d057d0a40ea05"
+    },
+    {
+      "file": "niwa-laugh_2.800s.png",
+      "bytes": 255336,
+      "sha256": "d2afd092bd485729c759325b7793f395ab464c942c450ac57b94616d160fe278"
+    },
+    {
+      "file": "niwa-laugh_3.000s.png",
+      "bytes": 256126,
+      "sha256": "9656c2b9ef4be1381bd5424055c2066e423d81ba87cf9a79e9902bec49ac9198"
+    },
+    {
+      "file": "niwa-laugh_3.200s.png",
+      "bytes": 255415,
+      "sha256": "4bad521cf25bb69d1b6cdccdd2ac1145f87b4ad9dd728fac75ec7497f4a86369"
+    },
+    {
+      "file": "niwa-laugh_3.400s.png",
+      "bytes": 247425,
+      "sha256": "394eccb3634689844bc44053e5c7570c300d6604bfb2f8c8deec635784322ce0"
+    },
+    {
+      "file": "niwa-laugh_3.600s.png",
+      "bytes": 244783,
+      "sha256": "d58d8ee0bbab134f7d55c76792160bbc67c8f41ee3f25bfbd236fd5eb73216cc"
+    },
+    {
+      "file": "niwa-skill.wav",
+      "bytes": 458718,
+      "sha256": "2a8a5da898c3abec47df3a259b239d86e51da7613049f62a80f8fdb921039e37"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "backendOrigins": {
+    "app": "D:\\AIProjects\\WeiBiYe\\backend\\app\\__init__.py",
+    "fastapi": "D:\\AIProjects\\WeiBiYe\\backend\\.venv\\Lib\\site-packages\\fastapi\\__init__.py",
+    "prefix": "D:\\AIProjects\\WeiBiYe\\backend\\.venv"
+  },
+  "services": {
+    "backend": {
+      "pid": 10656,
+      "cwd": "D:\\AIProjects\\WeiBiYe\\backend",
+      "url": "http://127.0.0.1:38101/health/ready",
+      "httpStatus": 200
+    },
+    "frontend": {
+      "pid": 20560,
+      "cwd": "D:\\AIProjects\\WeiBiYe\\frontend",
+      "url": "http://127.0.0.1:35174/",
+      "httpStatus": 200
+    }
+  },
+  "stoppedOwnedProcesses": true,
+  "proxyReadiness": {
+    "status": "ready"
+  },
+  "corsAllowedOrigin": "http://127.0.0.1:35174",
+  "privateApiViaProxy": 401
+}

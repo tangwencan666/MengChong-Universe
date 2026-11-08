@@ -1,0 +1,94 @@
+<testsuites id="" name="" tests="42" failures="0" skipped="0" errors="0" time="101.633965">
+<testsuite name="auth.spec.ts" timestamp="2026-11-01T06:10:26.923Z" hostname="" tests="9" failures="0" skipped="0" time="34.411" errors="0">
+<testcase name="desktop registration, login, reload and logout use a real server session" classname="auth.spec.ts" time="5.318">
+</testcase>
+<testcase name="duplicate registration is generic and wrong credentials never create identity" classname="auth.spec.ts" time="2.731">
+</testcase>
+<testcase name="private routes require login and return to the requested page" classname="auth.spec.ts" time="3.186">
+</testcase>
+<testcase name="session management revokes the current session" classname="auth.spec.ts" time="2.928">
+</testcase>
+<testcase name="expired browser cookie produces a real 401 and clears frontend identity" classname="auth.spec.ts" time="2.852">
+</testcase>
+<testcase name="authenticated cookies alone cannot bypass CSRF" classname="auth.spec.ts" time="2.485">
+</testcase>
+<testcase name="switching real accounts clears previous local chats and topic consent" classname="auth.spec.ts" time="4.096">
+</testcase>
+<testcase name="mobile registration and login preserve the responsive chat homepage" classname="auth.spec.ts" time="2.914">
+</testcase>
+<testcase name="logout in another tab clears previous chats before another account is restored" classname="auth.spec.ts" time="7.901">
+</testcase>
+</testsuite>
+<testsuite name="chat-layout.spec.ts" timestamp="2026-11-01T06:10:26.923Z" hostname="" tests="10" failures="0" skipped="0" time="14.879" errors="0">
+<testcase name="history renders the selected fixture without a repeated welcome" classname="chat-layout.spec.ts" time="1.06">
+</testcase>
+<testcase name="desktop sidebar collapses and expands with usable navigation" classname="chat-layout.spec.ts" time="2.44">
+</testcase>
+<testcase name="quick actions fill the composer without sending a request" classname="chat-layout.spec.ts" time="0.878">
+</testcase>
+<testcase name="IME composition and Shift+Enter never accidentally submit" classname="chat-layout.spec.ts" time="0.922">
+</testcase>
+<testcase name="page-local conversations survive navigation and stay isolated" classname="chat-layout.spec.ts" time="1.534">
+</testcase>
+<testcase name="API failures stay visible and never produce a fake assistant reply" classname="chat-layout.spec.ts" time="0.972">
+</testcase>
+<testcase name="stopping and opening a different conversation cannot mix late responses" classname="chat-layout.spec.ts" time="1.828">
+</testcase>
+<testcase name="account links show unknown balance and retain all personal pages" classname="chat-layout.spec.ts" time="3.435">
+</testcase>
+<testcase name="mobile drawer traps focus and Escape restores its opener" classname="chat-layout.spec.ts" time="1.065">
+</testcase>
+<testcase name="mobile visual viewport resizing keeps the composer above the keyboard" classname="chat-layout.spec.ts" time="0.745">
+</testcase>
+</testsuite>
+<testsuite name="foundation.spec.ts" timestamp="2026-11-01T06:10:26.923Z" hostname="" tests="5" failures="0" skipped="0" time="8.428" errors="0">
+<testcase name="all routes render and home clearly labels demo content" classname="foundation.spec.ts" time="3.388">
+</testcase>
+<testcase name="community filters demo posts and unfinished publishing is explicit" classname="foundation.spec.ts" time="0.677">
+</testcase>
+<testcase name="real local SSE reaches the page and remains mock" classname="foundation.spec.ts" time="0.955">
+</testcase>
+<testcase name="invalid login has a generic error and does not create authenticated state" classname="foundation.spec.ts" time="0.911">
+</testcase>
+<testcase name="mobile navigation and layouts fit a 390px viewport" classname="foundation.spec.ts" time="2.497">
+</testcase>
+</testsuite>
+<testsuite name="recent-topics.spec.ts" timestamp="2026-11-01T06:10:26.923Z" hostname="" tests="18" failures="0" skipped="0" time="23.12" errors="0">
+<testcase name="first visit has no history, no recommendation, and the gentle composer copy" classname="recent-topics.spec.ts" time="1.011">
+</testcase>
+<testcase name="consent without an actual conversation never invents a topic" classname="recent-topics.spec.ts" time="1.256">
+</testcase>
+<testcase name="loading clearly fictional history does not implicitly grant consent" classname="recent-topics.spec.ts" time="1.754">
+</testcase>
+<testcase name="authorized latest topic shows traceable mock content and timestamp on desktop" classname="recent-topics.spec.ts" time="1.652">
+</testcase>
+<testcase name="continue reopens the original conversation without duplicate messages or requests" classname="recent-topics.spec.ts" time="1.231">
+</testcase>
+<testcase name="temporarily dismissing a topic stays dismissed through navigation" classname="recent-topics.spec.ts" time="1.494">
+</testcase>
+<testcase name="turning recommendations off prevents them after a new conversation too" classname="recent-topics.spec.ts" time="1.5">
+</testcase>
+<testcase name="deleted topics are never recommended or silently reloaded" classname="recent-topics.spec.ts" time="1.011">
+</testcase>
+<testcase name="deleting an open conversation returns home and its old route becomes unavailable" classname="recent-topics.spec.ts" time="0.978">
+</testcase>
+<testcase name="earlier history remains selectable and opening it does not change the latest topic" classname="recent-topics.spec.ts" time="0.963">
+</testcase>
+<testcase name="switching preview identities clears history and consent and blocks the old route" classname="recent-topics.spec.ts" time="1.507">
+</testcase>
+<testcase name="local summaries use actual excerpts, including happy conversations" classname="recent-topics.spec.ts" time="1.723">
+</testcase>
+<testcase name="switching visitors removes local text as well as mock fixtures" classname="recent-topics.spec.ts" time="1.52">
+</testcase>
+<testcase name="refresh resets consent and does not pretend to persist restored history" classname="recent-topics.spec.ts" time="1.685">
+</testcase>
+<testcase name="mobile card remains light, resumes correctly and supports deletion in the drawer" classname="recent-topics.spec.ts" time="1.139">
+</testcase>
+<testcase name="a 320px screen and a resized visual viewport keep input usable" classname="recent-topics.spec.ts" time="0.988">
+</testcase>
+<testcase name="switching visitors cancels in-flight replies and cannot repopulate the new visitor" classname="recent-topics.spec.ts" time="0.874">
+</testcase>
+<testcase name="a shorter desktop keeps the welcome visible and composer pinned" classname="recent-topics.spec.ts" time="0.834">
+</testcase>
+</testsuite>
+</testsuites>

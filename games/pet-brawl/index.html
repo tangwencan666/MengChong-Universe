@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>萌宠乱斗 · 三位伙伴，认真开打</title><link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css"></head>
+<body>
+  <main class="app">
+    <header class="topbar"><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">✦</span><span>萌宠乱斗<small>三位伙伴，认真开打。</small></span></a><div class="top-actions"><span class="offline"><i></i>本地游玩 · 无需登录</span><button id="sound" class="icon-button" aria-pressed="true" title="切换音效">音效：开</button><button id="help" class="icon-button" aria-expanded="false">操作说明 <kbd>?</kbd></button></div></header>
+    <section class="headline"><div><p class="eyebrow">A LITTLE FRIENDLY CHAOS</p><h1>可爱归可爱，<em>出招可不客气。</em></h1></div><p>选一位老朋友，来一场轻松的小较量。<br>移动、闪避，抓住破绽，漂亮地赢一局。</p></section>
+    <section class="arena-shell" aria-label="对战场地">
+      <div class="hud" id="hud" hidden>
+        <div class="health-block"><div class="fighter-label"><span><b id="player-name">鲸鱼娘</b><small id="player-side-label" class="side-tag player-tag">P1 · 你</small></span><span id="player-health-label">100 / 100</span></div><div class="health-track"><div id="player-health-trail" class="health-trail"></div><div id="player-health" class="health-fill"></div></div><div class="stamina-track"><div id="player-stamina"></div></div></div>
+        <div class="clock"><span>TIME</span><strong id="timer">90</strong></div>
+        <div class="health-block opponent"><div class="fighter-label"><span id="cpu-health-label">125 / 125</span><span><b id="cpu-name">刀盾</b><small id="cpu-side-label" class="side-tag cpu-tag">CPU · 电脑</small></span></div><div class="health-track"><div id="cpu-health-trail" class="health-trail"></div><div id="cpu-health" class="health-fill"></div></div><div class="stamina-track"><div id="cpu-stamina"></div></div></div>
+      </div>
+      <canvas id="arena" width="1200" height="640" tabindex="0" aria-label="萌宠乱斗。A和D移动，W跳跃，J轻击，K重击，U技能，S防御，空格闪避，Escape暂停。"></canvas>
+      <div class="stage-topline"><span>01 / 云上练习场</span><span>友好切磋 · 点到为止</span></div>
+      <div class="lobby-hint" id="lobby-hint"><span class="mini-star">✦</span> 三位老朋友，三种拿手好戏 <span class="mini-star">✦</span></div>
+      <div class="arena-footer" id="arena-footer" hidden><span id="skill-label">三连星弹</span><span id="skill-status">技能就绪 · U</span><span id="online-status" hidden role="status"></span><button id="pause" class="arena-button">暂停 <kbd>Esc</kbd></button><button id="restart-top" class="arena-button">重开 <kbd>R</kbd></button></div>
+      <div id="overlay" class="overlay" hidden><div class="result-card"><span id="result-icon" class="result-icon">✦</span><p id="result-eyebrow" class="eyebrow">NICE FIGHT</p><h2 id="result-title">漂亮的一局！</h2><p id="result-description"></p><div id="result-stats" class="result-stats"></div><div class="result-actions"><button id="resume" class="primary" hidden>继续对战</button><button id="rematch" class="primary">再来一局 <kbd>R</kbd></button><button id="change" class="secondary">重新选伙伴</button></div></div></div>
+      <div id="loading" class="loading">正在请伙伴们出场…</div>
+    </section>
+    <section class="setup" id="setup" aria-label="选择角色">
+      <div class="setup-title"><div><p class="eyebrow">CHOOSE YOUR SIDE</p><h2>今天，谁来出场？</h2></div><span>可选相同角色 · 紫色 P1 是你，橙色 CPU 是对手</span></div>
+      <div class="character-grid" id="characters"></div>
+      <div class="online-options">
+        <label for="battle-mode">对战方式</label><select id="battle-mode"><option value="computer">电脑对战</option><option value="online">真人联机（本地原型）</option></select>
+        <span id="local-online-note">随时与电脑练习，也可选择真人联机</span>
+        <div id="online-tools" hidden><label for="fight-code">格斗码（可选）</label><input id="fight-code" maxlength="8" autocomplete="off" spellcheck="false" placeholder="填码加入好友；留空随机匹配"><button id="create-fight-code" class="secondary">生成格斗码</button></div>
+      </div>
+      <div id="online-waiting" class="online-waiting" hidden><strong id="online-message" role="status" aria-live="polite"></strong><div id="room-code-box" hidden><span>把格斗码发给朋友</span><output id="room-code"></output><button id="copy-fight-code" class="secondary">复制格斗码</button></div><p>本地原型：请在这台电脑的另一个浏览器窗口打开同一地址，尚未开放互联网对战</p><button id="cancel-online" class="secondary">取消并返回</button></div>
+      <div class="match-settings"><div class="cpu-picker"><label for="opponent">对手</label><select id="opponent"><option value="daodun">刀盾</option><option value="niwa">奶娃</option><option value="whale">鲸鱼娘</option></select><label for="difficulty">难度</label><select id="difficulty"><option value="normal">标准切磋</option><option value="easy">轻松练习</option></select></div><button id="start" class="primary start" disabled>开始乱斗 <span aria-hidden="true">↗</span></button></div>
+    </section>
+    <section class="play-guide" id="guide"><div class="guide-label"><span>上手只要一局</span><small>点击场地即可接管键盘</small></div><div class="key-group"><div><kbd>A</kbd><kbd>D</kbd><span>左右移动</span></div><div><kbd>W</kbd><span>跳跃</span></div><div><kbd>J</kbd><span>轻击 / 三连击</span></div><div><kbd>K</kbd><span>重击</span></div><div><kbd>U</kbd><span>专属技能</span></div><div><kbd>S</kbd><span>按住防御</span></div><div><kbd>Space</kbd><span>闪避</span></div></div><p id="guide-extra" hidden>也可用方向键移动、跳跃。重击有起手时间；靠近再出招，留一点体力给闪避。格挡只保护正面并消耗体力，空中不能格挡。技能冷却5.5秒。90秒后按剩余生命比例判胜，生命归零立即分出胜负。Esc暂停，R重新开始。切换窗口自动暂停。原图采用位移、缩放和特效表现，不是新绘制的逐帧动画。</p></section>
+    <section class="touch-controls" aria-label="屏幕操作按钮"><div><button data-input="left" aria-label="向左">←</button><button data-input="right" aria-label="向右">→</button><button data-input="jump">跳跃</button></div><div><button data-input="guard">防御</button><button data-input="dash">闪避</button><button data-input="light">轻击</button><button data-input="heavy">重击</button><button data-input="skill">技能</button></div></section>
+    <footer class="page-footer"><span>萌宠溜达 <i>×</i> 小小竞技场</span><span>原角色 · 本地规则 · 零模型请求</span></footer>
+    <p id="announcement" class="sr-only" aria-live="polite"></p>
+  </main><script type="module" src="./game.mjs"></script>
+</body></html>

@@ -1,0 +1,61 @@
+{
+  "status": "P2_VERIFIED",
+  "verifiedAt": "2026-11-01T06:01:38.952390+00:00",
+  "backend": {
+    "tests": 88,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 9,
+    "passed": 79
+  },
+  "frontendFullBrowser": {
+    "tests": 42,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 42
+  },
+  "frontendReturnGuardFocused": {
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 1
+  },
+  "typecheck": "passed",
+  "eslint": "passed, zero warnings",
+  "build": "passed",
+  "ruff": "passed",
+  "ruffFormat": "passed, 77 files",
+  "migration": "0002",
+  "postgresClusterVerified": true,
+  "businessRowCounts": {
+    "users": 0,
+    "ai_companions": 0,
+    "job_applications": 0,
+    "posts": 0,
+    "wallets": 0,
+    "chat_sessions": 0,
+    "comments": 0,
+    "post_likes": 0,
+    "wallet_reservations": 0,
+    "chat_messages": 0,
+    "memories": 0,
+    "reports": 0,
+    "usage_records": 0,
+    "moderation_actions": 0,
+    "wallet_transactions": 0,
+    "auth_sessions": 0,
+    "email_verifications": 0
+  },
+  "redisPing": true,
+  "containersUnchanged": true,
+  "privateResourcePolicy": "401 anonymous; 404 foreign/nonexistent, including admins",
+  "mockMailOnly": true,
+  "realAIUsed": false,
+  "paymentConnected": false,
+  "deployed": false,
+  "modifiedFiles": 30,
+  "addedSourceFiles": 20,
+  "deletedFiles": 0
+}

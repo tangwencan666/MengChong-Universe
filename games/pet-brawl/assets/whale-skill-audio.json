@@ -1,0 +1,11 @@
+{
+  "asset": "whale-skill.wav",
+  "source": "user-uploaded 1-v0300fg10000dbknounog65m6vme27r0.mp4",
+  "source_sha256": "578497514716AF78B63CA75214C3A24DD4CB7EE1231F51DA17420BC10E016020",
+  "source_start_seconds": 0,
+  "requested_duration_seconds": 2,
+  "actual_duration_seconds": 2.043356,
+  "processing": "Original audio decoded to stereo 44100 Hz PCM16, then cut locally at packet boundaries. No synthesized speech or voice separation.",
+  "playback": "One non-looping cue per whale U skill; pause, mute, restart and match end control its lifecycle.",
+  "rights": "User-supplied reference; local verification only. Redistribution and commercial permission unconfirmed. Original video unchanged."
+}

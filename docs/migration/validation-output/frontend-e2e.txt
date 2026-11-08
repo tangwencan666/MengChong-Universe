@@ -1,0 +1,25 @@
+
+> weibiye-frontend@0.1.0 test:e2e
+> playwright test --reporter=dot,junit
+
+[WebServer] INFO:     Started server process [3324]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:28101 (Press CTRL+C to quit)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "6c5a76eb-151b-40e2-b25b-f3715d8fd821", "method": "GET", "route": "/health/live", "status": 200, "duration_ms": 1.3}
+[WebServer] (node:21668) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 33 tests using 1 worker
+(node:19140) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "fd1af5b2-a23a-4a07-8429-3b5d4ef561a0", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 12.82}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a633947c-30f9-4cf1-b33e-a35aa3fb20b9", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.37}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1b769e5f-092c-4fb2-b940-ad6994b9f323", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.66}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ac5f991b-fcec-4913-b37a-b39c3663fe08", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 2.46}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0347cc58-915d-430d-8467-3bb3484034d3", "method": "POST", "route": "/auth/login", "status": 501, "duration_ms": 1.31}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "2f033d11-3745-42e6-8032-a8c192d4009c", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 2.64}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c26dbcfc-7193-4466-939a-ec5035db7bc9", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.77}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3b9c1d2e-4f3a-438b-8608-40ad3c431468", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.6}
+·································
+  33 passed (1.1m)

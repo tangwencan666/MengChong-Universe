@@ -1,0 +1,8 @@
+{
+  "commit": "967d68b2de25c48cac98b1f6e8b36bd924646d4b",
+  "files": 201,
+  "message": "chore: establish verified WeiBiYe P2 baseline",
+  "secretSignatureMatches": 0,
+  "branch": "codex/p25-auth-recovery",
+  "pushed": false
+}

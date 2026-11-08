@@ -1,0 +1,10 @@
+{
+  "p2CandidateFiles": 197,
+  "gitAuthorConfigured": true,
+  "commitSigning": "unset",
+  "customHooksPath": null,
+  "activeLocalHooks": [],
+  "postgresVersion": "0002",
+  "allBusinessTablesEmpty": true,
+  "redisPing": true
+}

@@ -1,0 +1,231 @@
+
+> weibiye-frontend@0.1.0 test:e2e
+> playwright test --reporter=dot,junit
+
+[WebServer] INFO:     Started server process [9956]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:28101 (Press CTRL+C to quit)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "baa594c0-3451-4e61-b234-f6bc925ef35e", "method": "GET", "route": "/health/live", "status": 200, "duration_ms": 3.01}
+[WebServer] (node:15452) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 41 tests using 1 worker
+(node:15536) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8cefdc70-25e6-4b90-9844-1b8e667abbcf", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 9.57}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "cb0a30ea-52f3-4912-b9ad-305ccad0e911", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.41}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d7480db3-1e94-4c4d-9367-cb308d4d73b7", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 258.29}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "6639c4ae-7d40-459c-b1b1-3882dd12cac4", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.23}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d2cc58bc-d643-4556-9227-0cc8e3d5e087", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.5}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "2652087f-7df3-4718-8586-160140964064", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 192.9}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e9733fe3-3c54-451a-acf6-3c0357443d52", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 37.52}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "04cbf8b6-8680-484c-a601-ee4389d9a69a", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 16.49}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e4213355-223a-44ce-a8e1-69cf599b816b", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 6.0}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7fd20850-b07a-49f5-bb6f-adb560a592a3", "method": "POST", "route": "/auth/logout", "status": 204, "duration_ms": 25.74}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "17177e6b-3446-468b-ae01-a70b1e6ea5b8", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.9}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ef32a8e9-e9fe-4f1d-a20f-e8a6e13460be", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.85}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b2591bd7-ec17-49fc-9ef2-c14475b61200", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.18}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f9c6c463-88ee-427b-b9ce-47f3471c346b", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 188.97}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d471dcc2-2021-4bf1-9e6c-bfb663de8665", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.8}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7378e493-e640-40b8-a07a-f869b405c88c", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.36}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8173b6e7-e247-4b8b-8b44-aaa1c3504a53", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 160.91}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "6a7a239c-6a9c-4ece-a6ee-ff379532cfeb", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.83}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "5be9b82a-adca-4deb-a328-b41251189678", "method": "POST", "route": "/auth/login", "status": 401, "duration_ms": 196.42}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "4802d7ea-e7d8-495d-88ff-0e6981eae328", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ce068651-6918-4a13-91cd-b279597f17e9", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.06}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a78fd500-481e-4c74-874c-da275576ba52", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 154.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "15e37aba-2caf-4c45-ab51-9d02646743c7", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.92}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ae589acb-11ed-4445-8187-40bea116c84b", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.46}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "24464b6f-1171-4351-8a6f-bcd7bce35fc1", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 337.57}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d0036eb5-b4f8-44f8-8a58-6c88a4435cc2", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 12.26}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "2c4e039c-6a51-439c-9655-c634abd1cbdf", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.79}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f17051d0-4945-42d3-a97b-f9b0ad8a3904", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.84}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0e32f9b5-8a80-4bb1-a412-45eb04c3a548", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 153.35}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "68fc23b4-a24f-4343-9ffc-85909ca1328c", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.15}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8394622d-62fe-4a95-8208-45eff0544662", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.61}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "82fc8f9b-88f3-41ad-8631-cb8f3b85fd07", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 123.15}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "afae1485-7905-40f5-befd-a207f9d59901", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 7.83}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e22650f2-605f-4c60-b659-a46776ce547b", "method": "GET", "route": "/auth/sessions", "status": 200, "duration_ms": 16.98}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "891dd1c2-1265-4191-b82e-e7251bd7b51e", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 4.51}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d22f0cc2-196c-4a0e-9ce6-828598d876fb", "method": "DELETE", "route": "/auth/sessions/{session_id}", "status": 204, "duration_ms": 15.67}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "39c1a9f8-005f-484f-9baa-921e36de8b4f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.78}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "96dbbc40-5bf6-4429-aa90-60225e1e0aaf", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.23}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "5b3d4baf-d595-4453-a4cf-f3fd665fbaf4", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.88}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9f5e7a25-1aef-40fb-a23c-a5043c6fcf56", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 167.35}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "cd3c9606-3c29-4b03-9171-5863d734d29b", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.13}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d6b0a39e-d962-49d8-bf64-5a7660c79573", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.92}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "2fbd3cc5-708d-4998-96d9-80505dfcee3b", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 157.85}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1cb222f9-7a38-4e87-b214-3f5b6b0af18e", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.71}
+(node:20608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "5a13de0e-5d32-4ef7-b8cb-7bc3410b8caf", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.44}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "60a1b59b-b82d-4edd-8bcd-6af99b77b75b", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.78}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "75a9facb-8289-4585-8785-f6f7e51a39da", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 118.76}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9a465bae-4880-4d9a-b3c2-ea878d270c20", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.66}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0bfb1d40-e670-4694-bee0-eed3fa4b060b", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.74}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1fad97dc-8ce7-4c29-a543-7cc2ae826815", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 147.77}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e3419eb8-ee61-4d4b-a791-adc98ef493ac", "method": "POST", "route": "/auth/logout", "status": 403, "duration_ms": 6.17}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1b6512e5-a938-4d11-a494-cf43a11e7801", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 9.09}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0927be7f-0d7c-4bd6-9f97-6bb9faa56ca8", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.82}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "af34cb31-2020-4fea-b377-2d388884e0f0", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.03}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3b49a180-a310-4127-a4e4-d802fbbc7c53", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 273.31}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "85835604-edd0-411d-8e8d-54587d442b84", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.84}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0958382e-2ecc-4fee-99fc-40ba4bdbb9d6", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8d35a6a2-70b8-48fa-b06d-75bce28fc684", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 213.91}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "26cdac47-e434-4e6f-a06f-c8071c3a9998", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 10.36}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ca7a1c41-3152-4ee8-8d9b-331c5f1f3965", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 10.43}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b80b1389-ba68-4639-8a1a-467bccde65a6", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 5.76}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "39ca718a-0645-47f0-af27-f593369c6b84", "method": "POST", "route": "/auth/logout", "status": 204, "duration_ms": 23.73}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "6e13a908-2c38-4552-9bd0-2d16fd65e0cf", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.9}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "aa420f2e-9fb6-4005-b1e9-95beff788ac9", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.18}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "6dcd7fe0-433e-465a-9767-72e6c74df61f", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 202.89}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0be3dd7f-2bb1-4434-9954-f9442500e1a4", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.88}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "98d020af-fef0-428f-88fd-dab3b46b0019", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.91}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "66738857-63a9-4359-81bb-4619437e5876", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 128.68}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "76db0da2-ecde-427d-a988-6bd7462b28cc", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.69}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ed3f13ed-e7c9-46a8-ae85-5ab9247ba2a0", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.64}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8af3e9a8-71e5-4256-9b9d-fb00fe2d20e1", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.76}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9e03cc80-3c57-4a69-bb81-4ec1fd6f8dbc", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 118.24}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "5beb7c30-48eb-43c7-8772-4699b8fca7e4", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.54}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b9c9df6b-f58f-475f-bec9-34176c3a7211", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.83}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f9bf19d6-e1e4-4a30-bba5-3ec392e5555a", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 123.2}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7ad40b91-2ee4-48ef-a918-2e83987663db", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.61}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "cacdcf6b-cd90-49bb-9a55-54609879c20c", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.67}
+(node:8668) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b02c9759-56d6-4df8-bb56-e089fd247f7b", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.76}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d921e476-3f25-4b99-bf5b-cea23ee52fa9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.86}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e46590a7-ec49-47f7-95be-153e452f93d8", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 36.74}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a722b0c2-dfec-41e2-85fa-93d5d369cd87", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.87}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "93fa7cce-4c99-4066-bf54-7fdf40c50755", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.61}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9b81beda-13b1-4e5b-ac79-ab84f1c4a7fb", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.61}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d840a412-8f24-447d-b250-86a6f7514fee", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.92}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ddf951c6-0ebd-451f-9a11-aeac03e93699", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.83}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "fe588f61-16e9-49be-8558-f6bdfd92d1e9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.72}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a28f32f3-4e60-4ea1-a820-83c8367fa2b9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.8}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "278660d6-01aa-4756-b4bc-7155ef718f37", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.03}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3bec0df5-5e7b-4ac2-a108-54353293b734", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 133.32}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1af5121c-844b-4067-81cc-5a917fb3a39c", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.82}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "382ea0f6-0f71-4f8f-9eed-96be3ee386ec", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.72}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3b9032fa-cc90-4ec8-bf10-72d6da0a92ef", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 131.04}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8ce69ca5-de67-4d47-87b7-2304b7fbecec", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 9.66}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ae7b0e99-00eb-43e7-94de-1aa60afbbb27", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.59}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8905dd9d-920e-4ced-8b98-d1173c9c0e2b", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.69}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9314f5a5-4e33-4231-90fa-135e89979af8", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.68}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1ed5502c-ab03-4a20-b5d2-b271183286fc", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.44}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c28f3ff5-305f-4c24-999b-82d246affce3", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.64}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b7f48d0c-4a7e-474d-b83d-a0ac4ecdf2cb", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.65}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "dcbf25df-c912-4322-989e-5ba4f153d0d1", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.7}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "855ba479-a9b6-4781-9df2-38729c595e6f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.71}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0a9483f1-9bef-4191-b609-a6f88ac16664", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 3.02}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c54596dd-cadb-4f12-b5cc-7d235c90e797", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.66}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d74822ab-33cb-47e5-ae70-d26447448ad9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.85}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e04db6dc-1187-4ae8-a197-6c4afc402092", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.85}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "561ab1b2-90fc-4c25-8e18-0f75fadb81e9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.84}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9c9e6ba6-8169-4111-ab52-9898f7cb0a98", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.8}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d14fa2c3-c113-452e-bab4-67937b96e5f7", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.49}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "64004d75-108e-48fc-927e-a756ecf3faf5", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.73}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "beb18599-24ae-40c0-8dab-865f1ce543d9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.63}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "cff92909-f430-4185-85d4-d781ad9ea2f5", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.48}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3d578d76-bbca-410a-a4dd-99b6dd4733ef", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.7}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8eb7db70-a6b4-40ea-8438-890fe3f0d03a", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 4.1}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e81e0824-f9de-4137-bf64-f91cd301436e", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.74}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0f0c047c-f422-4e24-9120-0ad8709e331f", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.99}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "29c309e2-2f60-41d0-92dd-be03372c8ccc", "method": "POST", "route": "/auth/login", "status": 401, "duration_ms": 234.11}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3b849328-92be-46fb-b50c-8e8f792dbb2c", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.73}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ca621666-e504-46b6-9929-cc1219f827f5", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.79}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "fdb34984-e860-4209-800a-96c8ed02a146", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.89}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "fadaf314-7625-4456-bd54-5ec4e204ebb1", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.79}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "37bbd50a-0c0d-41d1-8d88-d468a9dfa6b1", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.78}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "655f4e00-1cdd-48c8-bdae-e07d556af6ef", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d89886e7-49df-4afd-afea-0e0b9720f165", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.74}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7ec9ef6f-3878-4403-8510-96756d76b05f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.96}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ae4e9b86-0412-4a81-b7ff-e3f51af30ef1", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.14}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "75dee6ce-5cf5-4888-a0d7-bc2ab45c49dd", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.76}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "30d287f9-753e-4d32-8a89-621c82f927a2", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.53}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a8739e8f-7fdf-4cce-a717-33d817e3456a", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.6}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ec1804e0-556e-45a8-936b-c60a8aaf1c4f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.65}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "86922cb7-5104-4df2-8d79-30440c143547", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.98}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "17b93244-2979-4cdd-912a-456de4966cde", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.05}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "5be3be4b-69e6-4528-aefd-14169b2e5bca", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.54}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7a49a589-a234-4a93-9fd7-eaa3b2f22453", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.92}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b4ec4611-753a-422a-a84b-c20caecf31d4", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.8}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d2e0c918-2774-4910-9998-7adb1a533caa", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.77}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f4b5c1b2-5637-4339-9ff2-56f0b743ef34", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.06}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "bc869635-4598-4efe-a83f-49503eef4e0a", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.98}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c11384b1-a622-4dd5-b30b-035dd0067e27", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.71}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c0e3df08-9b0f-4a77-ad78-60b8eb0561dc", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.59}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7ae8094a-3a61-4cab-84fd-b69fb1da9a02", "method": "POST", "route": "/companion/demo/stream", "status": 200, "duration_ms": 1.44}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "aa1fc883-6eea-4576-9adb-f8931b2dd326", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.53}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "df702cb2-0903-4832-80d5-8d5e57ed268a", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.68}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "19ab544e-ba60-47df-b9db-c2056a4cb25d", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7047d306-8a4b-4538-b286-b6b36fb6a2dc", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.27}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0eba29aa-67e7-4b59-8d59-bacb091f465f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.61}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "189ffc6b-9eba-41a0-a3c2-975766bfa700", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.8}
+····F····F·······························
+
+  1) e2e\auth.spec.ts:64:1 › expired browser cookie produces a real 401 and clears frontend identity 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('status')
+    Expected substring: "登录已过期"
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toContainText" getByRole('status') with timeout 5000ms
+      - waiting for getByRole('status')
+
+
+      69 |   await page.goto('/me/sessions')
+      70 |   await expect(page).toHaveURL(/\/login/)
+    > 71 |   await expect(page.getByRole('status')).toContainText('登录已过期')
+         |                                          ^
+      72 | })
+      73 |
+      74 | test('authenticated cookies alone cannot bypass CSRF', async ({ page, context }) => {
+        at D:\AIProjects\WeiBiYe\frontend\e2e\auth.spec.ts:71:42
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\auth-expired-browser-cooki-33003-nd-clears-frontend-identity\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\auth-expired-browser-cooki-33003-nd-clears-frontend-identity\error-context.md
+
+  2) e2e\chat-layout.spec.ts:21:1 › desktop sidebar collapses and expands with usable navigation ───
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('heading', { level: 1 })
+    Expected substring: "记忆管理"
+    Received string:    "欢迎回来，慢慢来"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('heading', { level: 1 }) with timeout 5000ms
+      - waiting for getByRole('heading', { level: 1 })
+        14 × locator resolved to <h1>欢迎回来，慢慢来</h1>
+           - unexpected value "欢迎回来，慢慢来"
+
+
+      31 |   await expect(page.getByRole('navigation', { name: '历史会话' })).toBeVisible()
+      32 |   await page.getByRole('link', { name: '记忆管理', exact: true }).click()
+    > 33 |   await expect(page.getByRole('heading', { level: 1 })).toContainText('记忆管理')
+         |                                                         ^
+      34 | })
+      35 |
+      36 | test('quick actions fill the composer without sending a request', async ({ page }) => {
+        at D:\AIProjects\WeiBiYe\frontend\e2e\chat-layout.spec.ts:33:57
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\chat-layout-desktop-sideba-8c6e9-ands-with-usable-navigation\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\chat-layout-desktop-sideba-8c6e9-ands-with-usable-navigation\error-context.md
+
+  2 failed
+    e2e\auth.spec.ts:64:1 › expired browser cookie produces a real 401 and clears frontend identity 
+    e2e\chat-layout.spec.ts:21:1 › desktop sidebar collapses and expands with usable navigation ────
+  39 passed (1.8m)

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="2.152" timestamp="2026-11-01T13:43:11.680532+08:00" hostname="唐天的"><testcase classname="tests.integration.test_auth_postgres" name="test_real_postgres_redis_auth_and_cross_user_isolation" time="2.102" /></testsuite></testsuites>

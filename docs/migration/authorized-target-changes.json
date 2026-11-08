@@ -1,0 +1,57 @@
+[
+  {
+    "path": ".env.example",
+    "copiedSha256": "92d988babc19ec285566a132be2722c8d270ecd8f2ec85467ec7a93e6ec28280",
+    "finalSha256": "a1a454ad920b04f8fb8763b681e1154cf247adf5b04fe161a25adba177f69fa9"
+  },
+  {
+    "path": ".gitignore",
+    "copiedSha256": "e59415b9a0b66076b795fe069d2ea52f6cec73cbcdd297325ecbfaa5cc7e998a",
+    "finalSha256": "ad52f737e2115e0b4cadbcbbe487e0ac563ef0ed055a55483a9962411f109c02"
+  },
+  {
+    "path": "README.md",
+    "copiedSha256": "fcfcbc28c3576112b1521807bdbdf424b3c46ba84194d0f128ef9c1eab641430",
+    "finalSha256": "3f86d16f350edc184bb018efdd5128c932ff2ced831b281ae9eb5ec7a6bffb26"
+  },
+  {
+    "path": "backend/app/core/config.py",
+    "copiedSha256": "982e6486f06110593da5a705b3bf52684325f9cd26b5855f6d8febfb7d05bcd7",
+    "finalSha256": "3ad0c698cbbae0b1a60b8b98e1f06c163981acf8e068c0908d736df4c990d73d"
+  },
+  {
+    "path": "backend/tests/test_api.py",
+    "copiedSha256": "9e343f966f9ad57f374c9d6e045d9fa95cde5182230fe8ec5054a539a980191a",
+    "finalSha256": "a5447a2441f05b4655f47966d0ce3decf9a73ddec9fb69f7cabaf45dccf8f6d0"
+  },
+  {
+    "path": "backend/tests/test_engineering.py",
+    "copiedSha256": "b77555bd55f12ed337d55a135c01f8696c0c12d389616b00ef4a76c13471c3b9",
+    "finalSha256": "32def9eefe70bc36fd46ae21fd9a6dd43f4264be12d10c883a436f1c6219756a"
+  },
+  {
+    "path": "compose.yaml",
+    "copiedSha256": "239a3e7720007836f66d1ac93bee445deb44cb7d3c62223a5b1c54b21b8740de",
+    "finalSha256": "012e4d52c1b9113f72e2ace15a6f25d8667df37eda2302bebf9ea6ef091e5fe6"
+  },
+  {
+    "path": "docs/VERIFICATION.md",
+    "copiedSha256": "abe7e3f4c08fd219bce59c900a258b872f73fb6bc4cab57ca9acea6269044b52",
+    "finalSha256": "80e145098b219ce119c1fd1e57582222964945cef486adeafcbc3e5898ccc352"
+  },
+  {
+    "path": "frontend/package.json",
+    "copiedSha256": "600012a52dda42d0e053f0cf5946942f6eaf1d7d72ff9080ed3727c9e98aab9f",
+    "finalSha256": "b57ae2eaa1534b849d268b615356bdd3a7cb2e7428223370c0c4be2821823a59"
+  },
+  {
+    "path": "frontend/vite.config.ts",
+    "copiedSha256": "79f68905d1ed31e57371cc69f5fc2ea2a00f23f083f5d836a717affa775890db",
+    "finalSha256": "f08882e15778bdaaa1a31f3ed1565c4da4638d7b6f8d8583f315ee3337cf3fb6"
+  },
+  {
+    "path": ".github/workflows/weibiye-ci.yml",
+    "copiedSha256": "0c7bad13abe3ee4c86995a9fcbf68c75d7fed4e7227e9d6e0cf85f19fcf26790",
+    "finalSha256": "9408289a3e52cd80bbed7c2f012c3610191c577401ed756233f3bfa88abc4b9e"
+  }
+]

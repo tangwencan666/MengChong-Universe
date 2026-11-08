@@ -1,0 +1,43 @@
+{
+  "configurationValid": true,
+  "runtimeMutated": false,
+  "project": "weibiye",
+  "postgres": {
+    "ports": [
+      {
+        "mode": "ingress",
+        "host_ip": "127.0.0.1",
+        "target": 5432,
+        "published": "25433",
+        "protocol": "tcp"
+      }
+    ],
+    "memoryBytes": 536870912
+  },
+  "redis": {
+    "ports": [
+      {
+        "mode": "ingress",
+        "host_ip": "127.0.0.1",
+        "target": 6379,
+        "published": "26380",
+        "protocol": "tcp"
+      }
+    ],
+    "memoryBytes": 134217728
+  },
+  "volumes": {
+    "weibiye_pgdata": "weibiye_weibiye_pgdata",
+    "weibiye_redisdata": "weibiye_weibiye_redisdata"
+  },
+  "network": {
+    "name": "weibiye_default",
+    "ipam": {
+      "config": [
+        {
+          "subnet": "10.253.77.0/28"
+        }
+      ]
+    }
+  }
+}

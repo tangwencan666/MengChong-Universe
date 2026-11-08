@@ -1,0 +1,13 @@
+Resolved 77 packages in 7.46s
+   Building weibiye-backend @ file:///D:/AIProjects/WeiBiYe/backend
+      Built weibiye-backend @ file:///D:/AIProjects/WeiBiYe/backend
+Prepared 7 packages in 2.43s
+Uninstalled 1 package in 6ms
+Installed 7 packages in 123ms
+ + argon2-cffi==25.1.0
+ + argon2-cffi-bindings==26.1.0
+ + cffi==2.1.1
+ + dnspython==2.9.1
+ + email-validator==2.3.0
+ + pycparser==3.12
+ ~ weibiye-backend==0.1.0 (from file:///D:/AIProjects/WeiBiYe/backend)

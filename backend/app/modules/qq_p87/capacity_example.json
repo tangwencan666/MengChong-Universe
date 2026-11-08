@@ -1,0 +1,23 @@
+{
+  "kind": "FICTIONAL_P87_EXAMPLE_NOT_A_QUOTE",
+  "currency": "USD",
+  "input_usd_per_million": "1.00",
+  "cached_usd_per_million": "0.10",
+  "output_usd_per_million": "2.00",
+  "input_tokens": 2000,
+  "output_tokens": 300,
+  "cache_hit_tokens": 500,
+  "max_input_tokens": 8000,
+  "max_output_tokens": 800,
+  "service_seconds": "5",
+  "active_hours": 8,
+  "peak_factor": "10",
+  "target_utilization": "0.70",
+  "model_retries": 0,
+  "metadata_row_bytes": 2048,
+  "metadata_index_multiplier": 2,
+  "retention_days": 7,
+  "dedupe_entry_bytes": 500,
+  "mode_a_bot_count": 4,
+  "mode_b_socket_mib": "0.75"
+}

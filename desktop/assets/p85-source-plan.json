@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "license": "local-verification-only; commercial and redistribution rights unverified",
+  "sources": {
+    "niwa": {"file":"奶娃.jpg","sha256":"38b8276399c808415de711bd59e01a9110aa6813388377cc060e4ba5ee6c42c9","content":"单角色，黄色卡通；白底、手机状态栏与播放器边框；无清晰作者水印"},
+    "niwa-views": {"file":"奶娃三视图.jpg","sha256":"31a149546cf8de1a7de0bbb3d8197074c88c250520ce70883581eab6c3dd2137","content":"放大正面加全身正、侧、背四图；白底、手机界面；运行仅裁取右侧三个完整全身视角"},
+    "daodun": {"file":"我的刀盾.jpg","sha256":"17f32abfd7a76a8661e4eaf3b19248a43e1152cee6767e8661535981eb843dcb","content":"单角色刀盾圆团；白底，底部抖音作者水印，右侧盾边已有轻微原始裁切；不改装备"},
+    "daodun-views": {"file":"我的刀盾三视图.jpg","sha256":"542ea80fd7bbd0e9aeba22fe282fbaefc86801d80a9d80fdeea87bd70edab661","content":"正、侧、背及脸/手/脚/盾局部特写；白底、分格标签；背面被作者水印覆盖，仅存参考，运行背面回退正面"},
+    "whale": {"file":"鲸鱼娘.png","sha256":"6bdd7463d8da8c092d32cb4aeb57eff84267c5e7c0186666b0e2ead6e2a5245f","content":"单角色蓝发Q版正面；白灰背景，原Alpha通道不代表实际透明；无明确作者水印"},
+    "whale-views": {"file":"鲸鱼娘三视图.png","sha256":"e670278b4153a6c14c5833cc266687e8f3eaf60fc99ec336e797cde96dc27268","content":"正、侧、背确实存在；搜索框、左右导航与播放按钮遮挡角色；三图仅作带叠层参考，不补画；运行侧背回退清晰正面"},
+    "hajimi": {"file":"哈吉米.jpg","sha256":"907b4571b73c4604825fe4c898c3ab2ae3623577812daf875349dabf867e1680","content":"单只写实风小猫；手机界面与白底；不是三视图，原五宠继续使用既有素材"},
+    "hajimi-2": {"file":"哈吉米二.jpg","sha256":"253c5c54d6511c36283e371d053c579e3c6cea1d07d00fc1550e90ec88431b8b","content":"单猫近景、桌面、手机界面；不是三视图，原五宠继续使用既有素材"},
+    "maodie": {"file":"耄耋.jpg","sha256":"d8504c28eaf9a95c6204df9ed2990e5ab4e817ae35e4050c6f62ac8c7456e979","content":"单猫正面、白底、手机边框、AI生成标识及顶部文字；不是三视图，原五宠继续使用既有素材"}
+  },
+  "frames": [
+    {"species_id":"niwa","view":"front","source":"niwa-views","rect":[410,975,275,478],"exclude_non_target_regions":[[0,315,20,163]],"transparent_background":true,"runtime":true},
+    {"species_id":"niwa","view":"side","source":"niwa-views","rect":[687,975,220,478],"transparent_background":true,"runtime":true,"facing":"left"},
+    {"species_id":"niwa","view":"back","source":"niwa-views","rect":[907,970,289,483],"transparent_background":true,"runtime":true},
+    {"species_id":"daodun","view":"front","source":"daodun-views","rect":[35,16,350,211],"exclude_background_labels":[[115,0,125,42]],"transparent_background":true,"runtime":true},
+    {"species_id":"daodun","view":"side","source":"daodun-views","rect":[475,29,308,199],"exclude_background_labels":[[75,0,180,24]],"transparent_background":true,"runtime":true,"facing":"left"},
+    {"species_id":"daodun","view":"back-reference","source":"daodun-views","rect":[37,268,358,190],"transparent_background":false,"runtime":false,"reason":"author-watermark-overlaps-character; preserve source pixels"},
+    {"species_id":"whale","view":"front","source":"whale","rect":[58,8,716,735],"transparent_background":true,"runtime":true},
+    {"species_id":"whale","view":"front-reference","source":"whale-views","rect":[0,5,580,735],"transparent_background":false,"runtime":false,"reason":"source UI overlays intersect character"},
+    {"species_id":"whale","view":"side-reference","source":"whale-views","rect":[590,5,520,735],"transparent_background":false,"runtime":false,"reason":"play button intersects character"},
+    {"species_id":"whale","view":"back-reference","source":"whale-views","rect":[1120,5,545,735],"transparent_background":false,"runtime":false,"reason":"navigation button intersects hair"}
+  ]
+}

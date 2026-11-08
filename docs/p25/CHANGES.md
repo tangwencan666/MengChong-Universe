@@ -1,0 +1,44 @@
+# P2.5 修改文件清单
+
+与 P2 本地基线 `967d68b` 对比；文档证据另列。
+
+| 文件 | 状态 |
+| --- | --- |
+| `.env.example` | modified |
+| `.gitignore` | modified |
+| `README.md` | modified |
+| `backend/app/core/config.py` | modified |
+| `backend/app/db/models.py` | modified |
+| `backend/app/main.py` | modified |
+| `backend/app/modules/auth/mail.py` | modified |
+| `backend/app/modules/auth/mock_mailbox.py` | added |
+| `backend/app/modules/auth/models.py` | modified |
+| `backend/app/modules/auth/recovery.py` | added |
+| `backend/app/modules/auth/router.py` | modified |
+| `backend/app/modules/auth/schemas.py` | modified |
+| `backend/app/modules/auth/service.py` | modified |
+| `backend/migrations/versions/0003_password_recovery.py` | added |
+| `backend/scripts/e2e_server.py` | modified |
+| `backend/scripts/migration_check.py` | modified |
+| `backend/scripts/mock_mailbox.py` | added |
+| `backend/scripts/upgrade_recovery.py` | added |
+| `backend/tests/auth_helpers.py` | added |
+| `backend/tests/conftest.py` | modified |
+| `backend/tests/integration/test_auth_postgres.py` | modified |
+| `backend/tests/integration/test_local_infrastructure.py` | modified |
+| `backend/tests/test_auth.py` | modified |
+| `backend/tests/test_auth_migration.py` | modified |
+| `backend/tests/test_database.py` | modified |
+| `backend/tests/test_recovery.py` | added |
+| `docs/AUTH_VERIFICATION.md` | modified |
+| `frontend/e2e/helpers/mail.ts` | added |
+| `frontend/e2e/recovery.spec.ts` | added |
+| `frontend/index.html` | modified |
+| `frontend/playwright.config.ts` | modified |
+| `frontend/src/App.tsx` | modified |
+| `frontend/src/features/auth/AuthProvider.tsx` | modified |
+| `frontend/src/features/auth/context.ts` | modified |
+| `frontend/src/pages/auth.tsx` | modified |
+| `frontend/src/pages/recovery.tsx` | added |
+| `frontend/src/pages/workspace.tsx` | modified |
+| `frontend/vite.config.ts` | modified |

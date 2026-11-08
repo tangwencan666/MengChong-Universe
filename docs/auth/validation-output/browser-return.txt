@@ -1,0 +1,25 @@
+
+> weibiye-frontend@0.1.0 test:e2e
+> playwright test --grep private routes require login --reporter=dot,junit
+
+[WebServer] INFO:     Started server process [16536]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:28101 (Press CTRL+C to quit)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c0b48c8d-601b-4af6-b1ce-6b2e08c10098", "method": "GET", "route": "/health/live", "status": 200, "duration_ms": 3.88}
+[WebServer] (node:15676) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 1 test using 1 worker
+(node:19832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8120df0d-849b-48f9-b8e1-acdae40b6120", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 13.67}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "58ba4934-a8d8-46e9-8dc7-f97fedd4023e", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 2.88}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0b4cf36f-074f-4887-a6b9-c251009b9041", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 250.97}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1b2021ee-922b-4f40-88d3-b71e1c6743b5", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.79}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "96b33c6f-68b1-4e05-9745-234fb79b9813", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.99}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "52d4f9f2-e688-432a-9406-1bcde9cd9b09", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 215.54}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "854edd49-376f-4147-b1e4-c28392f9f236", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 17.4}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0e7c26fd-3d23-4e5b-a8d9-30b3b4a694f3", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 11.63}
+·
+  1 passed (24.9s)

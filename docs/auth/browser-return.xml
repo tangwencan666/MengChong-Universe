@@ -1,0 +1,6 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="24.930008">
+<testsuite name="auth.spec.ts" timestamp="2026-11-01T05:55:42.927Z" hostname="" tests="1" failures="0" skipped="0" time="3.626" errors="0">
+<testcase name="private routes require login and return to the requested page" classname="auth.spec.ts" time="3.626">
+</testcase>
+</testsuite>
+</testsuites>

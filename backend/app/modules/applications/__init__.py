@@ -1,0 +1,1 @@
+"""Private job application tracking."""

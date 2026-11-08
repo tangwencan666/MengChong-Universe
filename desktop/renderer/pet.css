@@ -1,0 +1,99 @@
+:root {
+  font-family: "Microsoft YaHei UI", "Microsoft YaHei", system-ui, sans-serif;
+  color: #3e5147;
+  --pet-tint: #91aa93;
+  color-scheme: light;
+  background: transparent;
+}
+* { box-sizing: border-box; }
+html, body { width: 188px; height: 196px; margin: 0; overflow: hidden; background: transparent; }
+body { user-select: none; -webkit-user-select: none; }
+[data-activity="happy"] #pet-art { animation: delight 1s steps(6, end) 3; }
+[data-activity="thinking"] #pet-bubble { color: #63557e; background: #f7f2ffef; }
+[data-activity="speaking"] #pet-art { animation: talk .8s steps(4, end) infinite; }
+[data-activity="speaking"] #pet-bubble { color: #365d73; background: #eef9ffef; }
+@keyframes delight { 0%, 100% { transform: translateY(0); } 45% { transform: translateY(-5px) rotate(3deg); } }
+@keyframes talk { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.025, .98); } }
+#pet-stage { position: relative; width: 100%; height: 100%; }
+#pet-hitbox {
+  appearance: none;
+  position: absolute;
+  left: 20px;
+  top: 30px;
+  width: 148px;
+  height: 148px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: grab;
+  touch-action: none;
+  -webkit-app-region: no-drag;
+  -webkit-tap-highlight-color: transparent;
+}
+#pet-hitbox:disabled { cursor: default; }
+#pet-hitbox:focus { outline: none; }
+#pet-hitbox:focus-visible { outline: 2px solid #688d73; outline-offset: -8px; border-radius: 48%; }
+.state-dragging #pet-hitbox { cursor: grabbing; }
+.pet-facing, #pet-art { display: block; position: absolute; inset: 0; width: 148px; height: 148px; pointer-events: none; }
+.pet-facing { transform: scaleX(1); }
+.pet-visual { display: block; position: absolute; inset: 0; width: 148px; height: 148px; pointer-events: none; }
+#pet-blink { display: none; }
+[data-direction="left"] .pet-facing { transform: scaleX(-1); }
+#pet-art { transform-origin: 50% 88%; animation: breathe 4s steps(6, end) 3; }
+.pet-halo {
+  pointer-events: none; position: absolute; inset: 18px 7px 0;
+  background: radial-gradient(ellipse at 50% 64%, color-mix(in srgb, var(--pet-tint) 22%, transparent), transparent 67%);
+}
+.pet-ground { position: absolute; left: 39px; right: 39px; bottom: 5px; height: 7px; border-radius: 50%; background: #4c66541c; pointer-events: none; }
+#pet-bubble {
+  position: absolute; z-index: 2; top: 3px; left: 21px; right: 21px;
+  min-height: 25px; padding: 4px 9px;
+  border: 1px solid #dce5d9; border-radius: 13px 13px 13px 5px;
+  background: #fffdf4f5; box-shadow: 0 2px 5px #4f665409;
+  text-align: center; font-size: 11px; line-height: 16px; letter-spacing: .02em;
+  pointer-events: none;
+}
+#pet-name {
+  position: absolute; bottom: 1px; left: 15px; right: 15px;
+  height: 19px; line-height: 18px; text-align: center;
+  font-size: 11px; font-weight: 600; color: #42594c;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  text-shadow: 0 1px 2px #fffdf8, 0 -1px 2px #fffdf8;
+  pointer-events: none;
+}
+.state-walking #pet-art { animation: walk .67s steps(8, end) infinite; }
+.state-resting #pet-art { animation: rest 3s steps(6, end) infinite; }
+.state-resting #pet-bubble { color: #637164; background: #f5f6edf2; }
+.state-dragging #pet-art { animation: none; transform: translateY(-3px) rotate(-3deg); }
+.paused #pet-art { animation-play-state: paused; }
+@keyframes breathe { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-2px) scale(1.015, 1.02); } }
+@keyframes walk { 0%, 100% { transform: translateY(0) rotate(-3deg); } 50% { transform: translateY(-4px) rotate(3deg); } }
+@keyframes rest { 0%, 100% { transform: translateY(3px) scale(1.03, .95); } 50% { transform: translateY(4px) scale(1.04, .94); } }
+@media (prefers-reduced-motion: reduce) { #pet-art { animation: none !important; } }
+
+/* Restricted local-preview art only: the other two SVG pets keep P6 animation. */
+[data-asset-id="deepseek-local-preview"] #pet-art { animation: none; transform: none; object-fit: contain; }
+[data-asset-id="deepseek-local-preview"] .pet-visual {
+  transform-origin: 50% 88%; animation: deepseek-breathe 2.8s steps(8, end) infinite;
+}
+[data-asset-id="deepseek-local-preview"] #pet-blink {
+  display: block; position: absolute; inset: 0; width: 148px; height: 148px;
+  object-fit: contain; pointer-events: none; opacity: 0;
+  /* Only the eye region is composited; hair, dress and tail stay on the base. */
+  clip-path: polygon(28% 35%, 64% 35%, 64% 51%, 28% 51%);
+  animation: deepseek-blink 4.8s steps(1, end) infinite;
+}
+[data-asset-id="deepseek-local-preview"].state-walking .pet-visual { animation: deepseek-move .8s steps(8, end) infinite; }
+[data-asset-id="deepseek-local-preview"].state-dragging .pet-visual { animation: none; transform: translateY(-2px); }
+[data-asset-id="deepseek-local-preview"][data-feedback="pressed"] .pet-facing {
+  filter: brightness(1.06) drop-shadow(0 0 3px #7099da70);
+}
+[data-asset-id="deepseek-local-preview"].paused .pet-visual,
+[data-asset-id="deepseek-local-preview"].paused #pet-blink { animation-play-state: paused; }
+@keyframes deepseek-breathe { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-1.4px) scale(1.006, 1.012); } }
+@keyframes deepseek-blink { 0%, 94%, 100% { opacity: 0; } 95%, 98% { opacity: 1; } }
+@keyframes deepseek-move { 0%, 100% { transform: translateY(0) rotate(-1deg); } 50% { transform: translateY(-2px) rotate(1deg); } }
+@media (prefers-reduced-motion: reduce) {
+  [data-asset-id="deepseek-local-preview"] .pet-visual,
+  [data-asset-id="deepseek-local-preview"] #pet-blink { animation: none !important; }
+}

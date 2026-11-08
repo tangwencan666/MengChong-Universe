@@ -1,0 +1,27 @@
+{
+  "name": "weibiye-desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "萌宠溜达 · 你的桌面 AI 宠物伙伴",
+  "productName": "萌宠溜达",
+  "author": { "name": "WeiBiYe Project" },
+  "main": "src/main.cjs",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node scripts/launch.cjs",
+    "test": "node --test test/*.test.cjs",
+    "test:e2e": "node test/e2e.cjs",
+    "test:e2e:p82": "node test/p82-e2e.cjs",
+    "build:ui": "node scripts/copy-ui.cjs",
+    "package:portable": "node scripts/package-portable.cjs",
+    "package:installer:local": "node scripts/package-installer.cjs --build-local-unsigned",
+    "test:stability": "node test/p82-stability.cjs --minutes=30"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "electron": "45.2.1",
+    "electron-builder": "26.18.0"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "clusterVerified": true,
+  "fromRevision": "0002",
+  "toRevision": "0003",
+  "beforeRowCounts": {
+    "ai_companions": 0,
+    "users": 0,
+    "wallets": 0,
+    "wallet_transactions": 0,
+    "usage_records": 0,
+    "chat_messages": 0,
+    "email_verifications": 0,
+    "posts": 0,
+    "post_likes": 0,
+    "job_applications": 0,
+    "comments": 0,
+    "memories": 0,
+    "reports": 0,
+    "moderation_actions": 0,
+    "wallet_reservations": 0,
+    "chat_sessions": 0,
+    "auth_sessions": 0
+  },
+  "afterRowCounts": {
+    "email_verifications": 0,
+    "chat_messages": 0,
+    "reports": 0,
+    "wallet_transactions": 0,
+    "posts": 0,
+    "post_likes": 0,
+    "password_resets": 0,
+    "moderation_actions": 0,
+    "wallet_reservations": 0,
+    "chat_sessions": 0,
+    "ai_companions": 0,
+    "users": 0,
+    "usage_records": 0,
+    "memories": 0,
+    "comments": 0,
+    "wallets": 0,
+    "job_applications": 0,
+    "auth_sessions": 0
+  },
+  "preservedExistingRows": true,
+  "addedTables": [
+    "password_resets"
+  ],
+  "removedTables": [],
+  "metadataDrift": false,
+  "downgradeExecuted": false
+}

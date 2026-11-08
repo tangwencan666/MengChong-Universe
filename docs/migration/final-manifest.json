@@ -1,0 +1,716 @@
+{
+  "algorithm": "SHA-256",
+  "root": "D:\\AIProjects\\WeiBiYe",
+  "fileCount": 141,
+  "excludes": [
+    "docs/migration/final-manifest.json (self-reference)",
+    ".git and ignored generated/cache/secret paths"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 677,
+      "sha256": "a1a454ad920b04f8fb8763b681e1154cf247adf5b04fe161a25adba177f69fa9"
+    },
+    {
+      "path": ".github/workflows/weibiye-ci.yml",
+      "size": 2330,
+      "sha256": "9408289a3e52cd80bbed7c2f012c3610191c577401ed756233f3bfa88abc4b9e"
+    },
+    {
+      "path": ".gitignore",
+      "size": 300,
+      "sha256": "ad52f737e2115e0b4cadbcbbe487e0ac563ef0ed055a55483a9962411f109c02"
+    },
+    {
+      "path": "README.md",
+      "size": 11207,
+      "sha256": "3f86d16f350edc184bb018efdd5128c932ff2ced831b281ae9eb5ec7a6bffb26"
+    },
+    {
+      "path": "backend/.dockerignore",
+      "size": 70,
+      "sha256": "8b798dc84dcd57a79f75d1e2c3f27365128513aa434d11d161fa5ac35c70c629"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "size": 497,
+      "sha256": "9eda8859ec198954df9ffc8af4bae65807c370d8683b1a89b6b02b7f1f7dade4"
+    },
+    {
+      "path": "backend/alembic.ini",
+      "size": 96,
+      "sha256": "4be35c86b24192bde1327811488c4fcbc1f446b8c1e688fbbcba8f27640a252b"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "size": 76,
+      "sha256": "5b6ec85793f20162c145d439e080720ecfcb20ab66110ad470bb2c41f3851449"
+    },
+    {
+      "path": "backend/app/agent/__init__.py",
+      "size": 77,
+      "sha256": "7573c64eed29219883b7360571327b816f162726ef56be65ae6863b565d77e9d"
+    },
+    {
+      "path": "backend/app/agent/graph.py",
+      "size": 1034,
+      "sha256": "7d7b00aea4f452cb380c25720a2e5d3882d3ce97d6a73f319c5c706cca7ae990"
+    },
+    {
+      "path": "backend/app/agent/ports.py",
+      "size": 569,
+      "sha256": "042081c99c92c601e025fb24c896f0563688edb006793c83a8da56eb5bcaedc9"
+    },
+    {
+      "path": "backend/app/agent/prompts.py",
+      "size": 533,
+      "sha256": "bca06248aa3596e0c55da9c5927e0c09bd47c2dd789ac224de594861dc92db4d"
+    },
+    {
+      "path": "backend/app/agent/providers.py",
+      "size": 2730,
+      "sha256": "a2d3f7274b9b2ae7ecf1a81619facd7697629796e263289999e96f8fe7543cae"
+    },
+    {
+      "path": "backend/app/agent/sse.py",
+      "size": 1562,
+      "sha256": "61efe5ef25f77a269965752768e81ca27f75b9aa87c00abd874a75c24c3d2e66"
+    },
+    {
+      "path": "backend/app/agent/state.py",
+      "size": 267,
+      "sha256": "fd27a9edba23b7f0670800a6840a539030a4b0a18ccb65eedb3b6b4ae4b58c0b"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "size": 31,
+      "sha256": "fc78e4e891efc1b24ea156ae78e09f7189feda49f71b3f7f5899dbfedd28cf11"
+    },
+    {
+      "path": "backend/app/api/health.py",
+      "size": 848,
+      "sha256": "dd2c68695dd05f745056cc4280b1e6d6363119fd18192b29cfb2110d14f2121f"
+    },
+    {
+      "path": "backend/app/api/router.py",
+      "size": 775,
+      "sha256": "8ee3a32ebca8e73cdd25aaa1efb62951fef32fe1520da9b352af4906bdfa56b9"
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "size": 67,
+      "sha256": "9e1657a2d12c8baf0e8b1acc8aef074697bfbfa71450d641dcbe55b4f37327fb"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "size": 1799,
+      "sha256": "3ad0c698cbbae0b1a60b8b98e1f06c163981acf8e068c0908d736df4c990d73d"
+    },
+    {
+      "path": "backend/app/core/errors.py",
+      "size": 1878,
+      "sha256": "ea235d651a96dbb2b0475df001a0bca938753929555dc47e7640798f1126d0fe"
+    },
+    {
+      "path": "backend/app/core/event_loop.py",
+      "size": 470,
+      "sha256": "e4fd38410126e242e7c37f2508a2e2794dd98cc204ef625974a1cae47993e4c4"
+    },
+    {
+      "path": "backend/app/core/logging.py",
+      "size": 1034,
+      "sha256": "cac2ea8fffdaa01837340b5e737230fc0635ffa6df0411b866b00a6908c1827a"
+    },
+    {
+      "path": "backend/app/core/middleware.py",
+      "size": 1607,
+      "sha256": "54c5ae1e99fa852ebc31de895b18f38faf26851e07e8a8f1f558385bf4ab5e2e"
+    },
+    {
+      "path": "backend/app/core/rate_limit.py",
+      "size": 1766,
+      "sha256": "719f033a524b9044e171ad4375d6caa0a22260ce110a175f0a2da380c4ca28b5"
+    },
+    {
+      "path": "backend/app/core/security.py",
+      "size": 1275,
+      "sha256": "063156a24af4000168f2a37acdf0738896b6b3d74c1fba5b5aa0a1999a8af8c4"
+    },
+    {
+      "path": "backend/app/db/__init__.py",
+      "size": 49,
+      "sha256": "54f1e16e79406608b17c1ca25b6059f88762ad0b59cc37a9bf5541524404048a"
+    },
+    {
+      "path": "backend/app/db/base.py",
+      "size": 896,
+      "sha256": "cb027267508f7fb73cc950fdc1bc5653e2a4f0660cc68f7c19d2f68bfc7a59ca"
+    },
+    {
+      "path": "backend/app/db/models.py",
+      "size": 527,
+      "sha256": "2fc0c53a64c70a27cb2e380701029eeea2b1d1a304b1cc8dcfc34cc6334401c7"
+    },
+    {
+      "path": "backend/app/db/session.py",
+      "size": 710,
+      "sha256": "1ae611017098dd729700d54eeec6aca05376deffa9e5cca599d81514e6912c13"
+    },
+    {
+      "path": "backend/app/main.py",
+      "size": 2213,
+      "sha256": "1e808323a4f73240063404e1d5fdede5e7e44f328908d2398af6139849e357f2"
+    },
+    {
+      "path": "backend/app/modules/__init__.py",
+      "size": 66,
+      "sha256": "0f67ec50eef487bb2735ff1bdd753a61ac62fa6a4fc7ccc16a8fbc69c0cf1785"
+    },
+    {
+      "path": "backend/app/modules/admin/__init__.py",
+      "size": 65,
+      "sha256": "68726090145652196e31f91b9aa2836e6f871aed154ad8b8bad6f04560581ea1"
+    },
+    {
+      "path": "backend/app/modules/admin/router.py",
+      "size": 344,
+      "sha256": "37d5bfeaa4d0143250080bbdd5030144f363a7d9d3a9518aa5ff122aab276546"
+    },
+    {
+      "path": "backend/app/modules/applications/__init__.py",
+      "size": 40,
+      "sha256": "2f6fe3973e3141f947fff9f71351ed3f4b591300eb9e1655a08f58cb3783523a"
+    },
+    {
+      "path": "backend/app/modules/applications/models.py",
+      "size": 910,
+      "sha256": "61bc505824ef38bd220833af9fe16f2a4821759b8295113ff5ad679db93dfb8e"
+    },
+    {
+      "path": "backend/app/modules/applications/router.py",
+      "size": 349,
+      "sha256": "b42b1d177ffa6dc50fa73297077a2318b3a15069e92091de38115f5c90e45d78"
+    },
+    {
+      "path": "backend/app/modules/auth/__init__.py",
+      "size": 79,
+      "sha256": "c04d12237a90709c9036f56f98ca4d5cdb5249ecad9675ea3d31f9bce89272d2"
+    },
+    {
+      "path": "backend/app/modules/auth/router.py",
+      "size": 689,
+      "sha256": "814a3fa96996f740b39bd73a664f7489b0bc06f6a8e3d20627e23e6c653ae133"
+    },
+    {
+      "path": "backend/app/modules/community/__init__.py",
+      "size": 70,
+      "sha256": "08301c715f37ec0cf04f16ca54d0f0a07a4652e7c438d539fa39ee2ab12d05f5"
+    },
+    {
+      "path": "backend/app/modules/community/models.py",
+      "size": 2810,
+      "sha256": "93e65d8f58c18058f6a02d234c969fe3e2ff01adb44602e2ab8ee877d561446e"
+    },
+    {
+      "path": "backend/app/modules/community/router.py",
+      "size": 977,
+      "sha256": "f47c7fe1e9118ae840070bde2169cea6ad19242bb5ab052fc0063fdcdff320bd"
+    },
+    {
+      "path": "backend/app/modules/community/schemas.py",
+      "size": 563,
+      "sha256": "963cc75646a8a060aa8385703b76211dd5987be94c91de849d8a02d4bc57a66e"
+    },
+    {
+      "path": "backend/app/modules/companion/__init__.py",
+      "size": 78,
+      "sha256": "3254515b3e4492623f49cabf72cb2c44387b3d07d2b738df2bcd1fa80d2134f0"
+    },
+    {
+      "path": "backend/app/modules/companion/models.py",
+      "size": 2189,
+      "sha256": "169a53232cd7e79dcc029cb76e86be6bd29cbc9ef89d32d88306aef6ff439c3f"
+    },
+    {
+      "path": "backend/app/modules/companion/router.py",
+      "size": 1533,
+      "sha256": "065bc852e347d58410c7e5c1520b1c0360c47ab3fcf25c2f3b55195b1102ce92"
+    },
+    {
+      "path": "backend/app/modules/memory/__init__.py",
+      "size": 66,
+      "sha256": "a2694fb96bd6ee0159b33ca6319a7e9740da37d39f7c55ad2e80c578e6d46a5d"
+    },
+    {
+      "path": "backend/app/modules/memory/models.py",
+      "size": 1091,
+      "sha256": "cceb51b510e414a58c2f5c4b046e32baa90ab8670c0e593586f68415c4e91c18"
+    },
+    {
+      "path": "backend/app/modules/memory/ports.py",
+      "size": 688,
+      "sha256": "d0270bc546b81427293a5729f8df812be58a0fe68666eb898f7b99f592aa431e"
+    },
+    {
+      "path": "backend/app/modules/memory/router.py",
+      "size": 342,
+      "sha256": "477ba82f62481cb5b8a0aa98d700ebe8ed378b604c517fa174b134e0caa17d34"
+    },
+    {
+      "path": "backend/app/modules/moderation/__init__.py",
+      "size": 75,
+      "sha256": "0d53205c3abc694dbc694df98503253dd7830c135a0205163f28111d0781abb3"
+    },
+    {
+      "path": "backend/app/modules/moderation/models.py",
+      "size": 722,
+      "sha256": "dd4fed81d276bccb1d948491084929388c123893629c995d7e74ff026fd49ac3"
+    },
+    {
+      "path": "backend/app/modules/moderation/ports.py",
+      "size": 689,
+      "sha256": "6b2dbd26cc71498aff5df6d8340dfd7523f4896ad43bc138aeef29bb8efd06a0"
+    },
+    {
+      "path": "backend/app/modules/moderation/router.py",
+      "size": 400,
+      "sha256": "7f46832500e552537cc1c6ed797635aae138a40f621624d5703526ad4efe4f87"
+    },
+    {
+      "path": "backend/app/modules/users/__init__.py",
+      "size": 51,
+      "sha256": "fe615a1f60417365af5412b8cecfc12837eddd626a9e0780a7d59cb0277bb0a5"
+    },
+    {
+      "path": "backend/app/modules/users/models.py",
+      "size": 791,
+      "sha256": "d657f08404b7a0bce53d64ef59501e32ec5b0db6c516d3146fc8dbeff613e42e"
+    },
+    {
+      "path": "backend/app/modules/users/router.py",
+      "size": 324,
+      "sha256": "ddfd15e6dd4a79544a57482e1f2ffd58727b54f793b66e56a7294d7b5327e24d"
+    },
+    {
+      "path": "backend/app/modules/wallet/__init__.py",
+      "size": 78,
+      "sha256": "8c7b1d140305391505327e624764e0bfbb1b59e73f2ba3b5a7aa83359e64faac"
+    },
+    {
+      "path": "backend/app/modules/wallet/models.py",
+      "size": 4822,
+      "sha256": "1c87edfa3eb6575f220ee369281a886d7c4e0918faae9bd3392fcedcd7bbd671"
+    },
+    {
+      "path": "backend/app/modules/wallet/router.py",
+      "size": 509,
+      "sha256": "fe4d439af4b24edac459eee2491e34dd3d7a72ef03736945f248ee15f361ff65"
+    },
+    {
+      "path": "backend/app/modules/wallet/service.py",
+      "size": 1660,
+      "sha256": "59df1a492ea4611c1b38dc11dbda93d35b0ed70dc9dd2996957e9ad67e8eb2ec"
+    },
+    {
+      "path": "backend/migrations/env.py",
+      "size": 1069,
+      "sha256": "e59ebc2d5e89b3ab1961175561ec48d0722c1fe5de1cd5e231243a502cb87f0f"
+    },
+    {
+      "path": "backend/migrations/script.py.mako",
+      "size": 551,
+      "sha256": "34d6b7b9f64100da1c2854833cdb20f53cf0ea6c7500f0953ad3cf02b5857976"
+    },
+    {
+      "path": "backend/migrations/versions/0001_initial_schema.py",
+      "size": 27036,
+      "sha256": "17b1e0c9c700636db84a1d4b4f9dbef51cb7f57023fa0385d5659b3452de5660"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "size": 987,
+      "sha256": "f22d66c73574b2bda56ceb3bb50ef319e4b2fd9da30824130220de086a11d593"
+    },
+    {
+      "path": "backend/scripts/integration_check.py",
+      "size": 1409,
+      "sha256": "0d46f9d609a1e5d9b5c1cf5dd8827f66b6dcde9cd232d4955b93d2a60ba7b3b9"
+    },
+    {
+      "path": "backend/scripts/migration_check.py",
+      "size": 7330,
+      "sha256": "ac05c735f8a744851433231a78947fe68fd1118dd60db16af041081054abfa83"
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "size": 735,
+      "sha256": "d180c6fc18dd798018c588549f9ee80b2359821273ae884cf3b50929f020e2c2"
+    },
+    {
+      "path": "backend/tests/integration/test_local_infrastructure.py",
+      "size": 12579,
+      "sha256": "9bfa5a2d305b7b4e65ee0bc564c2e219e84c624c0954db9715247b0634dfdad0"
+    },
+    {
+      "path": "backend/tests/test_agent_security.py",
+      "size": 2911,
+      "sha256": "0bd417828427e25a745f004be53706f37c0a0d1fc5aef8609f6d9769243a82c1"
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "size": 7007,
+      "sha256": "a5447a2441f05b4655f47966d0ce3decf9a73ddec9fb69f7cabaf45dccf8f6d0"
+    },
+    {
+      "path": "backend/tests/test_database.py",
+      "size": 9008,
+      "sha256": "d6f41468609b4488b1a2d6b201d21013240a7229e7ea10035748f036d25e9ddb"
+    },
+    {
+      "path": "backend/tests/test_engineering.py",
+      "size": 2068,
+      "sha256": "32def9eefe70bc36fd46ae21fd9a6dd43f4264be12d10c883a436f1c6219756a"
+    },
+    {
+      "path": "backend/uv.lock",
+      "size": 335984,
+      "sha256": "3cf52afd984453c7cb3d69867e50f5bb753d53481ce94cf9d81503ddcfa7a667"
+    },
+    {
+      "path": "compose.local-infra.yaml",
+      "size": 436,
+      "sha256": "eedcae0a1b777d47057b441b36dbdff0d1d342dbec8c26c61d6a687b31bd2e5a"
+    },
+    {
+      "path": "compose.yaml",
+      "size": 1932,
+      "sha256": "012e4d52c1b9113f72e2ace15a6f25d8667df37eda2302bebf9ea6ef091e5fe6"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 9231,
+      "sha256": "e390678d631f6e714800063a4dc1f8ac99e85feebbd6eb44d2a01cabad195ebb"
+    },
+    {
+      "path": "docs/MIGRATION_REPORT.md",
+      "size": 12747,
+      "sha256": "669d56dcdaadeef1ad377a777f16baaf295f341d04d3f0a645906890be30a1dd"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "size": 21529,
+      "sha256": "80e145098b219ce119c1fd1e57582222964945cef486adeafcbc3e5898ccc352"
+    },
+    {
+      "path": "docs/migration/PREVIOUS_FRONTEND_VERIFICATION.md",
+      "size": 9634,
+      "sha256": "aa611fc1bcf68a8ea4f9befed410f42dae75bc02331a60e4b1a0c86ea6fe7984"
+    },
+    {
+      "path": "docs/migration/authorized-target-changes.json",
+      "size": 2472,
+      "sha256": "c4fbdf743141276a12cb4be3ed29b84a5ab050ad8cbed54e03f979c76ed6185c"
+    },
+    {
+      "path": "docs/migration/backend-pytest.xml",
+      "size": 8894,
+      "sha256": "910cf7cbff3f3218434b6e2b1175ff27ce48b9e51617b8619ad5650753ae0dc3"
+    },
+    {
+      "path": "docs/migration/compose-validation.json",
+      "size": 853,
+      "sha256": "a433d1ec0e5f02aedcbf02f618a76e10f3ef5f37a69bf4f3d6368f8fc2fa69b6"
+    },
+    {
+      "path": "docs/migration/copy-checksums.json",
+      "size": 36329,
+      "sha256": "cb1712aa88fd16f3ee52fcc15923b2f6d578c82bb8a7be62d9c96ec7a9d81aae"
+    },
+    {
+      "path": "docs/migration/docker-after.json",
+      "size": 3255,
+      "sha256": "a24483260480fc63014c02657064861b79e4d4143c4a1f227be8ce064558d7a9"
+    },
+    {
+      "path": "docs/migration/docker-before.json",
+      "size": 3255,
+      "sha256": "a24483260480fc63014c02657064861b79e4d4143c4a1f227be8ce064558d7a9"
+    },
+    {
+      "path": "docs/migration/frontend-e2e.xml",
+      "size": 5313,
+      "sha256": "85b1caac636149b2f340db146d7cfd6ffc9b65947c4f6d6192fa291071dec0d2"
+    },
+    {
+      "path": "docs/migration/git-state.json",
+      "size": 5491,
+      "sha256": "6cf44c35e2652f421348eb33e7d50a6b5d0f05057dc4b85a2416f7ace27f4bf8"
+    },
+    {
+      "path": "docs/migration/infrastructure-readonly.json",
+      "size": 641,
+      "sha256": "672092f62ea6b91f9e0f2dabe5f0365eb4eb5cdb8b0d2d71f70abae0aabaf9ea"
+    },
+    {
+      "path": "docs/migration/local-startup.json",
+      "size": 786,
+      "sha256": "1ec006e339aa64c0361582904471e141b2c8bfc2c202ef6c91d2298f71e5c7fd"
+    },
+    {
+      "path": "docs/migration/parent-before.json",
+      "size": 100230,
+      "sha256": "cb8c3fe570fd10ac5e1f559740ba124feac6261367deb0746dc5b881417754e4"
+    },
+    {
+      "path": "docs/migration/screenshots/recent-topic-card-desktop.png",
+      "size": 78266,
+      "sha256": "a73c67a7f667ad6d5cd316e5b1f95a6678224e73609369106b49562e2c731107"
+    },
+    {
+      "path": "docs/migration/screenshots/recent-topic-card-mobile.png",
+      "size": 41685,
+      "sha256": "56c5e92b505a3719e23c615059520edc086a30acecbf7b8c25c16649c8710e49"
+    },
+    {
+      "path": "docs/migration/source-manifest.json",
+      "size": 22286,
+      "sha256": "4a21f2805062541c356d3e62793dafef809fb4fffee3dde99e7c951974a78845"
+    },
+    {
+      "path": "docs/migration/source-preservation.json",
+      "size": 334,
+      "sha256": "fbe2f814ffcc9083eb2c03b4b700e84019e8c94dacef2f95c5e1779ff0cf8b95"
+    },
+    {
+      "path": "docs/migration/validation-output/backend-format.txt",
+      "size": 28,
+      "sha256": "a858de25bc90eebde6458e81995329b09ed9ef97f70f6c2977882f1614ddbb16"
+    },
+    {
+      "path": "docs/migration/validation-output/backend-pytest.txt",
+      "size": 126,
+      "sha256": "135b32d3ac9c41bb48a2ee1f9b0823bfc421b6972cef86f53d147b4255848e1e"
+    },
+    {
+      "path": "docs/migration/validation-output/backend-ruff.txt",
+      "size": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-build.txt",
+      "size": 421,
+      "sha256": "50b2ceef921b0e9b8aebbdc91fed6d715694a633e75f4d22d8e5d2b761362a01"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-e2e.txt",
+      "size": 2576,
+      "sha256": "1766122a2562c3fd765a56edbe0b8945d7f4e2881783e6b960f9de71b5b98813"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-eslint.txt",
+      "size": 64,
+      "sha256": "c26c81b2c2293470d9803bef45ceacf1c3de2b225032dd165f454da8fc382a64"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-typecheck.txt",
+      "size": 65,
+      "sha256": "cc401744482c8016956821e5aa6a37899377b47fd15f9d3063fc0c5393d79e07"
+    },
+    {
+      "path": "docs/migration/validation-output/infrastructure-check.txt",
+      "size": 926,
+      "sha256": "c124a8802b75954eb8efa196c1ec1b70e174c414dcc805d96fac6f4a9cee101d"
+    },
+    {
+      "path": "docs/migration/verification-results.json",
+      "size": 1273,
+      "sha256": "152134577edfcb5b90d6f4fccf3528f0c2de72c71c24daed12193bde51cb2aa1"
+    },
+    {
+      "path": "frontend/.dockerignore",
+      "size": 38,
+      "sha256": "f0f9b793efa87703c557dba50abb30a70789e7beaecb56ccfee8422bd1a45a47"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "size": 295,
+      "sha256": "ece01df3cd1b1b75f7a48c893faed8f4226afaa102470aa3ccf5e5e38fd2f6b7"
+    },
+    {
+      "path": "frontend/e2e/chat-layout.spec.ts",
+      "size": 11487,
+      "sha256": "d251278145d91d2f6e80b2cca0a853f613fa31130911be4835e2357241d02629"
+    },
+    {
+      "path": "frontend/e2e/foundation.spec.ts",
+      "size": 4876,
+      "sha256": "6c2cdc1d894ac3b174344f1700eba35759019ff1ac37a46ef3ee039485f33c8d"
+    },
+    {
+      "path": "frontend/e2e/helpers/preview.ts",
+      "size": 866,
+      "sha256": "96d5150ae0cf8a77b33cade0185265448368f5cef2a9300ca395a6d214801910"
+    },
+    {
+      "path": "frontend/e2e/recent-topics.spec.ts",
+      "size": 17544,
+      "sha256": "e9053f2804f4070cf5554dd58964b150a4d7e594962fc6a8968d207388ec9f47"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "size": 748,
+      "sha256": "066ba44300bb45c0e3c64480641dcd8adcae57a9ee6995a823b67cce6a0619f3"
+    },
+    {
+      "path": "frontend/index.html",
+      "size": 596,
+      "sha256": "89dddfa368586dae4774c5ee44a7a82eaa5777daae7c8ff8804a0e3d70250efb"
+    },
+    {
+      "path": "frontend/nginx.conf",
+      "size": 1036,
+      "sha256": "c1dc6acad46129f126efca7d25f449f174013c36cc4206a49e11a4416f7c5001"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "size": 153360,
+      "sha256": "7a07d3e0268c310482298c6c3a8c1ee2887ffe1d321925b5340017d8776a5379"
+    },
+    {
+      "path": "frontend/package.json",
+      "size": 1153,
+      "sha256": "b57ae2eaa1534b849d268b615356bdd3a7cb2e7428223370c0c4be2821823a59"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "size": 1370,
+      "sha256": "349ef0b89fd96106b7b865d7c55ea0f616c025fd2a12e0035a64761377db7424"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "size": 1896,
+      "sha256": "d395f37c74ff1d920a2369ebf0de9c84039f20b09893d42c07c21de167512322"
+    },
+    {
+      "path": "frontend/src/chat.css",
+      "size": 22321,
+      "sha256": "33e0a20413cab97a10d09bb02296a25c695c089cf33cf0333da7e0591542a1b1"
+    },
+    {
+      "path": "frontend/src/components/layout.tsx",
+      "size": 11127,
+      "sha256": "a6221ca4386ae0eda8dac86ab12753412e051740568f1036a3ec7d3c452f8224"
+    },
+    {
+      "path": "frontend/src/components/ui.tsx",
+      "size": 2468,
+      "sha256": "51e0a29d0c500263655205c4613106fe5e9edaa84ee1fbc45039beb9c117e7ef"
+    },
+    {
+      "path": "frontend/src/data/chat-demo.ts",
+      "size": 2984,
+      "sha256": "7ab4f30ef127bfdd571e66f31c2c1d5e6e40312adc23593b7c02ea29d67a320a"
+    },
+    {
+      "path": "frontend/src/data/demo.ts",
+      "size": 1409,
+      "sha256": "ef9d54481ba9eb7ec06e4bb1a4d614b54d8b4b36028a9f0921dbeac2e2dfdb36"
+    },
+    {
+      "path": "frontend/src/features/chat/ChatProvider.tsx",
+      "size": 8431,
+      "sha256": "f8fc1e7b0d0a7e782f1fc46d1e593e63950b60f7bc4b68674dda628d2f7ed48a"
+    },
+    {
+      "path": "frontend/src/features/chat/RecentTopicCard.tsx",
+      "size": 1427,
+      "sha256": "0f351b2d1161e9bbfa966a63ab6db38ccb0fabc245129d4deebe3961dd8f533d"
+    },
+    {
+      "path": "frontend/src/features/chat/context.ts",
+      "size": 315,
+      "sha256": "8958bb07f4706b0464209caaab76ff369215274297cab1977abfee83479b222c"
+    },
+    {
+      "path": "frontend/src/features/chat/contracts.ts",
+      "size": 1490,
+      "sha256": "583047e90887ca19dc6acfcc28ca801a188e2177e347f89bc01c55c3764a31a8"
+    },
+    {
+      "path": "frontend/src/features/chat/recent-topics.ts",
+      "size": 2341,
+      "sha256": "ef5721003cce0598a7148345d42734e80085b5bbb9ac0bbfb20ee3271a521fbb"
+    },
+    {
+      "path": "frontend/src/features/chat/types.ts",
+      "size": 1357,
+      "sha256": "e5e5eec378294f2d0a74bf6091ddc8dbe65296eda8f645bd17c893bb3fc580e6"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "size": 749,
+      "sha256": "1428e2d8fa6c9e655f2c2f04322eed58a603c1343ed423a60e15011f82dc89db"
+    },
+    {
+      "path": "frontend/src/lib/sse.ts",
+      "size": 2454,
+      "sha256": "e800c054cc9e98a791ff7be200d3ae7e64de941fd25e04af9896af862faf4f1f"
+    },
+    {
+      "path": "frontend/src/lib/viewport.ts",
+      "size": 1341,
+      "sha256": "b6b3b0a2042d4d967815ae0ff498bae1d3838855c99e746d089e7d8f1d04bcee"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "size": 621,
+      "sha256": "e3b0a2246acab0357241a2a98a982a0d31b5720df8510b28627df61e2e6d7bf9"
+    },
+    {
+      "path": "frontend/src/pages/community.tsx",
+      "size": 3362,
+      "sha256": "5422711649ac0bbdf91be4be8cf023fa94f5fdda284c50ce991f34ff21661f6d"
+    },
+    {
+      "path": "frontend/src/pages/companion.tsx",
+      "size": 7579,
+      "sha256": "28a6b373d20c9dc4373fd81549307101541f19fc5df576e80f4e4d33a77be6fc"
+    },
+    {
+      "path": "frontend/src/pages/companions.tsx",
+      "size": 1391,
+      "sha256": "44e4784054439ef308d913ab087828c379a956e50e6129f6efe0c4e21021b23d"
+    },
+    {
+      "path": "frontend/src/pages/conversation-preferences.tsx",
+      "size": 3192,
+      "sha256": "099ffd232a2eb47a9183f295ec43900f240bbd96e04fa50faa83409e52051de6"
+    },
+    {
+      "path": "frontend/src/pages/home.tsx",
+      "size": 3858,
+      "sha256": "4ee1a2d01683503ba018aba04d2d2341a1886a706871df2a3d1f093f072f8e40"
+    },
+    {
+      "path": "frontend/src/pages/workspace.tsx",
+      "size": 8302,
+      "sha256": "a13707c9d279716be733e8c82b6e2ebf1bd249bc92865f57c200fab8ea5316d7"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "size": 25291,
+      "sha256": "4378f2c955cb5a72864470e1651b14763312411d08db533dfb45b0108e857890"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "size": 653,
+      "sha256": "503d43ef2b9d39944ec8ba14d5591656216540a80681a54dbdbb7867b856457c"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "size": 445,
+      "sha256": "f08882e15778bdaaa1a31f3ed1565c4da4638d7b6f8d8583f315ee3337cf3fb6"
+    }
+  ]
+}

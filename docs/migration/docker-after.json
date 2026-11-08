@@ -1,0 +1,116 @@
+[
+  {
+    "id": "62b27f33f5d601c29d77f73926f23cef8cd6c079cec3f27ca9c932c9bb9bcd4f",
+    "name": "/weibiye-postgres-1",
+    "state": "running",
+    "health": "healthy",
+    "startedAt": "2026-11-01T03:38:33.092287545Z",
+    "restarts": 0,
+    "oom": false,
+    "memory": 536870912,
+    "ports": {
+      "5432/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "25433"
+        }
+      ]
+    },
+    "mounts": [
+      {
+        "Destination": "/var/lib/postgresql/data",
+        "Driver": "local",
+        "Mode": "rw",
+        "Name": "weibiye_weibiye_pgdata",
+        "Propagation": "",
+        "RW": true,
+        "Source": "/var/lib/docker/volumes/weibiye_weibiye_pgdata/_data",
+        "Type": "volume"
+      }
+    ],
+    "networks": {
+      "weibiye_default": {
+        "Aliases": [
+          "weibiye-postgres-1",
+          "postgres"
+        ],
+        "DNSNames": [
+          "weibiye-postgres-1",
+          "postgres",
+          "62b27f33f5d6"
+        ],
+        "DriverOpts": null,
+        "EndpointID": "da676d40095699b9c017cb8177a8f6ced113e0c7b30f7d06bfe9c3c15d1fe15f",
+        "Gateway": "10.253.77.1",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "GwPriority": 0,
+        "IPAMConfig": null,
+        "IPAddress": "10.253.77.2",
+        "IPPrefixLen": 28,
+        "IPv6Gateway": "",
+        "Links": null,
+        "MacAddress": "de:f5:26:5b:3b:0f",
+        "NetworkID": "391481b283c1ec04b48c1a7c1f2fabc2a465291be2fe36fdd7c458e6ea72fcd4"
+      }
+    },
+    "workingDirectory": "D:\\AIProjects\\AgentForge-AI\\weibiye"
+  },
+  {
+    "id": "50a4a890c1900f80fd65b09c6edc274e7aa97b3908aa2ebad910734d8c64a15e",
+    "name": "/weibiye-redis-1",
+    "state": "running",
+    "health": "healthy",
+    "startedAt": "2026-11-01T03:38:33.097891592Z",
+    "restarts": 0,
+    "oom": false,
+    "memory": 134217728,
+    "ports": {
+      "6379/tcp": [
+        {
+          "HostIp": "127.0.0.1",
+          "HostPort": "26380"
+        }
+      ]
+    },
+    "mounts": [
+      {
+        "Destination": "/data",
+        "Driver": "local",
+        "Mode": "rw",
+        "Name": "weibiye_weibiye_redisdata",
+        "Propagation": "",
+        "RW": true,
+        "Source": "/var/lib/docker/volumes/weibiye_weibiye_redisdata/_data",
+        "Type": "volume"
+      }
+    ],
+    "networks": {
+      "weibiye_default": {
+        "Aliases": [
+          "weibiye-redis-1",
+          "redis"
+        ],
+        "DNSNames": [
+          "weibiye-redis-1",
+          "redis",
+          "50a4a890c190"
+        ],
+        "DriverOpts": null,
+        "EndpointID": "fa6daf39583c6e86b246cd36aa009d6d75469c88a4f4abe7be5e12a64087501b",
+        "Gateway": "10.253.77.1",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "GwPriority": 0,
+        "IPAMConfig": null,
+        "IPAddress": "10.253.77.3",
+        "IPPrefixLen": 28,
+        "IPv6Gateway": "",
+        "Links": null,
+        "MacAddress": "5a:45:8d:5c:ec:1b",
+        "NetworkID": "391481b283c1ec04b48c1a7c1f2fabc2a465291be2fe36fdd7c458e6ea72fcd4"
+      }
+    },
+    "workingDirectory": "D:\\AIProjects\\AgentForge-AI\\weibiye"
+  }
+]

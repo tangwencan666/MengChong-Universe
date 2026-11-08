@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "scope": "local-only; redistribution/commercial rights unverified",
+  "characters": [
+    {
+      "character": "奶娃",
+      "id": "niwa",
+      "file": "assets/niwa.png",
+      "copied_from": "desktop/local-preview/p85-eight-v1/p85-niwa-front-v1.png",
+      "sha256": "93B778C15E2D798C17923DBB86C9C6F9CC505AA495BD8B5D5506F149A0A7A3E9",
+      "pixel_changes": "none; byte-identical copy",
+      "origin": "User-provided image library; existing P8.5 provenance and original-file hashes preserved"
+    },
+    {
+      "character": "刀盾",
+      "id": "daodun",
+      "file": "assets/daodun.png",
+      "copied_from": "desktop/local-preview/p85-eight-v1/p85-daodun-front-v1.png",
+      "sha256": "D59DDC049ADD208C9E8F3B44C30CF6D7E4401E3BB7892716A2A72B5CB8466F59",
+      "pixel_changes": "none; byte-identical copy",
+      "origin": "User-provided image library; existing P8.5 provenance and original-file hashes preserved"
+    },
+    {
+      "character": "鲸鱼娘",
+      "id": "whale",
+      "file": "assets/whale.png",
+      "copied_from": "desktop/local-preview/p85-eight-v1/p85-whale-front-v1.png",
+      "sha256": "1C173E647E35ABCF5EB5E876C04C556FCFB3C9F5FCE67B16260A0DDCDF59C5E7",
+      "pixel_changes": "none; byte-identical copy",
+      "origin": "User-provided image library; existing P8.5 provenance and original-file hashes preserved"
+    }
+  ],
+  "originals_modified": false,
+  "new_generated_artwork": false
+}

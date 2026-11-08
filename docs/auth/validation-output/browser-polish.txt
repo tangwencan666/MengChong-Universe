@@ -1,0 +1,94 @@
+
+> weibiye-frontend@0.1.0 test:e2e
+> playwright test auth.spec.ts --reporter=dot,junit
+
+[WebServer] INFO:     Started server process [22352]
+[WebServer] INFO:     Waiting for application startup.
+[WebServer] INFO:     Application startup complete.
+[WebServer] INFO:     Uvicorn running on http://127.0.0.1:28101 (Press CTRL+C to quit)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7d370f54-4cce-4af8-a706-ef54a36f5457", "method": "GET", "route": "/health/live", "status": 200, "duration_ms": 9.47}
+[WebServer] (node:11260) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+(node:16372) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f18dea88-250f-4af6-b4ba-b3d0731d728b", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 6.16}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a6cadcbf-3514-4055-8337-e2e64ca68367", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.59}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ac78ae00-0399-4cde-a72d-d30e182a933a", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 194.85}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9e1e0727-aa89-4e9f-95ce-893610d2cb2e", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.62}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "719f728e-67b7-4b71-876e-b339e66c0a7d", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.03}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f131ffb2-c1af-42cb-85c3-57f290fe5399", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 155.96}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e4a05d10-e183-4709-9cc6-1a6a53715370", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 21.88}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "64ae5173-f610-4fe2-9ca4-20dd1f38bfa4", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 18.46}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "5e6e8b75-deac-414a-80f6-9e25ca685263", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 5.69}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7f8a21c9-a789-4484-b69a-ce07ef82cbec", "method": "POST", "route": "/auth/logout", "status": 204, "duration_ms": 30.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ac0aaf31-139a-4f3d-9a10-c85bd98261e4", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.73}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ff6592e8-5a4d-4ced-a344-a16b59b34739", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.62}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "acf794ed-0612-41d9-a307-73d7b18ae21a", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.93}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8a5ae944-4adf-4899-87dc-cc50e85b6d31", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 236.44}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a1b9a3e2-f338-4f5b-8ef6-41c7fb8b7ff5", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.56}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "4c9c3b58-a744-423d-84af-facf4330f443", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.01}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f187aba4-13dd-4816-9157-43f75dc3ceff", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 124.21}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "1992c167-a7d8-4cf9-b9c0-3ccbe1044172", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.75}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3228eb2c-62f1-4a89-a53b-079c4c064382", "method": "POST", "route": "/auth/login", "status": 401, "duration_ms": 135.76}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "219b70d8-f8c5-4c4e-b0db-e0068b77c17f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.77}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "691fcdea-a162-4de6-a184-eb063cf27ade", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.86}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "e6be8b2c-3f24-4cde-8816-16c2f6debe2e", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 148.62}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "c08ad4d9-9623-4f3e-94db-4a01beee4820", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.89}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "16040b1e-ac1c-499f-853e-6aace0c95df9", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.81}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d52b33db-ce87-4b54-a8cf-ca4fa56c7714", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 178.73}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8bce55f5-d5b4-46af-8654-946f81e48281", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 13.84}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "dd96234a-1664-4a29-a702-275d858eb47e", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.82}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3029d00f-ad51-4334-b032-3ac6db5242b6", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.91}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "6d490255-efec-4438-ad6b-ce27ee7c842b", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 177.08}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f9db47dc-10ad-4053-ae53-e80aaad1a28f", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.81}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ccccafa3-4b3f-46cc-b836-bbb2e9e7dd8c", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.06}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d1484f16-0ffc-4c3f-b5e7-1d6f94d3ad3c", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 217.77}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "26b07a99-1400-4183-99ac-3984c8ac373e", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 10.14}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a6e9a178-5ad6-4767-b5f9-62a3f85176fb", "method": "GET", "route": "/auth/sessions", "status": 200, "duration_ms": 19.9}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f7bd9337-ee64-48f4-aa7f-a309950be55d", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 5.89}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0615ae0a-d31b-47d2-99c3-24e2ee938cd9", "method": "DELETE", "route": "/auth/sessions/{session_id}", "status": 204, "duration_ms": 20.73}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0dc87b6e-485b-49e8-a2e1-71ee91df715a", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.16}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "82ad47c3-ab2a-4f4e-9046-bf560c417411", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.48}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f2125817-12eb-4a86-a82f-00b454bedf5e", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.63}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "19ec7783-361d-4a96-8c89-b44b307bdaa1", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 166.9}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8f322431-66ff-4801-a6b0-1b955300b7bd", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.89}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "293a04aa-536f-4eb3-9e27-ca22f68df7ad", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.98}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f5e7654a-4ea3-47ac-88dc-80624b8c2bb9", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 163.0}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9c8b840e-c702-466e-8bbc-ece519953433", "method": "GET", "route": "/auth/sessions", "status": 401, "duration_ms": 1.39}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "2e54ae61-ead1-4290-b30e-927034233ec9", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.7}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "47badfc4-3840-4a31-99e1-1932c4b790a6", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.92}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "4a82d99a-cb03-4f7d-8918-16ea44f505d9", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 133.38}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0dc838e0-418e-44f7-8903-a48c1d98a6a8", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.57}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b5dc52d0-f37e-4ae0-9891-a877e8ad5fe3", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.61}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "0f554b4d-5c7b-4147-aed0-c7ef579f3586", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 133.71}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "20bb7e04-e8da-42ae-9dea-b8efb1aca1d3", "method": "POST", "route": "/auth/logout", "status": 403, "duration_ms": 3.83}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "221c10e7-ab76-4485-a3c8-bb4707a61a1c", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 7.85}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "af758698-e46d-49f8-9a8b-a3362e0a3ee2", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.99}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "68ec60bc-659c-49ab-972d-2c2bd1625f47", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.9}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a122fc7f-e234-4e55-a6cc-d4dd8d2dd060", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 239.95}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "8800e3fd-b67f-4f0f-b089-172f5e03b796", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.94}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b92cbb3a-93b8-41f5-b711-a13070403670", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 0.65}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3ff38d80-bd8c-4e1d-bdd1-72b7b820dd15", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 150.0}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "560953ec-e942-4e5a-acf2-49155f327a75", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 10.86}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "12c36a2d-e1b3-463b-8ecb-f0193133c360", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 14.63}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "71a83d78-8fe5-41d6-8700-91528bdb25aa", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 7.02}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "2838d167-a23f-42ea-81f9-2a6f8c43f6d6", "method": "POST", "route": "/auth/logout", "status": 204, "duration_ms": 22.52}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7cf16a6e-72c7-4a4f-835a-c9c849e8ee9a", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.92}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "9deb6946-7346-45a8-9d78-b877e1d6e9a0", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.41}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b9a35403-6ee1-478f-b807-87958a80ac70", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 176.25}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "f7f59bbc-4900-48eb-b08b-cc727500a13a", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.93}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "b5891534-0b0c-48ec-b185-837af87b2d57", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.11}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "7eef73e3-05a1-480a-ae21-8b7b66f1f612", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 191.38}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "a1b5d7d5-70eb-442a-8731-5624752cb651", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.28}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "57ceb7ee-b0cf-4eeb-84b9-a2474a8337da", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 0.84}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "ed0325f4-76e0-4ae7-b0c8-9f4f24268449", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.1}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d8f3852f-dcc5-4d24-a0f8-adba4f13c06c", "method": "POST", "route": "/auth/register", "status": 202, "duration_ms": 198.09}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "115ab438-09be-4d22-8b04-daae137258c8", "method": "GET", "route": "/auth/me", "status": 401, "duration_ms": 1.86}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "57e33c8a-429f-4a96-8cbb-cdf16876324d", "method": "GET", "route": "/auth/csrf", "status": 200, "duration_ms": 1.0}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "d17f5648-780d-459b-b660-499c1d88277e", "method": "POST", "route": "/auth/login", "status": 200, "duration_ms": 177.04}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "3bde05ac-dd45-4bc0-b69f-37d53e1b38a0", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 17.81}
+[WebServer] {"level": "INFO", "event": "http_request", "request_id": "89bb123c-59c7-4d6f-8c90-4f52dc531e9b", "method": "GET", "route": "/auth/me", "status": 200, "duration_ms": 10.9}
+········
+  8 passed (42.0s)

@@ -1,0 +1,10 @@
+{
+  "asset": "daodun-skill.wav",
+  "source": "user-uploaded 1-ScreenRecording_11-08-2026-09-55-59_1.mp4",
+  "source_sha256": "B86747E67D48CC87B7A3024D0EA10CBD5719E9B74B0FC0197FD803DFFE07A736",
+  "source_start_seconds": 0,
+  "duration_seconds": 2,
+  "processing": "Local FFmpeg sample-accurate extraction: original audio 0–2 seconds, stereo 44100 Hz PCM16. No generated speech, voice separation or source edits.",
+  "playback": "Once per accepted daodun U cast; never loop. Pause/resume follows combat, mute/restart/finish/lobby stops the cue.",
+  "rights": "User-provided reference, local verification only. Redistribution and commercial rights unconfirmed."
+}

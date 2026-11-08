@@ -1,0 +1,192 @@
+[
+  {
+    "path": ".env.example",
+    "status": "modified",
+    "sha256": "90d17490099a69ec0ad2fb90a6611b19920cc031561be569fb00cafaba78eba9"
+  },
+  {
+    "path": ".gitignore",
+    "status": "modified",
+    "sha256": "7bdd09741f5d13a771cc519b96cf7cd2f3300edb1f783c9870286c1334674c76"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "sha256": "5f41b6e3ab2788d25cf97e62712ebd5bc1d9bd5981c4ff3236f3bd355fe8785b"
+  },
+  {
+    "path": "backend/app/core/config.py",
+    "status": "modified",
+    "sha256": "7179ced37d10db2631b8a85cab0e513754c6feee22e9fa06da2b792ba065ba02"
+  },
+  {
+    "path": "backend/app/db/models.py",
+    "status": "modified",
+    "sha256": "f4546d95376817eda7f77f5c4e003cf5337dfeff1b4821f052574846963d84d7"
+  },
+  {
+    "path": "backend/app/main.py",
+    "status": "modified",
+    "sha256": "12a36b1c8a56c091cc7792763e96ddb9057f0174364ce1e59ea6358ef9adf227"
+  },
+  {
+    "path": "backend/app/modules/auth/mail.py",
+    "status": "modified",
+    "sha256": "e762a9e092581cc25fd7f69031f156198c7f1e9bebc2a0af4afbb47c22d5f2b3"
+  },
+  {
+    "path": "backend/app/modules/auth/mock_mailbox.py",
+    "status": "added",
+    "sha256": "7fed9eab710a1fc3b51ed9090ebc061262ad6e6bb0f2e41ed9b0568bf609d6ae"
+  },
+  {
+    "path": "backend/app/modules/auth/models.py",
+    "status": "modified",
+    "sha256": "5d968218b7d7df00d632155a75de1f125586a53d41c2f0916ded92b932f1aac8"
+  },
+  {
+    "path": "backend/app/modules/auth/recovery.py",
+    "status": "added",
+    "sha256": "4077187287ffe9ea140b3cd6cadcdfde78252398eff6a62c0ea1e8a46e339ea0"
+  },
+  {
+    "path": "backend/app/modules/auth/router.py",
+    "status": "modified",
+    "sha256": "df4ecbd1b29ae86833faafd4c41021aa725f63db9f3f18e727e69c07d831459c"
+  },
+  {
+    "path": "backend/app/modules/auth/schemas.py",
+    "status": "modified",
+    "sha256": "ce4c37cb43f19de4b3d4f8fa49ce5b14b47903d4bf5ed18695e010e571552a49"
+  },
+  {
+    "path": "backend/app/modules/auth/service.py",
+    "status": "modified",
+    "sha256": "eaee3830f4cb8957928d272e92f41ec4069efc0fdaf055842ed3c97aa53cc59d"
+  },
+  {
+    "path": "backend/migrations/versions/0003_password_recovery.py",
+    "status": "added",
+    "sha256": "2a33c7c89f1c9efca39a88f1ace3d1a6b5c21b6dd8cce9bb5232786e8651af29"
+  },
+  {
+    "path": "backend/scripts/e2e_server.py",
+    "status": "modified",
+    "sha256": "a9662a955196fe317f40fe4db27d5f319a54d7b39d19109f8ec1272c39d5bc36"
+  },
+  {
+    "path": "backend/scripts/migration_check.py",
+    "status": "modified",
+    "sha256": "028658626556870e6502304178c5bad21402329c80484ad11a01c79058989d6b"
+  },
+  {
+    "path": "backend/scripts/mock_mailbox.py",
+    "status": "added",
+    "sha256": "03308a07e4abfa960d161190e5f1904f99e5f61c90933a3801e25a5c76acb9ec"
+  },
+  {
+    "path": "backend/scripts/upgrade_recovery.py",
+    "status": "added",
+    "sha256": "36b3d88e27a7f6c7339ffd5540f9b3d4fbc4baaa274269807e213dac4cfe2621"
+  },
+  {
+    "path": "backend/tests/auth_helpers.py",
+    "status": "added",
+    "sha256": "1928c9270621ad7877f7ff15fa33ba83c40076db037a4fc9424cc055984fedbb"
+  },
+  {
+    "path": "backend/tests/conftest.py",
+    "status": "modified",
+    "sha256": "e439ff6b4a70fc752d5522939c9bbe40de5849df1feaa1d2f2add0354f693ec7"
+  },
+  {
+    "path": "backend/tests/integration/test_auth_postgres.py",
+    "status": "modified",
+    "sha256": "ecebef453f63ba8c732d2a2bbd417f849628b0c531fdf0ea47761fc85442fae2"
+  },
+  {
+    "path": "backend/tests/integration/test_local_infrastructure.py",
+    "status": "modified",
+    "sha256": "73f7938bab36c68b8dd769b83acb89287128c023cf1d07796e2207723d6834dd"
+  },
+  {
+    "path": "backend/tests/test_auth.py",
+    "status": "modified",
+    "sha256": "76ebf51d816fa2d8ee6c77d85383dce5e4b260a2b2aad1711e8f487cf05d1926"
+  },
+  {
+    "path": "backend/tests/test_auth_migration.py",
+    "status": "modified",
+    "sha256": "b246864b96ba0f04976306ac87445646b2c252620f7f40e3d5bc4c8765297622"
+  },
+  {
+    "path": "backend/tests/test_database.py",
+    "status": "modified",
+    "sha256": "8cf48551e7f51cc1d04593797303d06b51177594aea9a0dc391293b64d3f93f7"
+  },
+  {
+    "path": "backend/tests/test_recovery.py",
+    "status": "added",
+    "sha256": "bb9dced4fce78cff2e7e693381463dbeb386698ecfb0e2b91d8d87e3a9653cf6"
+  },
+  {
+    "path": "docs/AUTH_VERIFICATION.md",
+    "status": "modified",
+    "sha256": "f78f4d8270d71f2458c7740ca771bad4687ae97135c9b69132fe7cb051a4cbd0"
+  },
+  {
+    "path": "frontend/e2e/helpers/mail.ts",
+    "status": "added",
+    "sha256": "a2a3e19a04851df4be544824c95557c0cf89960f0bfe2a4f004be3fb5a78bceb"
+  },
+  {
+    "path": "frontend/e2e/recovery.spec.ts",
+    "status": "added",
+    "sha256": "d0d2e4d24fe4126733418f841bea6a27785f538b232f8170e8a1314de1959bbf"
+  },
+  {
+    "path": "frontend/index.html",
+    "status": "modified",
+    "sha256": "33f15aa01760642f64140802c95fe9aee3affee4e593bf0761dd18566373cb7b"
+  },
+  {
+    "path": "frontend/playwright.config.ts",
+    "status": "modified",
+    "sha256": "72cc7eae1ca75f0c3fb6c0660eeb6115dd81d62469b84a05dfef05ef2798aa10"
+  },
+  {
+    "path": "frontend/src/App.tsx",
+    "status": "modified",
+    "sha256": "601a3e79a8896f9a08806f0a90575571db70fdab87f5760fa939fd1db1240115"
+  },
+  {
+    "path": "frontend/src/features/auth/AuthProvider.tsx",
+    "status": "modified",
+    "sha256": "ffd2787ca039379e9a02007775c3100d77622a37dbdc700eaa7187d0982ce3f1"
+  },
+  {
+    "path": "frontend/src/features/auth/context.ts",
+    "status": "modified",
+    "sha256": "46ee02383de6383a25b9e218a6cdf50e99666f61315931cfd6476012e532359f"
+  },
+  {
+    "path": "frontend/src/pages/auth.tsx",
+    "status": "modified",
+    "sha256": "f1b8fd4ddcb35df33315c00447c1f1a45f3d9abf1e5412a61b7f8a3c1e13ee62"
+  },
+  {
+    "path": "frontend/src/pages/recovery.tsx",
+    "status": "added",
+    "sha256": "85785319fa71063949e7f2cb70dbebe59efde41263188525c9f775553d6526e5"
+  },
+  {
+    "path": "frontend/src/pages/workspace.tsx",
+    "status": "modified",
+    "sha256": "84d071e2a69707cbc11e2c2b948bbc06a0d91330705ace8b07dadcea89ce8520"
+  },
+  {
+    "path": "frontend/vite.config.ts",
+    "status": "modified",
+    "sha256": "25303e3c6c8764ab00a15911a4470335e8021a5d8c98bed1c6f6cbd97b6c48ed"
+  }
+]

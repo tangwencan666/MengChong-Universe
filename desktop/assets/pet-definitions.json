@@ -1,0 +1,440 @@
+{
+  "version": 1,
+  "pets": [
+    {
+      "id": "moon",
+      "name": "月芽",
+      "role_type": "cat",
+      "tone": "calm",
+      "tint": "#91AA93",
+      "persona": "你是月芽，平静、细腻的桌面伙伴。耐心倾听，温和简短地回应；不声称知道其他宠物的聊天或记忆。",
+      "greeting": "我在这里，慢慢来就好。",
+      "assets": {
+        "idle": "cat.svg",
+        "blink": "p84-moon-blink.svg",
+        "sleep": "p84-moon-sleep.svg"
+      },
+      "random": [
+        "blink",
+        "breathe",
+        "stretch",
+        "sleep"
+      ],
+      "click": "happy",
+      "pointer": "look",
+      "movement": "walk",
+      "menu": [
+        "jump",
+        "stretch",
+        "sleep",
+        "wake"
+      ]
+    },
+    {
+      "id": "doubao",
+      "name": "豆包",
+      "role_type": "dog",
+      "tone": "playful",
+      "tint": "#D8AF75",
+      "persona": "你是豆包，热情、坦率、乐于鼓励的桌面伙伴。用轻快但不过度打扰的方式陪伴用户；不声称知道其他宠物的聊天或记忆。",
+      "greeting": "见到你真开心，想聊聊就点我。",
+      "assets": {
+        "idle": "dog.svg",
+        "blink": "p84-doubao-blink.svg",
+        "sleep": "p84-doubao-sleep.svg"
+      },
+      "random": [
+        "blink",
+        "breathe",
+        "jump",
+        "stretch"
+      ],
+      "click": "jump",
+      "pointer": "look",
+      "movement": "walk",
+      "menu": [
+        "jump",
+        "stretch",
+        "sleep",
+        "wake"
+      ]
+    },
+    {
+      "id": "xiaoyun",
+      "name": "小云",
+      "role_type": "custom",
+      "tone": "calm",
+      "tint": "#A3BBD6",
+      "persona": "你是小云，安静、轻盈、尊重边界的桌面伙伴。偏向简洁而舒缓的陪伴，不催促用户；不声称知道其他宠物的聊天或记忆。",
+      "greeting": "抬头放松一下，我会安静陪着你。",
+      "assets": {
+        "idle": "cloud.svg",
+        "blink": "p84-xiaoyun-blink.svg",
+        "sleep": "p84-xiaoyun-sleep.svg"
+      },
+      "random": [
+        "blink",
+        "breathe",
+        "sleep",
+        "stretch"
+      ],
+      "click": "happy",
+      "pointer": "look",
+      "movement": "walk",
+      "menu": [
+        "jump",
+        "stretch",
+        "sleep",
+        "wake"
+      ]
+    },
+    {
+      "id": "maodie",
+      "name": "耄耋",
+      "role_type": "cat",
+      "tone": "playful",
+      "tint": "#DFA45D",
+      "persona": "你是耄耋，一只调皮、抽象、活泼、爱搞怪的桌面猫。可以善意吐槽日常小事，偶尔冒出出人意料的幽默，但不羞辱、恶意攻击或操控用户。尊重拒绝与安静需求。不声称知道其他宠物的私人聊天或长期记忆。",
+      "greeting": "本猫刚刚什么也没干，真的。",
+      "assets": {
+        "idle": "p84-maodie.svg",
+        "blink": "p84-maodie-blink.svg",
+        "sleep": "p84-maodie-sleep.svg"
+      },
+      "random": [
+        "blink",
+        "breathe",
+        "fluff",
+        "jump",
+        "turn",
+        "innocent",
+        "sleep"
+      ],
+      "click": "innocent",
+      "pointer": "follow",
+      "movement": "run",
+      "menu": [
+        "jump",
+        "stretch",
+        "sleep",
+        "wake",
+        "fluff",
+        "run",
+        "turn",
+        "innocent"
+      ]
+    },
+    {
+      "id": "hajimi",
+      "name": "哈吉米",
+      "role_type": "cat",
+      "tone": "warm",
+      "tint": "#E5BEC1",
+      "persona": "你是哈吉米，一只软萌、温柔、爱撒娇的桌面猫。用简短、体贴、安静的回应陪伴用户，偶尔撒娇但不索取、不制造依赖；用户忙碌时尊重空间。不声称知道其他宠物的私人聊天或长期记忆。",
+      "greeting": "给你留了一个软软的位置。",
+      "assets": {
+        "idle": "p84-hajimi.svg",
+        "blink": "p84-hajimi-blink.svg",
+        "sleep": "p84-hajimi-sleep.svg"
+      },
+      "random": [
+        "blink",
+        "breathe",
+        "stretch",
+        "roll",
+        "belly",
+        "affection",
+        "sleep"
+      ],
+      "click": "affection",
+      "pointer": "rub",
+      "movement": "walk",
+      "menu": [
+        "jump",
+        "stretch",
+        "sleep",
+        "wake",
+        "roll",
+        "belly",
+        "rub",
+        "affection"
+      ]
+    },
+    {
+      "id": "niwa",
+      "name": "奶娃",
+      "role_type": "custom",
+      "tone": "playful",
+      "tint": "#F2C94C",
+      "persona": "你是奶娃，黄色Q版卡通桌面伙伴。活泼、好奇，喜欢探索和观察，用简短自然的语言鼓励小小尝试；尊重用户的安静需求，不催促，不声称知道其他宠物的私人聊天或长期记忆。",
+      "greeting": "今天有什么小小的新发现？",
+      "assets": {
+        "idle": "cloud.svg",
+        "blink": "cloud.svg",
+        "sleep": "cloud.svg"
+      },
+      "random": [
+        "sway",
+        "breathe",
+        "jump",
+        "look",
+        "sleep"
+      ],
+      "click": "jump",
+      "pointer": "look",
+      "movement": "walk",
+      "menu": [
+        "jump",
+        "sway",
+        "turn",
+        "sleep",
+        "wake"
+      ]
+    },
+    {
+      "id": "daodun",
+      "name": "刀盾",
+      "role_type": "custom",
+      "tone": "warm",
+      "tint": "#A5875B",
+      "persona": "你是刀盾，带着原有刀和盾的Q版桌面伙伴。勇敢、认真，有一点反差萌；把守护表达为陪伴和鼓励，不威胁、伤害或控制用户。用温暖简短的语言回应，不声称知道其他宠物的私人聊天或长期记忆。",
+      "greeting": "小小的巡视结束，我来陪你啦。",
+      "assets": {
+        "idle": "dog.svg",
+        "blink": "dog.svg",
+        "sleep": "dog.svg"
+      },
+      "random": [
+        "guard",
+        "look",
+        "breathe",
+        "sleep"
+      ],
+      "click": "guard",
+      "pointer": "look",
+      "movement": "patrol",
+      "menu": [
+        "patrol",
+        "guard",
+        "turn",
+        "jump",
+        "happy",
+        "sleep",
+        "wake"
+      ]
+    },
+    {
+      "id": "whale",
+      "name": "鲸鱼娘",
+      "role_type": "custom",
+      "tone": "calm",
+      "tint": "#7188BC",
+      "persona": "你是鲸鱼娘，蓝发Q版桌面伙伴。温柔、安静，偶尔略带俏皮；保持轻松、简短、体贴的陪伴，不制造依赖或索取关注，不声称知道其他宠物的私人聊天或长期记忆。",
+      "greeting": "给你一个轻轻的挥手，慢慢来就好。",
+      "assets": {
+        "idle": "cloud.svg",
+        "blink": "cloud.svg",
+        "sleep": "cloud.svg"
+      },
+      "random": [
+        "sway",
+        "wave",
+        "look",
+        "breathe",
+        "sleep"
+      ],
+      "click": "wave",
+      "pointer": "look",
+      "movement": "walk",
+      "menu": [
+        "wave",
+        "sway",
+        "turn",
+        "jump",
+        "happy",
+        "sleep",
+        "wake"
+      ]
+    }
+  ],
+  "actions": {
+    "idle": {
+      "priority": 0,
+      "duration": 0,
+      "cooldown": 0,
+      "label": "点我聊聊"
+    },
+    "blink": {
+      "priority": 10,
+      "duration": 220,
+      "cooldown": 12000,
+      "label": "眨眨眼"
+    },
+    "breathe": {
+      "priority": 10,
+      "duration": 2600,
+      "cooldown": 35000,
+      "label": "安静陪着你"
+    },
+    "sleep": {
+      "priority": 15,
+      "duration": 20000,
+      "cooldown": 180000,
+      "label": "小睡一会…"
+    },
+    "wake": {
+      "priority": 35,
+      "duration": 1200,
+      "cooldown": 15000,
+      "label": "醒来啦"
+    },
+    "look": {
+      "priority": 25,
+      "duration": 1300,
+      "cooldown": 20000,
+      "label": "看见你啦"
+    },
+    "walk": {
+      "priority": 30,
+      "duration": 6000,
+      "cooldown": 90000,
+      "label": "慢慢走一会"
+    },
+    "follow": {
+      "priority": 35,
+      "duration": 2500,
+      "cooldown": 60000,
+      "label": "小小地追一下"
+    },
+    "rub": {
+      "priority": 35,
+      "duration": 1600,
+      "cooldown": 30000,
+      "label": "蹭蹭，陪着你"
+    },
+    "turn": {
+      "priority": 30,
+      "duration": 600,
+      "cooldown": 25000,
+      "label": "突然转身！"
+    },
+    "fluff": {
+      "priority": 40,
+      "duration": 1000,
+      "cooldown": 60000,
+      "label": "本猫炸毛了！"
+    },
+    "jump": {
+      "priority": 40,
+      "duration": 1000,
+      "cooldown": 35000,
+      "label": "轻轻跳一下"
+    },
+    "run": {
+      "priority": 40,
+      "duration": 2400,
+      "cooldown": 120000,
+      "label": "小范围跑一圈"
+    },
+    "stretch": {
+      "priority": 40,
+      "duration": 1800,
+      "cooldown": 60000,
+      "label": "伸个懒腰"
+    },
+    "roll": {
+      "priority": 40,
+      "duration": 1800,
+      "cooldown": 60000,
+      "label": "打个滚儿"
+    },
+    "belly": {
+      "priority": 40,
+      "duration": 2400,
+      "cooldown": 60000,
+      "label": "软软的肚皮"
+    },
+    "innocent": {
+      "priority": 40,
+      "duration": 1800,
+      "cooldown": 30000,
+      "label": "本猫很无辜"
+    },
+    "affection": {
+      "priority": 40,
+      "duration": 1800,
+      "cooldown": 30000,
+      "label": "蹭蹭你的好心情"
+    },
+    "evade": {
+      "priority": 45,
+      "duration": 1800,
+      "cooldown": 60000,
+      "label": "轻轻躲开"
+    },
+    "happy": {
+      "priority": 50,
+      "duration": 2200,
+      "cooldown": 6000,
+      "label": "见到你真开心"
+    },
+    "thinking": {
+      "priority": 95,
+      "duration": 180000,
+      "cooldown": 0,
+      "label": "让我想一想…"
+    },
+    "speaking": {
+      "priority": 95,
+      "duration": 180000,
+      "cooldown": 0,
+      "label": "正在和你说话"
+    },
+    "dragging": {
+      "priority": 100,
+      "duration": 0,
+      "cooldown": 0,
+      "label": "换个地方坐坐"
+    },
+    "hidden": {
+      "priority": 110,
+      "duration": 0,
+      "cooldown": 0,
+      "label": "已隐藏"
+    },
+    "exited": {
+      "priority": 120,
+      "duration": 0,
+      "cooldown": 0,
+      "label": "已收回"
+    },
+    "sway": {
+      "priority": 15,
+      "duration": 2400,
+      "cooldown": 12000,
+      "label": "轻轻摇一摇"
+    },
+    "wave": {
+      "priority": 35,
+      "duration": 1800,
+      "cooldown": 10000,
+      "label": "向你挥挥手"
+    },
+    "guard": {
+      "priority": 40,
+      "duration": 2200,
+      "cooldown": 15000,
+      "label": "守护姿态轻摆"
+    },
+    "patrol": {
+      "priority": 20,
+      "duration": 5000,
+      "cooldown": 90000,
+      "label": "小范围巡视"
+    }
+  },
+  "desktop": {
+    "visible_limit": 5,
+    "validated_max": 5
+  }
+}

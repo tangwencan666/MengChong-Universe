@@ -1,0 +1,15 @@
+{
+  "schema": "weibiye-internal-release/1",
+  "channel": "internal-preview",
+  "automaticPublication": false,
+  "automaticUpdates": false,
+  "feedUrl": null,
+  "trustedPublishers": [],
+  "requireAuthenticodeVerification": true,
+  "requireSignedUpdateManifest": true,
+  "automaticDownload": false,
+  "automaticInstallOnQuit": false,
+  "allowDowngrade": false,
+  "diagnosticsEnabledByDefault": false,
+  "uploadCrashDumps": false
+}

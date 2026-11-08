@@ -1,0 +1,309 @@
+{
+  "modified": 30,
+  "added": 20,
+  "removed": [],
+  "files": [
+    {
+      "path": ".env.example",
+      "status": "modified",
+      "beforeSha256": "a1a454ad920b04f8fb8763b681e1154cf247adf5b04fe161a25adba177f69fa9",
+      "afterSha256": "0c0d12f15299620d3acf47b9613a32226f96b811c77cc1d9ef6e24f9b59d224e"
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "beforeSha256": "3f86d16f350edc184bb018efdd5128c932ff2ced831b281ae9eb5ec7a6bffb26",
+      "afterSha256": "ac149379454a2273bd2ed92a8bdad7522005e7d428ef23f98f1dda5e405fed80"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "status": "modified",
+      "beforeSha256": "3ad0c698cbbae0b1a60b8b98e1f06c163981acf8e068c0908d736df4c990d73d",
+      "afterSha256": "bd8fc5758fdeb2977c1f317a9755e772568182d544fe735c1545c7e1144e14cd"
+    },
+    {
+      "path": "backend/app/core/errors.py",
+      "status": "modified",
+      "beforeSha256": "ea235d651a96dbb2b0475df001a0bca938753929555dc47e7640798f1126d0fe",
+      "afterSha256": "f02853a8301576d4aa258ae27909c6ca7f928c5a7ec29343cbeebb64efbafe36"
+    },
+    {
+      "path": "backend/app/core/ownership.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "abc42da548c912b82f65ba0fd4acedabce9c510152514e4c3e4513b2297eedef"
+    },
+    {
+      "path": "backend/app/core/security.py",
+      "status": "modified",
+      "beforeSha256": "063156a24af4000168f2a37acdf0738896b6b3d74c1fba5b5aa0a1999a8af8c4",
+      "afterSha256": "d13e873ed1e4feaed4179b341084ff33c6bf0d5737f1681f5e4df742c1735843"
+    },
+    {
+      "path": "backend/app/db/models.py",
+      "status": "modified",
+      "beforeSha256": "2fc0c53a64c70a27cb2e380701029eeea2b1d1a304b1cc8dcfc34cc6334401c7",
+      "afterSha256": "b9bbbc6699b1a58046973f35601205252955acf5df2b359891db14f6a620c2f6"
+    },
+    {
+      "path": "backend/app/main.py",
+      "status": "modified",
+      "beforeSha256": "1e808323a4f73240063404e1d5fdede5e7e44f328908d2398af6139849e357f2",
+      "afterSha256": "2098ce8ffcee1fe12f0296b52f682416bfbe41e6cb6b746f2f7de80e09e55189"
+    },
+    {
+      "path": "backend/app/modules/applications/router.py",
+      "status": "modified",
+      "beforeSha256": "b42b1d177ffa6dc50fa73297077a2318b3a15069e92091de38115f5c90e45d78",
+      "afterSha256": "6362a40212ba1e9c75a26e8d78224ff9e89b7393ce3bf2b6ab4e8c522b1039a1"
+    },
+    {
+      "path": "backend/app/modules/auth/mail.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "195d6f5455de8679f5e94338f34bbe48df8ff8c214bec0be4f66d8b47a9df4d7"
+    },
+    {
+      "path": "backend/app/modules/auth/models.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "f4bc6451f8cbe130479f1858b3b325f37605300350f5b7d89cdd639b3d6ece5d"
+    },
+    {
+      "path": "backend/app/modules/auth/router.py",
+      "status": "modified",
+      "beforeSha256": "814a3fa96996f740b39bd73a664f7489b0bc06f6a8e3d20627e23e6c653ae133",
+      "afterSha256": "fb572d36fe5ebb8ca21373095f972f3a472f81d2c3afc7530965a51a9d744911"
+    },
+    {
+      "path": "backend/app/modules/auth/schemas.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e1605508d7be682064e32fcca3a507fc1e2789d8534ed29499822d76f3adcb24"
+    },
+    {
+      "path": "backend/app/modules/auth/service.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4f4eabfa09f3c0871fdf75cd1962e135257d70a109bfb69944ee494e5446646d"
+    },
+    {
+      "path": "backend/app/modules/auth/store.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "988484dcad25a1c2377dac94dfa01fb1330356a8b7e83ecdac31e777b8e25e19"
+    },
+    {
+      "path": "backend/app/modules/companion/router.py",
+      "status": "modified",
+      "beforeSha256": "065bc852e347d58410c7e5c1520b1c0360c47ab3fcf25c2f3b55195b1102ce92",
+      "afterSha256": "7fd6abd25fad1de4c05b749ea9e953732e548748a634b76ff6e0315346b14fa6"
+    },
+    {
+      "path": "backend/app/modules/companion/schemas.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "909bba47e5552fd4c581abaa149fed1e1b94386290dfc96b11d401bd47d6039f"
+    },
+    {
+      "path": "backend/app/modules/memory/router.py",
+      "status": "modified",
+      "beforeSha256": "477ba82f62481cb5b8a0aa98d700ebe8ed378b604c517fa174b134e0caa17d34",
+      "afterSha256": "33361035c221dca621da745296da46e12eb48ff1bcbd7d6ccabca4bf0de9c5d9"
+    },
+    {
+      "path": "backend/app/modules/users/models.py",
+      "status": "modified",
+      "beforeSha256": "d657f08404b7a0bce53d64ef59501e32ec5b0db6c516d3146fc8dbeff613e42e",
+      "afterSha256": "8f339020fa30790dc553ee2f71fb2fa5c882adaa2323fd424ef07b5e3a601853"
+    },
+    {
+      "path": "backend/app/modules/users/router.py",
+      "status": "modified",
+      "beforeSha256": "ddfd15e6dd4a79544a57482e1f2ffd58727b54f793b66e56a7294d7b5327e24d",
+      "afterSha256": "4a8821618affe0d8d2c406940a6b245dd92d9b1bb014ee7906c31ff270b626a6"
+    },
+    {
+      "path": "backend/app/modules/wallet/router.py",
+      "status": "modified",
+      "beforeSha256": "fe4d439af4b24edac459eee2491e34dd3d7a72ef03736945f248ee15f361ff65",
+      "afterSha256": "ac14fac112262e9d39a9e63b1d4f88a2b5e66322eee40aa708a240fe91130ab1"
+    },
+    {
+      "path": "backend/migrations/env.py",
+      "status": "modified",
+      "beforeSha256": "e59ebc2d5e89b3ab1961175561ec48d0722c1fe5de1cd5e231243a502cb87f0f",
+      "afterSha256": "484e4e0b747c1a252bb0b8600f4c63d76faa79039b42ea6a5e10f1a5275155ad"
+    },
+    {
+      "path": "backend/migrations/versions/0002_auth_sessions.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "fb559a6a38a619921f05d866c39a1cb2b8d9ebc9dc6c1492890fdb7d0c6e8618"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "status": "modified",
+      "beforeSha256": "f22d66c73574b2bda56ceb3bb50ef319e4b2fd9da30824130220de086a11d593",
+      "afterSha256": "3024d03ea1860dbe0db48165c5b74fba36b7910a35ad52480e871b411f310fd4"
+    },
+    {
+      "path": "backend/scripts/e2e_server.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "1da483aaa9704c52eea8c2f5357479c614fdca78b1865935075dfb80127e6158"
+    },
+    {
+      "path": "backend/scripts/migration_check.py",
+      "status": "modified",
+      "beforeSha256": "ac05c735f8a744851433231a78947fe68fd1118dd60db16af041081054abfa83",
+      "afterSha256": "fd7c8a1d87a09e0a29b788e9d75ae05ff1728216026e549e5c331de6b16bee19"
+    },
+    {
+      "path": "backend/scripts/upgrade_auth.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "ca44dc4fea646eb8c84ee6069f1e2c71609ad9fd999197bbc051f25ba5234c7d"
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "status": "modified",
+      "beforeSha256": "d180c6fc18dd798018c588549f9ee80b2359821273ae884cf3b50929f020e2c2",
+      "afterSha256": "d1e46e0870d2b424250b5a52cc4f7e0f3e8788049bf9604c1ea83b79011fe874"
+    },
+    {
+      "path": "backend/tests/integration/test_auth_postgres.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "25401484919ff0643ff88b8563df28b6fefd88c6b71c97d51c76bdd2d59e0756"
+    },
+    {
+      "path": "backend/tests/integration/test_local_infrastructure.py",
+      "status": "modified",
+      "beforeSha256": "9bfa5a2d305b7b4e65ee0bc564c2e219e84c624c0954db9715247b0634dfdad0",
+      "afterSha256": "5c614f393fd4fd3d969e076ca3bf18c8c7be9d96be4b68034242b0b7ee203aa4"
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "status": "modified",
+      "beforeSha256": "a5447a2441f05b4655f47966d0ce3decf9a73ddec9fb69f7cabaf45dccf8f6d0",
+      "afterSha256": "41c857056ef6529dd8ddc712688166acd6b77484e6f6314cdff0a9b1d38dafa0"
+    },
+    {
+      "path": "backend/tests/test_auth.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "4294834872f007d0884256bb9c9bcdbd15b3fe885d43e511d1d512272e56d616"
+    },
+    {
+      "path": "backend/tests/test_auth_migration.py",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "a254f98a8062443b94076431e834d5bca6c837330f23652cbbb8795c9948335f"
+    },
+    {
+      "path": "backend/tests/test_database.py",
+      "status": "modified",
+      "beforeSha256": "d6f41468609b4488b1a2d6b201d21013240a7229e7ea10035748f036d25e9ddb",
+      "afterSha256": "8550a924ab11765ff4dfb6a4fb296378554e1e024f56af68780311dd7fb7f3a6"
+    },
+    {
+      "path": "backend/uv.lock",
+      "status": "modified",
+      "beforeSha256": "3cf52afd984453c7cb3d69867e50f5bb753d53481ce94cf9d81503ddcfa7a667",
+      "afterSha256": "5aae415aa006f66a91ae3706f8715f79a060616d5df9d353f6d3b7cee15b7548"
+    },
+    {
+      "path": "frontend/e2e/auth.spec.ts",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "85aec15a2d7ea54e8ed06f30beb9a24eb966f1652c2cb275012db5f033acea62"
+    },
+    {
+      "path": "frontend/e2e/chat-layout.spec.ts",
+      "status": "modified",
+      "beforeSha256": "d251278145d91d2f6e80b2cca0a853f613fa31130911be4835e2357241d02629",
+      "afterSha256": "f9fd1b0c9b6bfd7623486c9ac8e5c8a42d795d620ea92a43159addeda7a040e3"
+    },
+    {
+      "path": "frontend/e2e/foundation.spec.ts",
+      "status": "modified",
+      "beforeSha256": "6c2cdc1d894ac3b174344f1700eba35759019ff1ac37a46ef3ee039485f33c8d",
+      "afterSha256": "23f5d77071bb98efc05365d806b888164e1dd780199f6a0b1e611eef3a6658b5"
+    },
+    {
+      "path": "frontend/e2e/helpers/auth.ts",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "84cfdcea834d65dc9783263321a5821be572b994819f51a4d49c347041085779"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "status": "modified",
+      "beforeSha256": "349ef0b89fd96106b7b865d7c55ea0f616c025fd2a12e0035a64761377db7424",
+      "afterSha256": "314badd5088f73809b0019729e4ad6174d3f01ea9234ba6ccd2a06371b3d28d0"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "status": "modified",
+      "beforeSha256": "d395f37c74ff1d920a2369ebf0de9c84039f20b09893d42c07c21de167512322",
+      "afterSha256": "5179bd5eacfb829e5e8ab05bccdb7d671349b5eaa8c5b5178e2bf07dfb558553"
+    },
+    {
+      "path": "frontend/src/chat.css",
+      "status": "modified",
+      "beforeSha256": "33e0a20413cab97a10d09bb02296a25c695c089cf33cf0333da7e0591542a1b1",
+      "afterSha256": "6b4bb0dbc9bdb5dcd177e1e93975de4d7f4391d73895317385a0536e95f7109e"
+    },
+    {
+      "path": "frontend/src/components/layout.tsx",
+      "status": "modified",
+      "beforeSha256": "a6221ca4386ae0eda8dac86ab12753412e051740568f1036a3ec7d3c452f8224",
+      "afterSha256": "67c056c0e93e40972281866bbf0ee2be89290853475a428d83fdc1c1993f0f52"
+    },
+    {
+      "path": "frontend/src/features/auth/AuthProvider.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "7f6f66ca77de999ffbc01c883def93f4913e0a007a629cb577605eaf1edf5a8d"
+    },
+    {
+      "path": "frontend/src/features/auth/RequireAuth.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2f7f07de0d2630e5cbb5835d88a994192fd89ea390b30742452847f3cd54defb"
+    },
+    {
+      "path": "frontend/src/features/auth/context.ts",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "2579dd2f667c067fe8e9a2d3c67cae8584444648fbd9b8133b71175db0045d5b"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "status": "modified",
+      "beforeSha256": "1428e2d8fa6c9e655f2c2f04322eed58a603c1343ed423a60e15011f82dc89db",
+      "afterSha256": "94c7e539bf079b3270d4fb776b3b3e5f89298c7bb9da621093d483ee18050b22"
+    },
+    {
+      "path": "frontend/src/pages/auth.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "e85716d5c5280810a5cb3ba0b60754c6b62f920a223e896833906e6a725fb2c3"
+    },
+    {
+      "path": "frontend/src/pages/sessions.tsx",
+      "status": "added",
+      "beforeSha256": null,
+      "afterSha256": "51bba71d5b7c16e553664047edb8bdc983b75b21915bf6fe9bc482f4db059633"
+    },
+    {
+      "path": "frontend/src/pages/workspace.tsx",
+      "status": "modified",
+      "beforeSha256": "a13707c9d279716be733e8c82b6e2ebf1bd249bc92865f57c200fab8ea5316d7",
+      "afterSha256": "1ae10ba49730e722202ae619044a11df21c5228eb7d0453106c2b8b1fc600165"
+    }
+  ],
+  "generatedEvidence": "docs/AUTH_VERIFICATION.md and docs/auth/ are listed separately",
+  "baselineNote": "141 files hashed at P2 start. Historical migration final-manifest excludes itself; it already existed and is not a P2 addition."
+}

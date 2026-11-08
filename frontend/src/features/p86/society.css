@@ -1,0 +1,8 @@
+.p86-society summary { cursor:pointer; padding:.6rem 0; font-weight:600; }
+.p86-society details { border-top:1px solid #dee5df; margin-top:.75rem; }
+.p86-controls { display:flex; flex-wrap:wrap; gap:.5rem; margin:.6rem 0; }
+.p86-pets { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:.8rem; }
+.p86-pets section,.p86-events article { padding:.8rem; border:1px solid #dce4de; border-radius:12px; }
+.p86-needs { display:grid; grid-template-columns:1fr 1fr; gap:.5rem; font-size:.85rem; }
+.p86-needs meter { max-width:65px; }
+.p86-events { max-height:400px; overflow:auto; display:grid; gap:.6rem; }

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "origin": "Original geometric artwork authored for WeiBiYe P6; no third-party character artwork",
+  "ownership": "Project-controlled original assets; public distribution license remains to be selected by the project owner",
+  "assets": {
+    "cat": { "file": "cat.svg", "role_type": "cat" },
+    "dog": { "file": "dog.svg", "role_type": "dog" },
+    "cloud": { "file": "cloud.svg", "role_type": "custom" },
+    "tray": { "file": "tray.png", "purpose": "native system tray" }
+  },
+  "fallback_asset_id": "cloud",
+  "live2d": { "implemented": false, "status": "NOT_IMPLEMENTED", "loads_sdk_or_models": false }
+}

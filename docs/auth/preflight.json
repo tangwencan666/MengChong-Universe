@@ -1,0 +1,27 @@
+{
+  "identity": [
+    "weibiye",
+    "weibiye",
+    "7703042374370492450"
+  ],
+  "revision": "0001",
+  "rowCounts": {
+    "ai_companions": 0,
+    "chat_messages": 0,
+    "chat_sessions": 0,
+    "comments": 0,
+    "job_applications": 0,
+    "memories": 0,
+    "moderation_actions": 0,
+    "post_likes": 0,
+    "posts": 0,
+    "reports": 0,
+    "usage_records": 0,
+    "users": 0,
+    "wallet_reservations": 0,
+    "wallet_transactions": 0,
+    "wallets": 0
+  },
+  "redisPing": true,
+  "unexpectedState": false
+}

@@ -1,0 +1,18 @@
+# Explicit local override: use with compose.yaml and --project-name weibiye.
+# Start only the postgres and redis services for infrastructure verification.
+services:
+  postgres:
+    ports: !override
+      - "127.0.0.1:25433:5432"
+    mem_limit: 512m
+    cpus: 1.0
+  redis:
+    ports: !override
+      - "127.0.0.1:26380:6379"
+    mem_limit: 128m
+    cpus: 0.5
+networks:
+  default:
+    ipam:
+      config:
+        - subnet: 10.253.77.0/28

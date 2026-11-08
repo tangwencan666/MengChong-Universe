@@ -1,0 +1,1191 @@
+{
+  "algorithm": "SHA-256",
+  "fileCount": 236,
+  "baselineCommit": "967d68b2de25c48cac98b1f6e8b36bd924646d4b",
+  "excludes": [
+    "docs/p25/final-files.json (self-reference)",
+    ".git and ignored secrets/dependencies/caches/build outputs"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "size": 1096,
+      "sha256": "90d17490099a69ec0ad2fb90a6611b19920cc031561be569fb00cafaba78eba9"
+    },
+    {
+      "path": ".gitattributes",
+      "size": 259,
+      "sha256": "03761ea77cbed782c3f662b262dbf4ebc12f0190cc7817c4c016ee7fa0d3ad5c"
+    },
+    {
+      "path": ".github/workflows/weibiye-ci.yml",
+      "size": 2330,
+      "sha256": "9408289a3e52cd80bbed7c2f012c3610191c577401ed756233f3bfa88abc4b9e"
+    },
+    {
+      "path": ".gitignore",
+      "size": 342,
+      "sha256": "7bdd09741f5d13a771cc519b96cf7cd2f3300edb1f783c9870286c1334674c76"
+    },
+    {
+      "path": "README.md",
+      "size": 13948,
+      "sha256": "5f41b6e3ab2788d25cf97e62712ebd5bc1d9bd5981c4ff3236f3bd355fe8785b"
+    },
+    {
+      "path": "backend/.dockerignore",
+      "size": 70,
+      "sha256": "8b798dc84dcd57a79f75d1e2c3f27365128513aa434d11d161fa5ac35c70c629"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "size": 497,
+      "sha256": "9eda8859ec198954df9ffc8af4bae65807c370d8683b1a89b6b02b7f1f7dade4"
+    },
+    {
+      "path": "backend/alembic.ini",
+      "size": 96,
+      "sha256": "4be35c86b24192bde1327811488c4fcbc1f446b8c1e688fbbcba8f27640a252b"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "size": 76,
+      "sha256": "5b6ec85793f20162c145d439e080720ecfcb20ab66110ad470bb2c41f3851449"
+    },
+    {
+      "path": "backend/app/agent/__init__.py",
+      "size": 77,
+      "sha256": "7573c64eed29219883b7360571327b816f162726ef56be65ae6863b565d77e9d"
+    },
+    {
+      "path": "backend/app/agent/graph.py",
+      "size": 1034,
+      "sha256": "7d7b00aea4f452cb380c25720a2e5d3882d3ce97d6a73f319c5c706cca7ae990"
+    },
+    {
+      "path": "backend/app/agent/ports.py",
+      "size": 569,
+      "sha256": "042081c99c92c601e025fb24c896f0563688edb006793c83a8da56eb5bcaedc9"
+    },
+    {
+      "path": "backend/app/agent/prompts.py",
+      "size": 533,
+      "sha256": "bca06248aa3596e0c55da9c5927e0c09bd47c2dd789ac224de594861dc92db4d"
+    },
+    {
+      "path": "backend/app/agent/providers.py",
+      "size": 2730,
+      "sha256": "a2d3f7274b9b2ae7ecf1a81619facd7697629796e263289999e96f8fe7543cae"
+    },
+    {
+      "path": "backend/app/agent/sse.py",
+      "size": 1562,
+      "sha256": "61efe5ef25f77a269965752768e81ca27f75b9aa87c00abd874a75c24c3d2e66"
+    },
+    {
+      "path": "backend/app/agent/state.py",
+      "size": 267,
+      "sha256": "fd27a9edba23b7f0670800a6840a539030a4b0a18ccb65eedb3b6b4ae4b58c0b"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "size": 31,
+      "sha256": "fc78e4e891efc1b24ea156ae78e09f7189feda49f71b3f7f5899dbfedd28cf11"
+    },
+    {
+      "path": "backend/app/api/health.py",
+      "size": 848,
+      "sha256": "dd2c68695dd05f745056cc4280b1e6d6363119fd18192b29cfb2110d14f2121f"
+    },
+    {
+      "path": "backend/app/api/router.py",
+      "size": 775,
+      "sha256": "8ee3a32ebca8e73cdd25aaa1efb62951fef32fe1520da9b352af4906bdfa56b9"
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "size": 67,
+      "sha256": "9e1657a2d12c8baf0e8b1acc8aef074697bfbfa71450d641dcbe55b4f37327fb"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "size": 4051,
+      "sha256": "7179ced37d10db2631b8a85cab0e513754c6feee22e9fa06da2b792ba065ba02"
+    },
+    {
+      "path": "backend/app/core/errors.py",
+      "size": 2290,
+      "sha256": "f02853a8301576d4aa258ae27909c6ca7f928c5a7ec29343cbeebb64efbafe36"
+    },
+    {
+      "path": "backend/app/core/event_loop.py",
+      "size": 470,
+      "sha256": "e4fd38410126e242e7c37f2508a2e2794dd98cc204ef625974a1cae47993e4c4"
+    },
+    {
+      "path": "backend/app/core/logging.py",
+      "size": 1034,
+      "sha256": "cac2ea8fffdaa01837340b5e737230fc0635ffa6df0411b866b00a6908c1827a"
+    },
+    {
+      "path": "backend/app/core/middleware.py",
+      "size": 1607,
+      "sha256": "54c5ae1e99fa852ebc31de895b18f38faf26851e07e8a8f1f558385bf4ab5e2e"
+    },
+    {
+      "path": "backend/app/core/ownership.py",
+      "size": 1094,
+      "sha256": "abc42da548c912b82f65ba0fd4acedabce9c510152514e4c3e4513b2297eedef"
+    },
+    {
+      "path": "backend/app/core/rate_limit.py",
+      "size": 1766,
+      "sha256": "719f033a524b9044e171ad4375d6caa0a22260ce110a175f0a2da380c4ca28b5"
+    },
+    {
+      "path": "backend/app/core/security.py",
+      "size": 1221,
+      "sha256": "d13e873ed1e4feaed4179b341084ff33c6bf0d5737f1681f5e4df742c1735843"
+    },
+    {
+      "path": "backend/app/db/__init__.py",
+      "size": 49,
+      "sha256": "54f1e16e79406608b17c1ca25b6059f88762ad0b59cc37a9bf5541524404048a"
+    },
+    {
+      "path": "backend/app/db/base.py",
+      "size": 896,
+      "sha256": "cb027267508f7fb73cc950fdc1bc5653e2a4f0660cc68f7c19d2f68bfc7a59ca"
+    },
+    {
+      "path": "backend/app/db/models.py",
+      "size": 609,
+      "sha256": "f4546d95376817eda7f77f5c4e003cf5337dfeff1b4821f052574846963d84d7"
+    },
+    {
+      "path": "backend/app/db/session.py",
+      "size": 710,
+      "sha256": "1ae611017098dd729700d54eeec6aca05376deffa9e5cca599d81514e6912c13"
+    },
+    {
+      "path": "backend/app/main.py",
+      "size": 3014,
+      "sha256": "12a36b1c8a56c091cc7792763e96ddb9057f0174364ce1e59ea6358ef9adf227"
+    },
+    {
+      "path": "backend/app/modules/__init__.py",
+      "size": 66,
+      "sha256": "0f67ec50eef487bb2735ff1bdd753a61ac62fa6a4fc7ccc16a8fbc69c0cf1785"
+    },
+    {
+      "path": "backend/app/modules/admin/__init__.py",
+      "size": 65,
+      "sha256": "68726090145652196e31f91b9aa2836e6f871aed154ad8b8bad6f04560581ea1"
+    },
+    {
+      "path": "backend/app/modules/admin/router.py",
+      "size": 344,
+      "sha256": "37d5bfeaa4d0143250080bbdd5030144f363a7d9d3a9518aa5ff122aab276546"
+    },
+    {
+      "path": "backend/app/modules/applications/__init__.py",
+      "size": 40,
+      "sha256": "2f6fe3973e3141f947fff9f71351ed3f4b591300eb9e1655a08f58cb3783523a"
+    },
+    {
+      "path": "backend/app/modules/applications/models.py",
+      "size": 910,
+      "sha256": "61bc505824ef38bd220833af9fe16f2a4821759b8295113ff5ad679db93dfb8e"
+    },
+    {
+      "path": "backend/app/modules/applications/router.py",
+      "size": 1061,
+      "sha256": "6362a40212ba1e9c75a26e8d78224ff9e89b7393ce3bf2b6ab4e8c522b1039a1"
+    },
+    {
+      "path": "backend/app/modules/auth/__init__.py",
+      "size": 79,
+      "sha256": "c04d12237a90709c9036f56f98ca4d5cdb5249ecad9675ea3d31f9bce89272d2"
+    },
+    {
+      "path": "backend/app/modules/auth/mail.py",
+      "size": 3961,
+      "sha256": "e762a9e092581cc25fd7f69031f156198c7f1e9bebc2a0af4afbb47c22d5f2b3"
+    },
+    {
+      "path": "backend/app/modules/auth/mock_mailbox.py",
+      "size": 1172,
+      "sha256": "7fed9eab710a1fc3b51ed9090ebc061262ad6e6bb0f2e41ed9b0568bf609d6ae"
+    },
+    {
+      "path": "backend/app/modules/auth/models.py",
+      "size": 1865,
+      "sha256": "5d968218b7d7df00d632155a75de1f125586a53d41c2f0916ded92b932f1aac8"
+    },
+    {
+      "path": "backend/app/modules/auth/recovery.py",
+      "size": 6274,
+      "sha256": "4077187287ffe9ea140b3cd6cadcdfde78252398eff6a62c0ea1e8a46e339ea0"
+    },
+    {
+      "path": "backend/app/modules/auth/router.py",
+      "size": 4646,
+      "sha256": "df4ecbd1b29ae86833faafd4c41021aa725f63db9f3f18e727e69c07d831459c"
+    },
+    {
+      "path": "backend/app/modules/auth/schemas.py",
+      "size": 2385,
+      "sha256": "ce4c37cb43f19de4b3d4f8fa49ce5b14b47903d4bf5ed18695e010e571552a49"
+    },
+    {
+      "path": "backend/app/modules/auth/service.py",
+      "size": 12345,
+      "sha256": "eaee3830f4cb8957928d272e92f41ec4069efc0fdaf055842ed3c97aa53cc59d"
+    },
+    {
+      "path": "backend/app/modules/auth/store.py",
+      "size": 2293,
+      "sha256": "988484dcad25a1c2377dac94dfa01fb1330356a8b7e83ecdac31e777b8e25e19"
+    },
+    {
+      "path": "backend/app/modules/community/__init__.py",
+      "size": 70,
+      "sha256": "08301c715f37ec0cf04f16ca54d0f0a07a4652e7c438d539fa39ee2ab12d05f5"
+    },
+    {
+      "path": "backend/app/modules/community/models.py",
+      "size": 2810,
+      "sha256": "93e65d8f58c18058f6a02d234c969fe3e2ff01adb44602e2ab8ee877d561446e"
+    },
+    {
+      "path": "backend/app/modules/community/router.py",
+      "size": 977,
+      "sha256": "f47c7fe1e9118ae840070bde2169cea6ad19242bb5ab052fc0063fdcdff320bd"
+    },
+    {
+      "path": "backend/app/modules/community/schemas.py",
+      "size": 563,
+      "sha256": "963cc75646a8a060aa8385703b76211dd5987be94c91de849d8a02d4bc57a66e"
+    },
+    {
+      "path": "backend/app/modules/companion/__init__.py",
+      "size": 78,
+      "sha256": "3254515b3e4492623f49cabf72cb2c44387b3d07d2b738df2bcd1fa80d2134f0"
+    },
+    {
+      "path": "backend/app/modules/companion/models.py",
+      "size": 2189,
+      "sha256": "169a53232cd7e79dcc029cb76e86be6bd29cbc9ef89d32d88306aef6ff439c3f"
+    },
+    {
+      "path": "backend/app/modules/companion/router.py",
+      "size": 3518,
+      "sha256": "7fd6abd25fad1de4c05b749ea9e953732e548748a634b76ff6e0315346b14fa6"
+    },
+    {
+      "path": "backend/app/modules/companion/schemas.py",
+      "size": 561,
+      "sha256": "909bba47e5552fd4c581abaa149fed1e1b94386290dfc96b11d401bd47d6039f"
+    },
+    {
+      "path": "backend/app/modules/memory/__init__.py",
+      "size": 66,
+      "sha256": "a2694fb96bd6ee0159b33ca6319a7e9740da37d39f7c55ad2e80c578e6d46a5d"
+    },
+    {
+      "path": "backend/app/modules/memory/models.py",
+      "size": 1091,
+      "sha256": "cceb51b510e414a58c2f5c4b046e32baa90ab8670c0e593586f68415c4e91c18"
+    },
+    {
+      "path": "backend/app/modules/memory/ports.py",
+      "size": 688,
+      "sha256": "d0270bc546b81427293a5729f8df812be58a0fe68666eb898f7b99f592aa431e"
+    },
+    {
+      "path": "backend/app/modules/memory/router.py",
+      "size": 1110,
+      "sha256": "33361035c221dca621da745296da46e12eb48ff1bcbd7d6ccabca4bf0de9c5d9"
+    },
+    {
+      "path": "backend/app/modules/moderation/__init__.py",
+      "size": 75,
+      "sha256": "0d53205c3abc694dbc694df98503253dd7830c135a0205163f28111d0781abb3"
+    },
+    {
+      "path": "backend/app/modules/moderation/models.py",
+      "size": 722,
+      "sha256": "dd4fed81d276bccb1d948491084929388c123893629c995d7e74ff026fd49ac3"
+    },
+    {
+      "path": "backend/app/modules/moderation/ports.py",
+      "size": 689,
+      "sha256": "6b2dbd26cc71498aff5df6d8340dfd7523f4896ad43bc138aeef29bb8efd06a0"
+    },
+    {
+      "path": "backend/app/modules/moderation/router.py",
+      "size": 400,
+      "sha256": "7f46832500e552537cc1c6ed797635aae138a40f621624d5703526ad4efe4f87"
+    },
+    {
+      "path": "backend/app/modules/users/__init__.py",
+      "size": 51,
+      "sha256": "fe615a1f60417365af5412b8cecfc12837eddd626a9e0780a7d59cb0277bb0a5"
+    },
+    {
+      "path": "backend/app/modules/users/models.py",
+      "size": 920,
+      "sha256": "8f339020fa30790dc553ee2f71fb2fa5c882adaa2323fd424ef07b5e3a601853"
+    },
+    {
+      "path": "backend/app/modules/users/router.py",
+      "size": 459,
+      "sha256": "4a8821618affe0d8d2c406940a6b245dd92d9b1bb014ee7906c31ff270b626a6"
+    },
+    {
+      "path": "backend/app/modules/wallet/__init__.py",
+      "size": 78,
+      "sha256": "8c7b1d140305391505327e624764e0bfbb1b59e73f2ba3b5a7aa83359e64faac"
+    },
+    {
+      "path": "backend/app/modules/wallet/models.py",
+      "size": 4822,
+      "sha256": "1c87edfa3eb6575f220ee369281a886d7c4e0918faae9bd3392fcedcd7bbd671"
+    },
+    {
+      "path": "backend/app/modules/wallet/router.py",
+      "size": 2254,
+      "sha256": "ac14fac112262e9d39a9e63b1d4f88a2b5e66322eee40aa708a240fe91130ab1"
+    },
+    {
+      "path": "backend/app/modules/wallet/service.py",
+      "size": 1660,
+      "sha256": "59df1a492ea4611c1b38dc11dbda93d35b0ed70dc9dd2996957e9ad67e8eb2ec"
+    },
+    {
+      "path": "backend/migrations/env.py",
+      "size": 1313,
+      "sha256": "484e4e0b747c1a252bb0b8600f4c63d76faa79039b42ea6a5e10f1a5275155ad"
+    },
+    {
+      "path": "backend/migrations/script.py.mako",
+      "size": 551,
+      "sha256": "34d6b7b9f64100da1c2854833cdb20f53cf0ea6c7500f0953ad3cf02b5857976"
+    },
+    {
+      "path": "backend/migrations/versions/0001_initial_schema.py",
+      "size": 27036,
+      "sha256": "17b1e0c9c700636db84a1d4b4f9dbef51cb7f57023fa0385d5659b3452de5660"
+    },
+    {
+      "path": "backend/migrations/versions/0002_auth_sessions.py",
+      "size": 2954,
+      "sha256": "fb559a6a38a619921f05d866c39a1cb2b8d9ebc9dc6c1492890fdb7d0c6e8618"
+    },
+    {
+      "path": "backend/migrations/versions/0003_password_recovery.py",
+      "size": 1568,
+      "sha256": "2a33c7c89f1c9efca39a88f1ace3d1a6b5c21b6dd8cce9bb5232786e8651af29"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "size": 1053,
+      "sha256": "3024d03ea1860dbe0db48165c5b74fba36b7910a35ad52480e871b411f310fd4"
+    },
+    {
+      "path": "backend/scripts/e2e_server.py",
+      "size": 1436,
+      "sha256": "a9662a955196fe317f40fe4db27d5f319a54d7b39d19109f8ec1272c39d5bc36"
+    },
+    {
+      "path": "backend/scripts/integration_check.py",
+      "size": 1409,
+      "sha256": "0d46f9d609a1e5d9b5c1cf5dd8827f66b6dcde9cd232d4955b93d2a60ba7b3b9"
+    },
+    {
+      "path": "backend/scripts/migration_check.py",
+      "size": 7330,
+      "sha256": "028658626556870e6502304178c5bad21402329c80484ad11a01c79058989d6b"
+    },
+    {
+      "path": "backend/scripts/mock_mailbox.py",
+      "size": 1600,
+      "sha256": "03308a07e4abfa960d161190e5f1904f99e5f61c90933a3801e25a5c76acb9ec"
+    },
+    {
+      "path": "backend/scripts/upgrade_auth.py",
+      "size": 4534,
+      "sha256": "ca44dc4fea646eb8c84ee6069f1e2c71609ad9fd999197bbc051f25ba5234c7d"
+    },
+    {
+      "path": "backend/scripts/upgrade_recovery.py",
+      "size": 4194,
+      "sha256": "36b3d88e27a7f6c7339ffd5540f9b3d4fbc4baaa274269807e213dac4cfe2621"
+    },
+    {
+      "path": "backend/tests/auth_helpers.py",
+      "size": 674,
+      "sha256": "1928c9270621ad7877f7ff15fa33ba83c40076db037a4fc9424cc055984fedbb"
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "size": 1947,
+      "sha256": "e439ff6b4a70fc752d5522939c9bbe40de5849df1feaa1d2f2add0354f693ec7"
+    },
+    {
+      "path": "backend/tests/integration/test_auth_postgres.py",
+      "size": 9073,
+      "sha256": "ecebef453f63ba8c732d2a2bbd417f849628b0c531fdf0ea47761fc85442fae2"
+    },
+    {
+      "path": "backend/tests/integration/test_local_infrastructure.py",
+      "size": 12579,
+      "sha256": "73f7938bab36c68b8dd769b83acb89287128c023cf1d07796e2207723d6834dd"
+    },
+    {
+      "path": "backend/tests/test_agent_security.py",
+      "size": 2911,
+      "sha256": "0bd417828427e25a745f004be53706f37c0a0d1fc5aef8609f6d9769243a82c1"
+    },
+    {
+      "path": "backend/tests/test_api.py",
+      "size": 7159,
+      "sha256": "41c857056ef6529dd8ddc712688166acd6b77484e6f6314cdff0a9b1d38dafa0"
+    },
+    {
+      "path": "backend/tests/test_auth.py",
+      "size": 18172,
+      "sha256": "76ebf51d816fa2d8ee6c77d85383dce5e4b260a2b2aad1711e8f487cf05d1926"
+    },
+    {
+      "path": "backend/tests/test_auth_migration.py",
+      "size": 3788,
+      "sha256": "b246864b96ba0f04976306ac87445646b2c252620f7f40e3d5bc4c8765297622"
+    },
+    {
+      "path": "backend/tests/test_database.py",
+      "size": 9170,
+      "sha256": "8cf48551e7f51cc1d04593797303d06b51177594aea9a0dc391293b64d3f93f7"
+    },
+    {
+      "path": "backend/tests/test_engineering.py",
+      "size": 2068,
+      "sha256": "32def9eefe70bc36fd46ae21fd9a6dd43f4264be12d10c883a436f1c6219756a"
+    },
+    {
+      "path": "backend/tests/test_recovery.py",
+      "size": 13209,
+      "sha256": "bb9dced4fce78cff2e7e693381463dbeb386698ecfb0e2b91d8d87e3a9653cf6"
+    },
+    {
+      "path": "backend/uv.lock",
+      "size": 363307,
+      "sha256": "5aae415aa006f66a91ae3706f8715f79a060616d5df9d353f6d3b7cee15b7548"
+    },
+    {
+      "path": "compose.local-infra.yaml",
+      "size": 436,
+      "sha256": "eedcae0a1b777d47057b441b36dbdff0d1d342dbec8c26c61d6a687b31bd2e5a"
+    },
+    {
+      "path": "compose.yaml",
+      "size": 1932,
+      "sha256": "012e4d52c1b9113f72e2ace15a6f25d8667df37eda2302bebf9ea6ef091e5fe6"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "size": 9231,
+      "sha256": "e390678d631f6e714800063a4dc1f8ac99e85feebbd6eb44d2a01cabad195ebb"
+    },
+    {
+      "path": "docs/AUTH_VERIFICATION.md",
+      "size": 15344,
+      "sha256": "f78f4d8270d71f2458c7740ca771bad4687ae97135c9b69132fe7cb051a4cbd0"
+    },
+    {
+      "path": "docs/MIGRATION_REPORT.md",
+      "size": 12747,
+      "sha256": "669d56dcdaadeef1ad377a777f16baaf295f341d04d3f0a645906890be30a1dd"
+    },
+    {
+      "path": "docs/P25_AUTH_VERIFICATION.md",
+      "size": 10723,
+      "sha256": "76875ef6d6778cf681649c82c4c64312e2c306c48aea4249fb04edf6203e1989"
+    },
+    {
+      "path": "docs/P2_BASELINE_REVIEW.md",
+      "size": 2520,
+      "sha256": "acd43b8b674221911a537669f2ba6bd818638cd1e34e63e8f2e5943fe5b85def"
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "size": 21529,
+      "sha256": "80e145098b219ce119c1fd1e57582222964945cef486adeafcbc3e5898ccc352"
+    },
+    {
+      "path": "docs/auth/CHANGES.md",
+      "size": 2727,
+      "sha256": "6395cfa4d01140685c8cfdde45cebb2e60525f2017e92f838e6a385e030d6144"
+    },
+    {
+      "path": "docs/auth/backend-final.xml",
+      "size": 12969,
+      "sha256": "d41c4e144698c25c882a73da1d46fe5de62b3edb0a318f795818749567e477f1"
+    },
+    {
+      "path": "docs/auth/browser-polish.xml",
+      "size": 1317,
+      "sha256": "43e76ede9af9173d20ad11cc4dccb5b605b0fee624d73c1c8afa5d741324e2f6"
+    },
+    {
+      "path": "docs/auth/browser-return.xml",
+      "size": 386,
+      "sha256": "b0825784760c6d14ff1b7e0d1d75b19e375e4e97b9691110b851281d06bd701d"
+    },
+    {
+      "path": "docs/auth/browser.xml",
+      "size": 6686,
+      "sha256": "6b3f5c26695c6e7d29fb4d2898df24d6ccbc6fcb4c6a90b4bf189d3feefceec4"
+    },
+    {
+      "path": "docs/auth/changes.json",
+      "size": 12709,
+      "sha256": "a65ea60b78d4d2c1fde190a3ae2a5459efeaad1d383f2fe886db281490ff1826"
+    },
+    {
+      "path": "docs/auth/containers-final.json",
+      "size": 3255,
+      "sha256": "a24483260480fc63014c02657064861b79e4d4143c4a1f227be8ce064558d7a9"
+    },
+    {
+      "path": "docs/auth/final-files.json",
+      "size": 33872,
+      "sha256": "b0d4933f452ec409845a7a86f1d10d6d59c51d91c4802086d651c76ae5209781"
+    },
+    {
+      "path": "docs/auth/git-state.json",
+      "size": 7610,
+      "sha256": "aee83d5fd8ca0a76c15541d54d2e51531c7241a3936c195a4e66032675aafc0d"
+    },
+    {
+      "path": "docs/auth/migration.json",
+      "size": 1040,
+      "sha256": "f6f2c1850131ec1c39298b83bdf912a7b0b682c2c3250f4727db281606951397"
+    },
+    {
+      "path": "docs/auth/postgres-acceptance.json",
+      "size": 986,
+      "sha256": "7dcfc85fcf18dd83ecf7544944856feda6a27cea7c6b3f6ae66978cd47f990b6"
+    },
+    {
+      "path": "docs/auth/postgres.xml",
+      "size": 381,
+      "sha256": "d7df34f7b97095f9a502324f00a394097f7bc97df79dce38bf1ccc47f292f23c"
+    },
+    {
+      "path": "docs/auth/preflight.json",
+      "size": 536,
+      "sha256": "3d67f4ae46396c155c0e19fd26e6cef689d409f35b5ad2634b568498aba67ea3"
+    },
+    {
+      "path": "docs/auth/protected-files.json",
+      "size": 971,
+      "sha256": "73c05a825ffd571b35879d85fe5b1b4ec2174158f2f3bbbf2c56d87e46c131c6"
+    },
+    {
+      "path": "docs/auth/results.json",
+      "size": 1421,
+      "sha256": "2a78678bcc2c8c3d6b66616cd26b44a91045c9e46caf523947980754b76a0419"
+    },
+    {
+      "path": "docs/auth/screenshots/chat-mobile.png",
+      "size": 25968,
+      "sha256": "665a38983c4c3247dc018ef653d0564a713f67859e1a7a1cf6c808519d6ec5e7"
+    },
+    {
+      "path": "docs/auth/screenshots/profile-desktop.png",
+      "size": 48780,
+      "sha256": "271202f9f7a3ec51065ca8554ab2b0077a2a23c5d1da5f730847c46696d516ec"
+    },
+    {
+      "path": "docs/auth/screenshots/profile-mobile.png",
+      "size": 26116,
+      "sha256": "67f45cc6b62966f7cbb3d418a14145570aacf86af1ba8ec4a812f1541d495172"
+    },
+    {
+      "path": "docs/auth/screenshots/recent-topic-card-desktop.png",
+      "size": 78261,
+      "sha256": "727133c142d451a01ebcff7a0b6871c9adec6dc6234344be6703e7bc2fa771b2"
+    },
+    {
+      "path": "docs/auth/screenshots/recent-topic-card-mobile.png",
+      "size": 41685,
+      "sha256": "56c5e92b505a3719e23c615059520edc086a30acecbf7b8c25c16649c8710e49"
+    },
+    {
+      "path": "docs/auth/screenshots/register-mobile.png",
+      "size": 33625,
+      "sha256": "3bd831de4e394d6b8dbcd44c11346f24a08331e061c3c415198d10cc96f8ac98"
+    },
+    {
+      "path": "docs/auth/validation-output/backend-final.txt",
+      "size": 194,
+      "sha256": "7ea444b85905aaa91594f31469d5c07fe0c435397883c91cc710b5ac148f813b"
+    },
+    {
+      "path": "docs/auth/validation-output/browser-final.txt",
+      "size": 33092,
+      "sha256": "6e5d8aebdbb5fe4f9d41be355a9af4d0991111ff0b8c0429a4372ee588027612"
+    },
+    {
+      "path": "docs/auth/validation-output/browser-initial.txt",
+      "size": 32291,
+      "sha256": "686da00a6463efc65290b756c99dc87684af6519d6ca1e56c452b0f33a48eca5"
+    },
+    {
+      "path": "docs/auth/validation-output/browser-polish.txt",
+      "size": 15367,
+      "sha256": "a77caad2283c2131947a9e2abd1959c46d7c1a7a7d9c713e09c1c0a941185563"
+    },
+    {
+      "path": "docs/auth/validation-output/browser-return.txt",
+      "size": 2460,
+      "sha256": "7f025591dd38232076cabbb17d700ca86887c29e3eea27466b098cc98e40b223"
+    },
+    {
+      "path": "docs/auth/validation-output/dependency-install.txt",
+      "size": 473,
+      "sha256": "5ad9623a1039d1f065c9e3132655231a0e6b76548aa6ed5b681c6d64f4919004"
+    },
+    {
+      "path": "docs/auth/validation-output/eslint.txt",
+      "size": 64,
+      "sha256": "c26c81b2c2293470d9803bef45ceacf1c3de2b225032dd165f454da8fc382a64"
+    },
+    {
+      "path": "docs/auth/validation-output/frontend-build.txt",
+      "size": 421,
+      "sha256": "c3b1161cd94f1da23eaee45828a2e31a07d63136f95eae975661ac25c3b3cb0a"
+    },
+    {
+      "path": "docs/auth/validation-output/migration.txt",
+      "size": 874,
+      "sha256": "0ebd61ccb86d0e1be3d3e42b406d5079377a2885ea21c7437f19f6bfbbd7eb4e"
+    },
+    {
+      "path": "docs/auth/validation-output/readiness.txt",
+      "size": 926,
+      "sha256": "3f9af84bc863d752e993fd7defbcab01dd1a2ed25328e2089af72d6f78ef8849"
+    },
+    {
+      "path": "docs/auth/validation-output/ruff-format.txt",
+      "size": 28,
+      "sha256": "a54cdfa201963fa8616d793e8ebf6b8bde9c7f5f5006a9f54593c0d876736117"
+    },
+    {
+      "path": "docs/auth/validation-output/ruff.txt",
+      "size": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "path": "docs/auth/validation-output/typecheck.txt",
+      "size": 65,
+      "sha256": "cc401744482c8016956821e5aa6a37899377b47fd15f9d3063fc0c5393d79e07"
+    },
+    {
+      "path": "docs/migration/PREVIOUS_FRONTEND_VERIFICATION.md",
+      "size": 9634,
+      "sha256": "aa611fc1bcf68a8ea4f9befed410f42dae75bc02331a60e4b1a0c86ea6fe7984"
+    },
+    {
+      "path": "docs/migration/authorized-target-changes.json",
+      "size": 2472,
+      "sha256": "c4fbdf743141276a12cb4be3ed29b84a5ab050ad8cbed54e03f979c76ed6185c"
+    },
+    {
+      "path": "docs/migration/backend-pytest.xml",
+      "size": 8894,
+      "sha256": "910cf7cbff3f3218434b6e2b1175ff27ce48b9e51617b8619ad5650753ae0dc3"
+    },
+    {
+      "path": "docs/migration/compose-validation.json",
+      "size": 853,
+      "sha256": "a433d1ec0e5f02aedcbf02f618a76e10f3ef5f37a69bf4f3d6368f8fc2fa69b6"
+    },
+    {
+      "path": "docs/migration/copy-checksums.json",
+      "size": 36329,
+      "sha256": "cb1712aa88fd16f3ee52fcc15923b2f6d578c82bb8a7be62d9c96ec7a9d81aae"
+    },
+    {
+      "path": "docs/migration/docker-after.json",
+      "size": 3255,
+      "sha256": "a24483260480fc63014c02657064861b79e4d4143c4a1f227be8ce064558d7a9"
+    },
+    {
+      "path": "docs/migration/docker-before.json",
+      "size": 3255,
+      "sha256": "a24483260480fc63014c02657064861b79e4d4143c4a1f227be8ce064558d7a9"
+    },
+    {
+      "path": "docs/migration/final-manifest.json",
+      "size": 24332,
+      "sha256": "c6dfcc8414fe7820987a8f315b78693e511489cd223d438f005d700958333354"
+    },
+    {
+      "path": "docs/migration/frontend-e2e.xml",
+      "size": 5313,
+      "sha256": "85b1caac636149b2f340db146d7cfd6ffc9b65947c4f6d6192fa291071dec0d2"
+    },
+    {
+      "path": "docs/migration/git-state.json",
+      "size": 5491,
+      "sha256": "6cf44c35e2652f421348eb33e7d50a6b5d0f05057dc4b85a2416f7ace27f4bf8"
+    },
+    {
+      "path": "docs/migration/infrastructure-readonly.json",
+      "size": 641,
+      "sha256": "672092f62ea6b91f9e0f2dabe5f0365eb4eb5cdb8b0d2d71f70abae0aabaf9ea"
+    },
+    {
+      "path": "docs/migration/local-startup.json",
+      "size": 786,
+      "sha256": "1ec006e339aa64c0361582904471e141b2c8bfc2c202ef6c91d2298f71e5c7fd"
+    },
+    {
+      "path": "docs/migration/parent-before.json",
+      "size": 100230,
+      "sha256": "cb8c3fe570fd10ac5e1f559740ba124feac6261367deb0746dc5b881417754e4"
+    },
+    {
+      "path": "docs/migration/screenshots/recent-topic-card-desktop.png",
+      "size": 78266,
+      "sha256": "a73c67a7f667ad6d5cd316e5b1f95a6678224e73609369106b49562e2c731107"
+    },
+    {
+      "path": "docs/migration/screenshots/recent-topic-card-mobile.png",
+      "size": 41685,
+      "sha256": "56c5e92b505a3719e23c615059520edc086a30acecbf7b8c25c16649c8710e49"
+    },
+    {
+      "path": "docs/migration/source-manifest.json",
+      "size": 22286,
+      "sha256": "4a21f2805062541c356d3e62793dafef809fb4fffee3dde99e7c951974a78845"
+    },
+    {
+      "path": "docs/migration/source-preservation.json",
+      "size": 334,
+      "sha256": "fbe2f814ffcc9083eb2c03b4b700e84019e8c94dacef2f95c5e1779ff0cf8b95"
+    },
+    {
+      "path": "docs/migration/validation-output/backend-format.txt",
+      "size": 28,
+      "sha256": "a858de25bc90eebde6458e81995329b09ed9ef97f70f6c2977882f1614ddbb16"
+    },
+    {
+      "path": "docs/migration/validation-output/backend-pytest.txt",
+      "size": 126,
+      "sha256": "135b32d3ac9c41bb48a2ee1f9b0823bfc421b6972cef86f53d147b4255848e1e"
+    },
+    {
+      "path": "docs/migration/validation-output/backend-ruff.txt",
+      "size": 20,
+      "sha256": "a4443afdcfb6d7363adb285762515ccf7cf50473b1a05c20c1a50f6bed4d26b0"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-build.txt",
+      "size": 421,
+      "sha256": "50b2ceef921b0e9b8aebbdc91fed6d715694a633e75f4d22d8e5d2b761362a01"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-e2e.txt",
+      "size": 2576,
+      "sha256": "1766122a2562c3fd765a56edbe0b8945d7f4e2881783e6b960f9de71b5b98813"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-eslint.txt",
+      "size": 64,
+      "sha256": "c26c81b2c2293470d9803bef45ceacf1c3de2b225032dd165f454da8fc382a64"
+    },
+    {
+      "path": "docs/migration/validation-output/frontend-typecheck.txt",
+      "size": 65,
+      "sha256": "cc401744482c8016956821e5aa6a37899377b47fd15f9d3063fc0c5393d79e07"
+    },
+    {
+      "path": "docs/migration/validation-output/infrastructure-check.txt",
+      "size": 926,
+      "sha256": "c124a8802b75954eb8efa196c1ec1b70e174c414dcc805d96fac6f4a9cee101d"
+    },
+    {
+      "path": "docs/migration/verification-results.json",
+      "size": 1273,
+      "sha256": "152134577edfcb5b90d6f4fccf3528f0c2de72c71c24daed12193bde51cb2aa1"
+    },
+    {
+      "path": "docs/p25/CHANGES.md",
+      "size": 1925,
+      "sha256": "07a68ec6442e4a9dc7463a535caf86eec74cf78aeced22dcccfadbce27ae240c"
+    },
+    {
+      "path": "docs/p25/backend.xml",
+      "size": 15964,
+      "sha256": "34ba948684be8b74c512f88d81bc09887cc80fe3af7f7b15ea95e1f6a5d25bce"
+    },
+    {
+      "path": "docs/p25/baseline-backend.xml",
+      "size": 12969,
+      "sha256": "aac60ba7b7cf2ad00315aa6d9133fbfd69991dad08dea0adf3c9e340255bbc6f"
+    },
+    {
+      "path": "docs/p25/baseline-browser.xml",
+      "size": 6680,
+      "sha256": "29e2049fd6ea1756989be1b6eaa5aeb4b4a37a79eb6075ee70662182c11ab42a"
+    },
+    {
+      "path": "docs/p25/baseline-commit.json",
+      "size": 234,
+      "sha256": "196d4d9db28178829397ff3d47ac9a9b22015145305e3fccc512cfdca1693b8b"
+    },
+    {
+      "path": "docs/p25/browser.xml",
+      "size": 7859,
+      "sha256": "32a6c5e61041611a6a6a1098aae4ebe4b9bbde447d4b78c9d53e3952064e52ee"
+    },
+    {
+      "path": "docs/p25/changes.json",
+      "size": 6137,
+      "sha256": "bf603c47c2e43970569425aab96e849b617290ad0bf72f0dd838e6515162f1cb"
+    },
+    {
+      "path": "docs/p25/containers-final.json",
+      "size": 3139,
+      "sha256": "0f72aef3994a91ed699eabd450620b41cbc6e13d8f57dd673760cd88d3a4002e"
+    },
+    {
+      "path": "docs/p25/migration.json",
+      "size": 1154,
+      "sha256": "c6def227356612324a84efd1016463a7a2a747fcbcfa5810af128f281ab1471c"
+    },
+    {
+      "path": "docs/p25/postgres-acceptance.json",
+      "size": 1040,
+      "sha256": "bfd1a02d89decc821b9722caec548ef8c1bc924313f0a1b97981921b5a222371"
+    },
+    {
+      "path": "docs/p25/preflight.json",
+      "size": 236,
+      "sha256": "75b34f4037e7adc1460ad58b84d624250bb11f3639f6bb1a392abdd50c93fb1b"
+    },
+    {
+      "path": "docs/p25/results.json",
+      "size": 1942,
+      "sha256": "852a10eaa72e7609235c32481be3100124da78c75823e055dc47511d11e28afb"
+    },
+    {
+      "path": "docs/p25/screenshots/forgot-desktop.png",
+      "size": 53671,
+      "sha256": "4cb5a296e078cc343773870eea1761d99cb833b04ac751fb2cf0a4106bf51e56"
+    },
+    {
+      "path": "docs/p25/screenshots/reset-mobile.png",
+      "size": 28908,
+      "sha256": "bfd68519dd858f53bd8dbb60d476f314a8429f03a0562eed56704eb5c660bd0a"
+    },
+    {
+      "path": "docs/p25/security-review.json",
+      "size": 880,
+      "sha256": "183a45fc537a94fd0c28290905e39384e91e9b366cea796cd763ef2ba8e524b3"
+    },
+    {
+      "path": "docs/p25/validation-output/backend.txt",
+      "size": 202,
+      "sha256": "14d8c6fa72d9ac5f1d852c48a1e8bd6647200cd9b16b2c0dc170d61b4228f4df"
+    },
+    {
+      "path": "docs/p25/validation-output/browser.txt",
+      "size": 48835,
+      "sha256": "fb11df226e9a3a4ddcd2cc6e57ea75d08d2708aee9820bde7755f4c218a29011"
+    },
+    {
+      "path": "docs/p25/validation-output/build.txt",
+      "size": 409,
+      "sha256": "443089ef3c69d522a64b5c026b2913051b438d5abf1a34443ab5a18eae76dc3e"
+    },
+    {
+      "path": "docs/p25/validation-output/eslint.txt",
+      "size": 60,
+      "sha256": "46e61105feed9cccdfce4100a14cd64109bfb57048e11add7ed62202faf9a0ba"
+    },
+    {
+      "path": "docs/p25/validation-output/format.txt",
+      "size": 27,
+      "sha256": "38f0dfe1a7daff274f5b6f83c4ee23fa63c25f59af378bb179f62bf8ce90eaf8"
+    },
+    {
+      "path": "docs/p25/validation-output/migration.txt",
+      "size": 961,
+      "sha256": "309f51779b657941f58539a118cd1b20aed7fe8f9ce0d8f3669b788a0412482e"
+    },
+    {
+      "path": "docs/p25/validation-output/readiness.txt",
+      "size": 923,
+      "sha256": "95d9d0e7fc8e552db388467be003e3fad94eb1eaeca07f109538c74f5ac0137b"
+    },
+    {
+      "path": "docs/p25/validation-output/ruff.txt",
+      "size": 19,
+      "sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18"
+    },
+    {
+      "path": "docs/p25/validation-output/typecheck.txt",
+      "size": 61,
+      "sha256": "2c947c1061e3616bb69a1d5b6f14a26b817a02347ed59982563c00e70639f1bc"
+    },
+    {
+      "path": "docs/review/p2-baseline-backend.xml",
+      "size": 12969,
+      "sha256": "aac60ba7b7cf2ad00315aa6d9133fbfd69991dad08dea0adf3c9e340255bbc6f"
+    },
+    {
+      "path": "docs/review/p2-baseline-browser.xml",
+      "size": 6680,
+      "sha256": "29e2049fd6ea1756989be1b6eaa5aeb4b4a37a79eb6075ee70662182c11ab42a"
+    },
+    {
+      "path": "frontend/.dockerignore",
+      "size": 38,
+      "sha256": "f0f9b793efa87703c557dba50abb30a70789e7beaecb56ccfee8422bd1a45a47"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "size": 295,
+      "sha256": "ece01df3cd1b1b75f7a48c893faed8f4226afaa102470aa3ccf5e5e38fd2f6b7"
+    },
+    {
+      "path": "frontend/e2e/auth.spec.ts",
+      "size": 7587,
+      "sha256": "85aec15a2d7ea54e8ed06f30beb9a24eb966f1652c2cb275012db5f033acea62"
+    },
+    {
+      "path": "frontend/e2e/chat-layout.spec.ts",
+      "size": 11691,
+      "sha256": "f9fd1b0c9b6bfd7623486c9ac8e5c8a42d795d620ea92a43159addeda7a040e3"
+    },
+    {
+      "path": "frontend/e2e/foundation.spec.ts",
+      "size": 4883,
+      "sha256": "23f5d77071bb98efc05365d806b888164e1dd780199f6a0b1e611eef3a6658b5"
+    },
+    {
+      "path": "frontend/e2e/helpers/auth.ts",
+      "size": 1169,
+      "sha256": "84cfdcea834d65dc9783263321a5821be572b994819f51a4d49c347041085779"
+    },
+    {
+      "path": "frontend/e2e/helpers/mail.ts",
+      "size": 1628,
+      "sha256": "a2a3e19a04851df4be544824c95557c0cf89960f0bfe2a4f004be3fb5a78bceb"
+    },
+    {
+      "path": "frontend/e2e/helpers/preview.ts",
+      "size": 866,
+      "sha256": "96d5150ae0cf8a77b33cade0185265448368f5cef2a9300ca395a6d214801910"
+    },
+    {
+      "path": "frontend/e2e/recent-topics.spec.ts",
+      "size": 17544,
+      "sha256": "e9053f2804f4070cf5554dd58964b150a4d7e594962fc6a8968d207388ec9f47"
+    },
+    {
+      "path": "frontend/e2e/recovery.spec.ts",
+      "size": 8521,
+      "sha256": "d0d2e4d24fe4126733418f841bea6a27785f538b232f8170e8a1314de1959bbf"
+    },
+    {
+      "path": "frontend/eslint.config.js",
+      "size": 748,
+      "sha256": "066ba44300bb45c0e3c64480641dcd8adcae57a9ee6995a823b67cce6a0619f3"
+    },
+    {
+      "path": "frontend/index.html",
+      "size": 647,
+      "sha256": "33f15aa01760642f64140802c95fe9aee3affee4e593bf0761dd18566373cb7b"
+    },
+    {
+      "path": "frontend/nginx.conf",
+      "size": 1036,
+      "sha256": "c1dc6acad46129f126efca7d25f449f174013c36cc4206a49e11a4416f7c5001"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "size": 153360,
+      "sha256": "7a07d3e0268c310482298c6c3a8c1ee2887ffe1d321925b5340017d8776a5379"
+    },
+    {
+      "path": "frontend/package.json",
+      "size": 1153,
+      "sha256": "b57ae2eaa1534b849d268b615356bdd3a7cb2e7428223370c0c4be2821823a59"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "size": 1522,
+      "sha256": "72cc7eae1ca75f0c3fb6c0660eeb6115dd81d62469b84a05dfef05ef2798aa10"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "size": 2966,
+      "sha256": "601a3e79a8896f9a08806f0a90575571db70fdab87f5760fa939fd1db1240115"
+    },
+    {
+      "path": "frontend/src/chat.css",
+      "size": 22977,
+      "sha256": "6b4bb0dbc9bdb5dcd177e1e93975de4d7f4391d73895317385a0536e95f7109e"
+    },
+    {
+      "path": "frontend/src/components/layout.tsx",
+      "size": 11439,
+      "sha256": "67c056c0e93e40972281866bbf0ee2be89290853475a428d83fdc1c1993f0f52"
+    },
+    {
+      "path": "frontend/src/components/ui.tsx",
+      "size": 2468,
+      "sha256": "51e0a29d0c500263655205c4613106fe5e9edaa84ee1fbc45039beb9c117e7ef"
+    },
+    {
+      "path": "frontend/src/data/chat-demo.ts",
+      "size": 2984,
+      "sha256": "7ab4f30ef127bfdd571e66f31c2c1d5e6e40312adc23593b7c02ea29d67a320a"
+    },
+    {
+      "path": "frontend/src/data/demo.ts",
+      "size": 1409,
+      "sha256": "ef9d54481ba9eb7ec06e4bb1a4d614b54d8b4b36028a9f0921dbeac2e2dfdb36"
+    },
+    {
+      "path": "frontend/src/features/auth/AuthProvider.tsx",
+      "size": 4038,
+      "sha256": "ffd2787ca039379e9a02007775c3100d77622a37dbdc700eaa7187d0982ce3f1"
+    },
+    {
+      "path": "frontend/src/features/auth/RequireAuth.tsx",
+      "size": 633,
+      "sha256": "2f7f07de0d2630e5cbb5835d88a994192fd89ea390b30742452847f3cd54defb"
+    },
+    {
+      "path": "frontend/src/features/auth/context.ts",
+      "size": 736,
+      "sha256": "46ee02383de6383a25b9e218a6cdf50e99666f61315931cfd6476012e532359f"
+    },
+    {
+      "path": "frontend/src/features/chat/ChatProvider.tsx",
+      "size": 8431,
+      "sha256": "f8fc1e7b0d0a7e782f1fc46d1e593e63950b60f7bc4b68674dda628d2f7ed48a"
+    },
+    {
+      "path": "frontend/src/features/chat/RecentTopicCard.tsx",
+      "size": 1427,
+      "sha256": "0f351b2d1161e9bbfa966a63ab6db38ccb0fabc245129d4deebe3961dd8f533d"
+    },
+    {
+      "path": "frontend/src/features/chat/context.ts",
+      "size": 315,
+      "sha256": "8958bb07f4706b0464209caaab76ff369215274297cab1977abfee83479b222c"
+    },
+    {
+      "path": "frontend/src/features/chat/contracts.ts",
+      "size": 1490,
+      "sha256": "583047e90887ca19dc6acfcc28ca801a188e2177e347f89bc01c55c3764a31a8"
+    },
+    {
+      "path": "frontend/src/features/chat/recent-topics.ts",
+      "size": 2341,
+      "sha256": "ef5721003cce0598a7148345d42734e80085b5bbb9ac0bbfb20ee3271a521fbb"
+    },
+    {
+      "path": "frontend/src/features/chat/types.ts",
+      "size": 1357,
+      "sha256": "e5e5eec378294f2d0a74bf6091ddc8dbe65296eda8f645bd17c893bb3fc580e6"
+    },
+    {
+      "path": "frontend/src/lib/api.ts",
+      "size": 2296,
+      "sha256": "94c7e539bf079b3270d4fb776b3b3e5f89298c7bb9da621093d483ee18050b22"
+    },
+    {
+      "path": "frontend/src/lib/sse.ts",
+      "size": 2454,
+      "sha256": "e800c054cc9e98a791ff7be200d3ae7e64de941fd25e04af9896af862faf4f1f"
+    },
+    {
+      "path": "frontend/src/lib/viewport.ts",
+      "size": 1341,
+      "sha256": "b6b3b0a2042d4d967815ae0ff498bae1d3838855c99e746d089e7d8f1d04bcee"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "size": 621,
+      "sha256": "e3b0a2246acab0357241a2a98a982a0d31b5720df8510b28627df61e2e6d7bf9"
+    },
+    {
+      "path": "frontend/src/pages/auth.tsx",
+      "size": 4191,
+      "sha256": "f1b8fd4ddcb35df33315c00447c1f1a45f3d9abf1e5412a61b7f8a3c1e13ee62"
+    },
+    {
+      "path": "frontend/src/pages/community.tsx",
+      "size": 3362,
+      "sha256": "5422711649ac0bbdf91be4be8cf023fa94f5fdda284c50ce991f34ff21661f6d"
+    },
+    {
+      "path": "frontend/src/pages/companion.tsx",
+      "size": 7579,
+      "sha256": "28a6b373d20c9dc4373fd81549307101541f19fc5df576e80f4e4d33a77be6fc"
+    },
+    {
+      "path": "frontend/src/pages/companions.tsx",
+      "size": 1391,
+      "sha256": "44e4784054439ef308d913ab087828c379a956e50e6129f6efe0c4e21021b23d"
+    },
+    {
+      "path": "frontend/src/pages/conversation-preferences.tsx",
+      "size": 3192,
+      "sha256": "099ffd232a2eb47a9183f295ec43900f240bbd96e04fa50faa83409e52051de6"
+    },
+    {
+      "path": "frontend/src/pages/home.tsx",
+      "size": 3858,
+      "sha256": "4ee1a2d01683503ba018aba04d2d2341a1886a706871df2a3d1f093f072f8e40"
+    },
+    {
+      "path": "frontend/src/pages/recovery.tsx",
+      "size": 5964,
+      "sha256": "85785319fa71063949e7f2cb70dbebe59efde41263188525c9f775553d6526e5"
+    },
+    {
+      "path": "frontend/src/pages/sessions.tsx",
+      "size": 1983,
+      "sha256": "51bba71d5b7c16e553664047edb8bdc983b75b21915bf6fe9bc482f4db059633"
+    },
+    {
+      "path": "frontend/src/pages/workspace.tsx",
+      "size": 6886,
+      "sha256": "84d071e2a69707cbc11e2c2b948bbc06a0d91330705ace8b07dadcea89ce8520"
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "size": 25291,
+      "sha256": "4378f2c955cb5a72864470e1651b14763312411d08db533dfb45b0108e857890"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "size": 653,
+      "sha256": "503d43ef2b9d39944ec8ba14d5591656216540a80681a54dbdbb7867b856457c"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "size": 596,
+      "sha256": "25303e3c6c8764ab00a15911a4470335e8021a5d8c98bed1c6f6cbd97b6c48ed"
+    }
+  ]
+}

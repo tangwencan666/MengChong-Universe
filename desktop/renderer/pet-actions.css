@@ -1,0 +1,55 @@
+/* Finite original placeholder motions. No idle infinite animation or extra JS timer. */
+body[data-action]:not([data-asset-id="deepseek-local-preview"]) #pet-art { animation:none; transform-origin:50% 80%; }
+[data-action="breathe"] #pet-art { animation:p84-breathe 2.6s steps(8,end) 1 !important; }
+[data-action="jump"] #pet-art { animation:p84-jump 1s steps(10,end) 1 !important; }
+[data-action="run"] #pet-art, [data-action="walk"] #pet-art { animation:p84-walk .6s steps(6,end) 10 !important; }
+[data-action="patrol"] #pet-art { animation:p84-walk .6s steps(6,end) 8 !important; }
+[data-action="sway"] #pet-art { animation:p85-sway 1.2s steps(8,end) 2 !important; }
+[data-action="wave"] #pet-art { animation:p85-wave .6s steps(6,end) 3 !important; }
+[data-action="guard"] #pet-art { animation:p85-guard 1.1s steps(8,end) 2 !important; }
+body[data-raster="local-static"] .pet-facing { transform:none; }
+body[data-raster="local-static"] #pet-art { object-fit:contain; }
+body[data-raster="local-static"][data-action="turn"] #pet-art { animation:p85-turn .6s steps(6,end) 1 !important; }
+[data-action="fluff"] #pet-art { animation:p84-fluff 1s steps(8,end) 1 !important; }
+[data-action="turn"] #pet-art { animation:p84-turn .6s steps(6,end) 1 !important; }
+[data-action="innocent"] #pet-art, [data-action="look"] #pet-art { animation:p84-look 1.3s steps(6,end) 1 !important; }
+[data-action="stretch"] #pet-art, [data-action="wake"] #pet-art { animation:p84-stretch 1.8s steps(8,end) 1 !important; }
+[data-action="roll"] #pet-art { animation:p84-roll 1.8s steps(12,end) 1 !important; }
+[data-action="belly"] #pet-art { transform:translateY(4px) rotate(160deg) scale(.9); }
+[data-action="affection"] #pet-art, [data-action="rub"] #pet-art { animation:p84-rub 1.8s steps(8,end) 1 !important; }
+[data-action="follow"] #pet-art, [data-action="evade"] #pet-art { animation:p84-walk .5s steps(6,end) 4 !important; }
+[data-action="happy"] #pet-art { animation:p84-jump 1s steps(8,end) 2 !important; }
+[data-action="speaking"] #pet-art { animation:p84-breathe .8s steps(4,end) infinite !important; }
+[data-action="thinking"] #pet-bubble { color:#63557e; }
+[data-action="sleep"] #pet-art { transform:translateY(5px) scale(1.02,.96); }
+[data-action="dragging"] #pet-art { transform:translateY(-3px) rotate(-3deg); }
+.paused #pet-art, [data-action="hidden"] #pet-art { animation:none !important; }
+@keyframes p84-breathe { 50% { transform:scale(1.015,1.025) translateY(-1px); } }
+@keyframes p84-jump { 35% { transform:translateY(-12px) rotate(-4deg); } 65% { transform:translateY(-4px) rotate(3deg); } }
+@keyframes p84-walk { 50% { transform:translateY(-3px) rotate(2deg); } }
+@keyframes p84-fluff { 20%,60% { transform:scale(1.06) rotate(-4deg); } 40%,80% { transform:scale(1.08) rotate(4deg); } }
+@keyframes p84-turn { 50% { transform:scaleX(-1); } }
+@keyframes p84-look { 45% { transform:rotate(6deg); } }
+@keyframes p84-stretch { 45% { transform:scale(1.09,.87) translateY(4px); } }
+@keyframes p84-roll { 50% { transform:rotate(180deg) scale(.85); } 100% { transform:rotate(360deg); } }
+@keyframes p84-rub { 25% { transform:translateX(-5px) rotate(-5deg); } 65% { transform:translateX(5px) rotate(5deg); } }
+@keyframes p85-sway { 25% { transform:rotate(-2deg); } 75% { transform:rotate(2deg); } }
+@keyframes p85-wave { 50% { transform:rotate(5deg) translateY(-2px); } }
+@keyframes p85-guard { 50% { transform:rotate(-4deg) scale(1.025); } }
+@keyframes p85-turn { 50% { transform:scaleX(.92) rotate(2deg); } }
+/* Mood UI sits outside the face; the original source features stay intact. */
+body[data-mood="upset"] #pet-name::before,body[data-mood="sad"] #pet-name::before { content:'💧 '; }
+body[data-mood="angry"] #pet-name::before { content:'💢 '; }
+body[data-mood="happy"] #pet-name::before { content:'♥ ';color:#b74d70; }
+body[data-mood="sleepy"] #pet-name::before { content:'zZ '; }
+body[data-mood="upset"] #pet-bubble,body[data-mood="sad"] #pet-bubble { color:#526e8c; }
+body[data-mood="shy"] #pet-name { color:#ad7387; }
+/* Mood transforms are restricted to low-priority idle presentation. */
+body[data-mood-posture="happy"] #pet-art { animation:p84-jump 1s steps(8,end) 1 !important; }
+body[data-mood-posture="curious"] #pet-art { transform:rotate(4deg); }
+body[data-mood-posture="upset"] #pet-art,body[data-mood-posture="sad"] #pet-art { transform:translateY(5px) rotate(-4deg); }
+body[data-mood-posture="angry"] #pet-art { animation:p84-fluff 1s steps(8,end) 1 !important; }
+body[data-mood-posture="shy"] #pet-art { transform:translateX(5px) rotate(3deg); }
+body[data-mood-posture="sleepy"] #pet-art { transform:translateY(5px) scale(1,.97); }
+.paused[data-mood-posture] #pet-art { animation:none !important; }
+@media (prefers-reduced-motion:reduce) { body[data-action] #pet-art { animation:none !important;transform:none !important; } }

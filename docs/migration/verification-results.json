@@ -1,0 +1,43 @@
+{
+  "status": "MIGRATION_VERIFIED",
+  "verifiedAt": "2026-11-01T05:18:44.381861+00:00",
+  "frontend": {
+    "dependencyInstall": "passed",
+    "typescript": "passed",
+    "eslint": "passed; zero warnings",
+    "build": "passed",
+    "browser": {
+      "tests": 33,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 33
+    },
+    "browserExecutable": "existing Microsoft Edge",
+    "desktopAndMobileScreenshotsInspected": true
+  },
+  "backend": {
+    "dependencyInstall": "passed; frozen uv.lock",
+    "ruff": "passed",
+    "ruffFormat": "passed; 64 files",
+    "pytest": {
+      "tests": 53,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 9,
+      "passed": 44,
+      "deselected": 1
+    },
+    "excludedTest": "test_migration_roundtrip_and_metadata_drift",
+    "skippedGroup": "tests/integration/test_local_infrastructure.py; not opted in",
+    "realInfrastructureReadOnly": "passed",
+    "independentProcessStartup": "passed"
+  },
+  "compose": "configuration-only validation passed; no resource mutation",
+  "ci": "local structure/path tests passed; not run on GitHub",
+  "paidModelsCalled": false,
+  "paymentsConnected": false,
+  "deployed": false,
+  "committed": false,
+  "pushed": false
+}

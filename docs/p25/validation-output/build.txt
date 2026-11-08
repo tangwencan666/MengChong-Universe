@@ -1,0 +1,13 @@
+
+> weibiye-frontend@0.1.0 build
+> tsc -b && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 1715 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.75 kB │ gzip:   0.52 kB
+dist/assets/index-D0YdXcJG.css   45.59 kB │ gzip:  11.00 kB
+dist/assets/index-DWRGos-F.js   421.63 kB │ gzip: 138.48 kB
+✓ built in 10.14s

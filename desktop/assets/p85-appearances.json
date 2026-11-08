@@ -1,0 +1,211 @@
+{
+  "version": 1,
+  "appearances": [
+    {
+      "appearance_id": "moon-base-v1",
+      "species_id": "moon",
+      "asset_version": 1,
+      "kind": "shipped-svg",
+      "front_asset": "cat.svg",
+      "side_asset": null,
+      "back_asset": null,
+      "side_facing": null,
+      "fallback_asset": "cat.svg",
+      "references": {},
+      "quality_notes": [],
+      "animation_kind": "existing-svg-variants",
+      "restriction": "shipped"
+    },
+    {
+      "appearance_id": "doubao-base-v1",
+      "species_id": "doubao",
+      "asset_version": 1,
+      "kind": "shipped-svg",
+      "front_asset": "dog.svg",
+      "side_asset": null,
+      "back_asset": null,
+      "side_facing": null,
+      "fallback_asset": "dog.svg",
+      "references": {},
+      "quality_notes": [],
+      "animation_kind": "existing-svg-variants",
+      "restriction": "shipped"
+    },
+    {
+      "appearance_id": "xiaoyun-base-v1",
+      "species_id": "xiaoyun",
+      "asset_version": 1,
+      "kind": "shipped-svg",
+      "front_asset": "cloud.svg",
+      "side_asset": null,
+      "back_asset": null,
+      "side_facing": null,
+      "fallback_asset": "cloud.svg",
+      "references": {},
+      "quality_notes": [],
+      "animation_kind": "existing-svg-variants",
+      "restriction": "shipped"
+    },
+    {
+      "appearance_id": "maodie-base-v1",
+      "species_id": "maodie",
+      "asset_version": 1,
+      "kind": "shipped-svg",
+      "front_asset": "p84-maodie.svg",
+      "side_asset": null,
+      "back_asset": null,
+      "side_facing": null,
+      "fallback_asset": "p84-maodie.svg",
+      "references": {},
+      "quality_notes": [],
+      "animation_kind": "existing-svg-variants",
+      "restriction": "shipped"
+    },
+    {
+      "appearance_id": "hajimi-base-v1",
+      "species_id": "hajimi",
+      "asset_version": 1,
+      "kind": "shipped-svg",
+      "front_asset": "p84-hajimi.svg",
+      "side_asset": null,
+      "back_asset": null,
+      "side_facing": null,
+      "fallback_asset": "p84-hajimi.svg",
+      "references": {},
+      "quality_notes": [],
+      "animation_kind": "existing-svg-variants",
+      "restriction": "shipped"
+    },
+    {
+      "appearance_id": "niwa-source-v1",
+      "species_id": "niwa",
+      "asset_version": 1,
+      "kind": "local-raster",
+      "front_asset": "p85-niwa-front-v1.png",
+      "side_asset": "p85-niwa-side-v1.png",
+      "back_asset": "p85-niwa-back-v1.png",
+      "side_facing": "left",
+      "fallback_asset": "cloud.svg",
+      "references": {},
+      "quality_notes": [
+        "正、左侧、背面均来自同一原始拼图；静态视角加有限变换，不是逐帧动画。"
+      ],
+      "animation_kind": "static-transform",
+      "restriction": "local-verification-only"
+    },
+    {
+      "appearance_id": "daodun-source-v1",
+      "species_id": "daodun",
+      "asset_version": 1,
+      "kind": "local-raster",
+      "front_asset": "p85-daodun-front-v1.png",
+      "side_asset": "p85-daodun-side-v1.png",
+      "back_asset": null,
+      "side_facing": "left",
+      "fallback_asset": "dog.svg",
+      "references": {
+        "back": "p85-daodun-back-reference-v1.png"
+      },
+      "quality_notes": [
+        "背面原始作者水印覆盖角色，保留参考，运行时回退正面。",
+        "仅左侧面可用；不镜像调换刀和盾。"
+      ],
+      "animation_kind": "static-transform",
+      "restriction": "local-verification-only"
+    },
+    {
+      "appearance_id": "whale-source-v1",
+      "species_id": "whale",
+      "asset_version": 1,
+      "kind": "local-raster",
+      "front_asset": "p85-whale-front-v1.png",
+      "side_asset": null,
+      "back_asset": null,
+      "side_facing": null,
+      "fallback_asset": "cloud.svg",
+      "references": {
+        "front": "p85-whale-front-reference-v1.png",
+        "side": "p85-whale-side-reference-v1.png",
+        "back": "p85-whale-back-reference-v1.png"
+      },
+      "quality_notes": [
+        "三视图界面叠层覆盖角色，保留三方向参考，运行侧/背使用清晰原正面降级。",
+        "不生成眨眼、五官或缺失视角。"
+      ],
+      "animation_kind": "static-transform",
+      "restriction": "local-verification-only"
+    }
+  ],
+  "assets": {
+    "p85-niwa-front-v1.png": {
+      "sha256": "93b778c15e2d798c17923dbb86c9c6f9cc505aa495bd8b5d5506f149a0a7a3e9",
+      "bytes": 49456,
+      "width": 256,
+      "height": 256,
+      "runtime": true
+    },
+    "p85-niwa-side-v1.png": {
+      "sha256": "67921ec999773e6af1650c53c540b1f2382bbe30c04aad59357938c1fac1892f",
+      "bytes": 42450,
+      "width": 256,
+      "height": 256,
+      "runtime": true
+    },
+    "p85-niwa-back-v1.png": {
+      "sha256": "a17808120924df3776d849e367b767d14688642e0ae32f659c8e1443654ead47",
+      "bytes": 42125,
+      "width": 256,
+      "height": 256,
+      "runtime": true
+    },
+    "p85-daodun-front-v1.png": {
+      "sha256": "d59ddc049add208c9e8f3b44c30cf6d7e4401e3bb7892716a2a72b5cb8466f59",
+      "bytes": 63782,
+      "width": 256,
+      "height": 256,
+      "runtime": true
+    },
+    "p85-daodun-side-v1.png": {
+      "sha256": "ea965e932ff400cb5b5ff9039bca963cca11c77b73444d4c97414ae541d82dc7",
+      "bytes": 54789,
+      "width": 256,
+      "height": 256,
+      "runtime": true
+    },
+    "p85-daodun-back-reference-v1.png": {
+      "sha256": "e91cea4b096d35cb694ed2164f215948564c4b27c2f12f0ef6b1670a936ea9b7",
+      "bytes": 49789,
+      "width": 256,
+      "height": 256,
+      "runtime": false
+    },
+    "p85-whale-front-v1.png": {
+      "sha256": "1c173e647e35abcf5eb5e876c04c556fcfb3c9f5fce67b16260a0ddcdf59c5e7",
+      "bytes": 89831,
+      "width": 256,
+      "height": 256,
+      "runtime": true
+    },
+    "p85-whale-front-reference-v1.png": {
+      "sha256": "1ba38101bc1a1c6dd9b3e590928920600ccbb0579d6b213b70f7af5322b1917b",
+      "bytes": 84551,
+      "width": 256,
+      "height": 256,
+      "runtime": false
+    },
+    "p85-whale-side-reference-v1.png": {
+      "sha256": "1f6ad08e13413bed992338c781a830874ebbcb4e6633fa74f5c5ce80883118c5",
+      "bytes": 70272,
+      "width": 256,
+      "height": 256,
+      "runtime": false
+    },
+    "p85-whale-back-reference-v1.png": {
+      "sha256": "18a0c1ff04a0149555f7781771f10e73b33f7ca7021a223be2dddb4a10dc3f69",
+      "bytes": 71400,
+      "width": 256,
+      "height": 256,
+      "runtime": false
+    }
+  }
+}

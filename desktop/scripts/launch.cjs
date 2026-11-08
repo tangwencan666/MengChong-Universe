@@ -1,0 +1,12 @@
+'use strict';
+const fs = require('node:fs');
+const path = require('node:path');
+const { spawn } = require('node:child_process');
+const { desktopEnvironment } = require('../src/launch-env.cjs');
+const root = path.resolve(__dirname, '..');
+const executable = path.join(root,'node_modules/electron/dist/electron.exe');
+if (!fs.existsSync(executable)) throw new Error('Install the verified local Electron runtime first; no automatic installer or mirror is invoked.');
+const env = desktopEnvironment(process.env);
+const child = spawn(executable, [root, ...process.argv.slice(2)], { stdio:'inherit', env });
+child.on('error', () => { console.error('WeiBiYe desktop could not start.'); process.exitCode = 1; });
+child.on('exit', code => { process.exitCode = code ?? 1; });

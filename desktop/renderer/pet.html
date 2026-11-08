@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>萌宠溜达 · 桌面伙伴</title>
+    <link rel="stylesheet" href="./pet.css">
+    <link rel="stylesheet" href="./pet-actions.css">
+    <script src="./pet-catalog.js" defer></script>
+    <script src="./pet-appearance.js" defer></script>
+    <script src="./pet-action-view.js" defer></script>
+    <script src="./pet-mood.js" defer></script>
+    <script src="./pet.js" defer></script>
+  </head>
+  <body class="state-idle" data-state="idle" data-direction="right">
+    <main id="pet-stage" aria-label="桌面伙伴">
+      <div id="pet-bubble" aria-live="polite">点我聊聊</div>
+      <button id="pet-hitbox" type="button" aria-label="打开宠物聊天" disabled>
+        <span class="pet-halo" aria-hidden="true"></span>
+        <span class="pet-facing" aria-hidden="true">
+          <span class="pet-visual">
+            <img id="pet-art" src="/__assets/cloud.svg" width="148" height="148" draggable="false" alt="">
+            <img id="pet-blink" width="148" height="148" draggable="false" alt="">
+          </span>
+        </span>
+        <span class="pet-ground" aria-hidden="true"></span>
+      </button>
+      <div id="pet-name">桌面伙伴</div>
+    </main>
+  </body>
+</html>

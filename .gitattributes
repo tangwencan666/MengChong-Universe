@@ -1,0 +1,4 @@
+# Accept existing CRLF evidence without treating CR as trailing whitespace.
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Preserve original validation console output, including its formatting.
+docs/**/validation-output/*.txt -whitespace
