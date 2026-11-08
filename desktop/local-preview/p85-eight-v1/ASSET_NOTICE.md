@@ -1,0 +1,1 @@
+User-supplied reference art. Local verification only. Redistribution and commercial rights are unverified. Reference overlays and watermarks are preserved. Not included in the default installer. No generated anatomy, directions or facial edits. Originals remain unchanged.
